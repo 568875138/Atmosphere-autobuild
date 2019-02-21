@@ -7,8 +7,8 @@ RUN mkdir ${DEVKITPRO}/devkitARM && \
     git clone --recurse-submodules  https://github.com/switchbrew/libnx && cd libnx && \
     make && make install
 
-RUN apt update && apt install -y python python-pip zip && \
-    pip install pycrypto pycryptoplus
+RUN apt update && apt install -y python3 python3-pip zip && \
+    pip3 install pycrypto pycryptoplus
 
 ENV DEVKITARM=${DEVKITPRO}/devkitARM
 
