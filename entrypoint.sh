@@ -1,1 +1,1 @@
-make -j 8 && make dist
+make -j8 && make dist
