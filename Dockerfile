@@ -9,7 +9,7 @@ RUN mkdir ${DEVKITPRO}/devkitARM && \
 
 RUN apt update && apt install -y python3 python3-pip zip && \
     pip3 install pycrypto pycryptoplus && \
-    alias python='/usr/bin/python3'
+    ln -s /usr/bin/python3 /usr/bin/python
 
 ENV DEVKITARM=${DEVKITPRO}/devkitARM
 
