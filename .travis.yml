@@ -8,7 +8,7 @@ script:
 - git clone --recurse-submodules https://github.com/Atmosphere-NX/Atmosphere && cd Atmosphere
 - cp sept/sept-secondary/KEYS_template.py sept/sept-secondary/KEYS.py
 - cp ../entrypoint.sh .
-- docker run -it -v `pwd`:/developer atmosphere-builder
+- docker run -it -v `pwd`:/developer atmosphere-builder > build.log
 - rm -rf .git
 - find ./ -type f -name ".gitignore" -exec rm -rf {} \;
 - git init
