@@ -6,7 +6,6 @@ services:
 script:
 - docker build -t atmosphere-builder .
 - git clone --recurse-submodules https://github.com/Atmosphere-NX/Atmosphere && cd Atmosphere
-- cp sept/sept-secondary/KEYS_template.py sept/sept-secondary/KEYS.py
 - cp ../entrypoint.sh .
 - docker run -it -v `pwd`:/developer atmosphere-builder > build.log
 - rm -rf .git
