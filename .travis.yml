@@ -16,7 +16,7 @@ script:
 - git config user.email "568875138@qq.com"
 - git add .
 - git commit -m "update build"
-- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:2019_02_22_37161c5
+- git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:2019_02_22_1970a52
 
 branches:
   only:
