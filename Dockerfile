@@ -1,9 +1,8 @@
 FROM devkitpro/devkita64
-MAINTAINER elelphatp "elephantp@elephantp.blog"
 
-RUN mkdir ${DEVKITPRO}/devkitARM && \
-    wget https://github.com/devkitPro/buildscripts/releases/download/devkitARM_r50/devkitARM_r50-linux.tar.xz && \
-    tar xvJf devkitARM_r50-linux.tar.xz -C ${DEVKITPRO} && \
+RUN dkp-pacman -Syyu --noconfirm devkitARM && \
+    dkp-pacman -Syyu --noconfirm devkitarm-rules && \
+    dkp-pacman -Scc --noconfirm
     git clone --recurse-submodules  https://github.com/switchbrew/libnx && cd libnx && \
     make -j8 && make install
 
