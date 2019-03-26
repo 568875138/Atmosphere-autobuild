@@ -2,7 +2,7 @@ FROM devkitpro/devkita64
 
 RUN dkp-pacman -Syyu --noconfirm devkitARM && \
     dkp-pacman -Syyu --noconfirm devkitarm-rules && \
-    dkp-pacman -Scc --noconfirm
+    dkp-pacman -Scc --noconfirm && \
     git clone --recurse-submodules  https://github.com/switchbrew/libnx && cd libnx && \
     make -j8 && make install
 
