@@ -7,7 +7,7 @@ script:
 - docker build -t atmosphere-builder .
 - git clone --recurse-submodules https://github.com/Atmosphere-NX/Atmosphere && cd Atmosphere
 - cp ../entrypoint.sh .
-- docker run -it -v `pwd`:/developer atmosphere-builder > build.log
+- docker run -it -v `pwd`:/developer atmosphere-builder
 - rm -rf .git
 - find ./ -type f -name ".gitignore" -exec rm -rf {} \;
 - git init
