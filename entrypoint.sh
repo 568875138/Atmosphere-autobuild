@@ -13,6 +13,7 @@ MINORVER=$(grep '\ATMOSPHERE_RELEASE_VERSION_MINOR\b' common/include/atmosphere/
 MICROVER=$(grep '\ATMOSPHERE_RELEASE_VERSION_MICRO\b' common/include/atmosphere/version.h | tr -s [:blank:] | cut -d' ' -f3)
 AMSVER="$MAJORVER.$MINORVER.$MICROVER"
 
+mkdir -p bsnx
 # HACKY :3
 echo $AMSVER > bsnx/vername.txt
 
