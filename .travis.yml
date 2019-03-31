@@ -10,6 +10,8 @@ script:
 - docker run -it -v `pwd`:/developer atmosphere-builder
 - rm -rf .git
 - find ./ -type f -name ".gitignore" -exec rm -rf {} \;
+- cd bsnx
+- zip -r atmosphere.zip .
 - git init
 - git config user.name "Silent Yang"
 - git config user.email "568875138@qq.com"
