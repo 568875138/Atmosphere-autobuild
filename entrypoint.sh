@@ -61,3 +61,5 @@ cp stratosphere/loader/*.kip bsnx/kips/
 cp exosphere/*.bin bsnx/kips/  # okay, this isn't a kip but still, I can't think of a better folder for this 
 
 cp -r docs/ bsnx/docs/
+
+chmod -R 777 .
