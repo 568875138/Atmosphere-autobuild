@@ -1,0 +1,54 @@
+00000d78 A __executable_size__
+00000fb8 A __total_size__
+40010000 A __start__
+40010240 T _start
+40010244 T _metadata
+40010254 T crt0
+40010270 00000008 t se_get_regs
+40010278 00000020 t secmon_should_clear_aes_keyslot
+40010298 00000040 t secmon_clear_unused_keyslots
+400102d8 0000008c t secmon_decrypt_saved_image.constprop.0
+40010364 00000040 T secmon_restore_to_tzram
+400103a4 00000020 T flow_perform_ram_repair
+400103c4 00000014 t timer_wait
+400103d8 00000034 t cluster_pmc_enable_partition
+4001040c 00000228 T cluster_initialize_cpu
+40010634 00000024 T cluster_power_on_cpu
+40010658 00000024 T emc_configure_pmacro_training
+4001067c 00000034 T disable_bpmp_access_to_dram
+400106b0 00000008 t se_get_regs
+400106b8 00000012 t ll_init
+400106cc 0000002c T se_check_for_error
+400106f8 0000005c t trigger_se_blocking_op.constprop.0
+40010754 00000032 T clear_aes_keyslot
+40010788 00000050 T clear_rsa_keyslot
+400107d8 00000036 T clear_aes_keyslot_iv
+40010810 0000006c T se_perform_aes_block_operation
+4001087c 00000054 T se_aes_ecb_encrypt_block
+400108d0 00000030 T shift_left_xor_rb
+40010900 00000154 T se_compute_aes_cmac
+40010a54 0000001c T se_compute_aes_256_cmac
+40010a70 00000068 T se_aes_256_cbc_decrypt
+40010ad8 0000000c T reboot
+40010ae4 00000098 T lp0_entry_main
+40010b7c 00000044 T car_configure_oscillators
+40010bc0 000000f0 T car_mbist_workaround
+40010cb0 00000004 T fuse_check_downgrade_status
+40010cb4 0000000c T fuse_disable_programming
+40010cc0 00000064 T fuse_configure_fuse_bypass
+40010d24 00000014 T i2c_set_test_master_config_load
+40010d38 00000058 T i2c_write
+40010d90 00000012 T i2c_send_byte_command
+40010da4 00000012 T i2c_enable_pmic
+40010db8 0000006c T misc_configure_device_dbg_settings
+40010e24 0000001c T misc_restore_ram_svop
+40010e40 000000aa T memcpy
+40010eec 000000b0 T memset
+40010fa0 0000000c t __lp0_entry_main_from_arm
+40010fb0 T _init
+40010fb4 T _fini
+40010fb8 B __bss_end__
+40010fb8 B __bss_start__
+40010fb8 A __end__
+40012000 A __stack_bottom__
+40013000 A __stack_top__

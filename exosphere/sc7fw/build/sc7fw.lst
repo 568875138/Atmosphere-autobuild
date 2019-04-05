@@ -1,0 +1,27 @@
+40003000 A __start__
+40003000 T _start
+40003008 T crt0
+40003018 T spinlock_wait
+4000302c 00000078 t set_pmc_dpd_io_pads
+400030a4 00000018 t timer_wait.constprop.0
+400030bc 0000000c T reboot
+400030c8 00000130 T sc7_entry_main
+400031f8 0000001c t emc_trigger_timing_update
+40003214 00000014 t timer_wait.constprop.0
+40003228 000000dc T emc_put_dram_in_self_refresh_mode
+40003304 00000014 t timer_wait
+40003318 00000028 T i2c_load_config
+40003340 00000058 T i2c_init
+40003398 00000060 T i2c_write
+400033f8 00000012 T i2c_send_byte_command
+4000340c 00000012 T i2c_send_reset_cmd
+40003420 0000000c t __reboot_from_arm
+4000342c 0000000c t __sc7_entry_main_from_arm
+40003438 00000008 t __spinlock_wait_from_thumb
+40003448 T _init
+4000344c T _fini
+40003450 B __bss_end__
+40003450 B __bss_start__
+40003450 A __end__
+40004000 A __stack_bottom__
+40005000 A __stack_top__

@@ -1,0 +1,54 @@
+00000de0 A __main_size__
+40010000 A __stack_top__
+40010040 A __main_start__
+40010040 T jump_to_main
+4001004c t deregister_tm_clones
+40010078 t register_tm_clones
+400100ac t __do_global_dtors_aux
+400100dc t frame_dummy
+40010104 0000004c T check_panic
+40010150 0000002c T panic
+4001017c 00000048 T btn_read
+400101c4 00000090 T mc_enable_for_tsec
+40010254 0000002c T gpio_read
+40010280 00000180 T load_tsec_fw
+40010400 0000022c T main
+4001062c 000000f8 T clk_enable
+40010724 0000002c T rst_enable
+40010750 00000034 T clkrst_enable
+40010784 0000003c T clkrst_disable
+400107c0 00000070 T clkrst_reboot
+40010830 00000018 T clkrst_enable_fuse_regs
+40010848 0000000e T fuse_init
+40010858 0000000c T fuse_disable_programming
+40010864 00000060 t i2c_write.part.0
+400108c4 00000078 t i2c_read.part.1
+4001093c 00000054 T i2c_query
+40010990 00000084 T reboot_to_self
+40010a14 00000010 T wait_for_button_and_reboot
+40010a24 0000000c T generic_panic
+40010a30 000000aa T memcpy
+40010adc T _fini
+40010ae8 0000000c t __main_from_arm
+40010af8 R rebootstub_bin
+40010da0 R rebootstub_bin_end
+40010da0 R rebootstub_bin_size
+40010da4 0000001c r g_clk_reg_offsets
+40010dc0 0000001c r g_rst_reg_offsets
+40010ddc 00000018 r CSWTCH.6
+40010df8 T __TMC_END__
+40010df8 t __frame_dummy_init_array_entry
+40010dfc t __do_global_dtors_aux_fini_array_entry
+40010e00 A __exidx_end
+40010e00 A __exidx_start
+40010e00 b completed.9044
+40010e04 b object.9049
+40010e1c 00000004 b g_panic_code
+40010e20 A __main_end__
+4003f000 A __crt0_start__
+4003f000 T _start
+4003f060 t copy_panic_payload
+4003f0c0 T ipatch_word
+4003f0e0 T _init
+4003f0f0 0000000c t __main_from_arm
+4003f100 A __main_phys_start__

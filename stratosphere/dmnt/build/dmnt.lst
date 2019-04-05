@@ -1,0 +1,1089 @@
+0000000000000000 b _TLS_MODULE_BASE_
+0000000000000000 0000000000000401 b __fixedpath
+0000000000000000 A __start__
+0000000000000000 T _start
+0000000000000080 t startup
+00000000000000a4 t bssclr_start
+00000000000000cc t bss_loop
+0000000000000120 T __nx_exit
+0000000000000130 T __nx_mod0
+0000000000000150 T _init
+00000000000001c0 000000000000000c W IWaitable::HandleDeferred()
+00000000000001d0 0000000000000038 T exit
+0000000000000210 0000000000000194 T main
+00000000000003b0 000000000000003c t _GLOBAL__sub_I__ZN27DmntCheatDebugEventsManager17PerCoreThreadFuncEPv
+00000000000003f0 000000000000000c t _GLOBAL__sub_I__ZN13HidManagement11GetKeysDownEPm
+0000000000000400 0000000000000048 t _GLOBAL__sub_I__ZN19DebugMonitorService17TargetIO_FileOpenE9OutBufferImL10BufferType0EE8InBufferIcLS1_0EEij
+0000000000000408 0000000000002000 b tmp_buffer.7237
+0000000000000450 0000000000000070 t _GLOBAL__sub_I__ZN16DmntCheatManager22StartDebugEventsThreadEv
+00000000000004c0 0000000000000054 t _GLOBAL__sub_I_eh_alloc.cc
+0000000000000518 0000000000000054 t _GLOBAL__sub_I_eh_globals.cc
+0000000000000570 t deregister_tm_clones
+00000000000005a0 t register_tm_clones
+00000000000005d8 t __do_global_dtors_aux
+0000000000000620 t frame_dummy
+0000000000000660 0000000000000024 T DmntCheatService::HasCheatProcess(Out<bool, void>)
+0000000000000690 0000000000000024 T DmntCheatService::GetCheatProcessEvent(Out<CopiedHandle, void>)
+00000000000006c0 0000000000000008 T DmntCheatService::GetCheatProcessMetadata(Out<CheatProcessMetadata, void>)
+00000000000006d0 0000000000000024 T DmntCheatService::ForceOpenCheatProcess()
+0000000000000700 0000000000000008 T DmntCheatService::GetCheatProcessMappingCount(Out<unsigned long, void>)
+0000000000000710 000000000000001c T DmntCheatService::GetCheatProcessMappings(OutBuffer<MemoryInfo, (BufferType)0>, Out<unsigned long, void>, unsigned long)
+0000000000000730 0000000000000028 T DmntCheatService::ReadCheatProcessMemory(OutBuffer<unsigned char, (BufferType)0>, unsigned long, unsigned long)
+0000000000000760 0000000000000028 T DmntCheatService::WriteCheatProcessMemory(InBuffer<unsigned char, (BufferType)0>, unsigned long, unsigned long)
+0000000000000790 000000000000000c T DmntCheatService::QueryCheatProcessMemory(Out<MemoryInfo, void>, unsigned long)
+00000000000007a0 0000000000000008 T DmntCheatService::GetCheatCount(Out<unsigned long, void>)
+00000000000007b0 000000000000001c T DmntCheatService::GetCheats(OutBuffer<CheatEntry, (BufferType)0>, Out<unsigned long, void>, unsigned long)
+00000000000007d0 0000000000000030 T DmntCheatService::GetCheatById(OutBuffer<CheatEntry, (BufferType)0>, unsigned int)
+0000000000000800 0000000000000008 T DmntCheatService::ToggleCheat(unsigned int)
+0000000000000810 0000000000000038 T DmntCheatService::AddCheat(InBuffer<CheatDefinition, (BufferType)0>, Out<unsigned int, void>, bool)
+0000000000000850 0000000000000008 T DmntCheatService::RemoveCheat(unsigned int)
+0000000000000860 0000000000000008 T DmntCheatService::GetFrozenAddressCount(Out<unsigned long, void>)
+0000000000000870 000000000000001c T DmntCheatService::GetFrozenAddresses(OutBuffer<FrozenAddressEntry, (BufferType)0>, Out<unsigned long, void>, unsigned long)
+0000000000000890 000000000000000c T DmntCheatService::GetFrozenAddress(Out<FrozenAddressEntry, void>, unsigned long)
+00000000000008a0 0000000000000048 T DmntCheatService::EnableFrozenAddress(Out<unsigned long, void>, unsigned long, unsigned long)
+00000000000008f0 0000000000000008 T DmntCheatService::DisableFrozenAddress(unsigned long)
+0000000000000900 0000000000000254 t ipcPrepareHeader
+0000000000000b60 0000000000000008 W ServiceSession::GetHandle()
+0000000000000b70 0000000000000004 W ServiceSession::PreProcessRequest(IpcResponseContext*)
+0000000000000b80 0000000000000004 W ServiceSession::PostProcessResponse(IpcResponseContext*)
+0000000000000b90 0000000000000004 W ServiceSession::IHipcControlService::~IHipcControlService()
+0000000000000b90 0000000000000004 W ServiceSession::IHipcControlService::~IHipcControlService()
+0000000000000ba0 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000ba0 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000bb0 0000000000000018 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+0000000000000bd0 0000000000000008 W IServer<DmntCheatService>::GetHandle()
+0000000000000be0 0000000000000004 W DmntCheatService::~DmntCheatService()
+0000000000000be0 0000000000000004 W DmntCheatService::~DmntCheatService()
+0000000000000bf0 0000000000000004 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000bf0 0000000000000004 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000c00 0000000000000004 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+0000000000000c10 0000000000000018 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+0000000000000c30 00000000000000f8 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+0000000000000c30 00000000000000f8 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+0000000000000d30 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+0000000000000d40 0000000000000004 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+0000000000000d50 0000000000000028 W WaitableManager<DefaultManagerOptions>::FreeDomain(IDomainObject*)
+0000000000000d80 0000000000000028 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::FreeDomain(IDomainObject*)
+0000000000000db0 0000000000000034 W WaitableManager<DefaultManagerOptions>::ReserveObject(IDomainObject*, unsigned int*)
+0000000000000df0 0000000000000034 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ReserveObject(IDomainObject*, unsigned int*)
+0000000000000e30 0000000000000038 W WaitableManager<DefaultManagerOptions>::CancelSynchronization()
+0000000000000e70 0000000000000038 W WaitableManager<DefaultManagerOptions>::AllocateDomain()
+0000000000000eb0 0000000000000034 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::AllocateDomain()
+0000000000000ef0 0000000000000044 W WaitableManager<DefaultManagerOptions>::GetObject(IDomainObject*, unsigned int)
+0000000000000f40 0000000000000044 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::GetObject(IDomainObject*, unsigned int)
+0000000000000f90 0000000000000048 W WaitableManager<DefaultManagerOptions>::ReserveSpecificObject(IDomainObject*, unsigned int)
+0000000000000fe0 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ReserveSpecificObject(IDomainObject*, unsigned int)
+0000000000001030 000000000000004c W ServiceSession::HandleDeferred()
+0000000000001080 0000000000000008 W ServiceSession::IHipcControlService::~IHipcControlService()
+0000000000001090 0000000000000008 W DmntCheatService::~DmntCheatService()
+00000000000010a0 0000000000000008 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+00000000000010b0 0000000000000008 W std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+00000000000010c0 0000000000000010 W ServiceSession::CleanupResponse(IpcResponseContext*)
+00000000000010d0 0000000000000020 W IServer<DmntCheatService>::~IServer()
+00000000000010d0 0000000000000020 W IServer<DmntCheatService>::~IServer()
+00000000000010f0 0000000000000050 W IServer<DmntCheatService>::~IServer()
+0000000000001140 0000000000000020 W ServiceServer<DmntCheatService>::~ServiceServer()
+0000000000001140 0000000000000020 W ServiceServer<DmntCheatService>::~ServiceServer()
+0000000000001160 0000000000000050 W ServiceServer<DmntCheatService>::~ServiceServer()
+00000000000011b0 0000000000000050 W IWaitable::Compare(IWaitable*, IWaitable*)
+0000000000001200 0000000000000174 W ServiceSession::GetResponse(IpcResponseContext*)
+0000000000001380 0000000000000024 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+00000000000013b0 0000000000000060 W WaitableManager<DefaultManagerOptions>::RequestStop()
+0000000000001410 00000000000000b0 W WaitableManager<DefaultManagerOptions>::NotifySignaled(IWaitable*)
+00000000000014c0 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::FreeObject(IDomainObject*, unsigned int)
+0000000000001510 0000000000000048 W WaitableManager<DefaultManagerOptions>::FreeObject(IDomainObject*, unsigned int)
+0000000000001560 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ForceFreeObject(unsigned int)
+00000000000015b0 0000000000000048 W WaitableManager<DefaultManagerOptions>::ForceFreeObject(unsigned int)
+0000000000001600 000000000000003c W non-virtual thunk to WaitableManager<DefaultManagerOptions>::SetObject(IDomainObject*, unsigned int, ServiceObjectHolder&&)
+0000000000001640 000000000000003c W WaitableManager<DefaultManagerOptions>::SetObject(IDomainObject*, unsigned int, ServiceObjectHolder&&)
+0000000000001680 000000000000010c W ServiceSession::~ServiceSession()
+0000000000001790 0000000000000100 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+0000000000001890 000000000000010c W ServiceSession::~ServiceSession()
+0000000000001890 000000000000010c W ServiceSession::~ServiceSession()
+00000000000019a0 00000000000002b0 t ipcPrepareHeaderForDomain.constprop.555
+0000000000001c50 0000000000000240 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatCount>(IpcResponseContext*)
+0000000000001e90 00000000000001ac W unsigned int WrapIpcCommandImpl<&DmntCheatService::DisableFrozenAddress>(IpcResponseContext*)
+0000000000002040 000000000000017c W unsigned int WrapIpcCommandImpl<&DmntCheatService::HasCheatProcess>(IpcResponseContext*)
+00000000000021c0 0000000000000200 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatProcessMetadata>(IpcResponseContext*)
+00000000000023c0 00000000000003c8 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::ConvertCurrentObjectToDomain>(IpcResponseContext*)
+0000000000002408 0000000000002000 b tmp_buffer.7261
+0000000000002790 00000000000001d8 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetFrozenAddress>(IpcResponseContext*)
+0000000000002970 00000000000001e8 W unsigned int WrapIpcCommandImpl<&DmntCheatService::QueryCheatProcessMemory>(IpcResponseContext*)
+0000000000002b60 00000000000001d8 W unsigned int WrapIpcCommandImpl<&DmntCheatService::EnableFrozenAddress>(IpcResponseContext*)
+0000000000002d40 0000000000000220 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatById>(IpcResponseContext*)
+0000000000002f60 0000000000000200 W unsigned int WrapIpcCommandImpl<&DmntCheatService::WriteCheatProcessMemory>(IpcResponseContext*)
+0000000000003160 0000000000000208 W unsigned int WrapIpcCommandImpl<&DmntCheatService::ReadCheatProcessMemory>(IpcResponseContext*)
+0000000000003370 0000000000000244 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatProcessMappings>(IpcResponseContext*)
+00000000000035c0 000000000000024c W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheats>(IpcResponseContext*)
+0000000000003810 0000000000000244 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetFrozenAddresses>(IpcResponseContext*)
+0000000000003a60 0000000000000248 W unsigned int WrapIpcCommandImpl<&DmntCheatService::AddCheat>(IpcResponseContext*)
+0000000000003cb0 0000000000000240 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatProcessMappingCount>(IpcResponseContext*)
+0000000000003ef0 0000000000000240 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetFrozenAddressCount>(IpcResponseContext*)
+0000000000004130 00000000000001ac W unsigned int WrapIpcCommandImpl<&DmntCheatService::ToggleCheat>(IpcResponseContext*)
+00000000000042e0 0000000000000af8 W ServiceSession::HandleReceived()
+0000000000004de0 0000000000000198 W unsigned int WrapIpcCommandImpl<&DmntCheatService::ForceOpenCheatProcess>(IpcResponseContext*)
+0000000000004f80 00000000000003e0 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::QueryPointerBufferSize>(IpcResponseContext*)
+0000000000005360 0000000000000170 W unsigned int WrapIpcCommandImpl<&DmntCheatService::GetCheatProcessEvent>(IpcResponseContext*)
+00000000000054d0 00000000000001ac W unsigned int WrapIpcCommandImpl<&DmntCheatService::RemoveCheat>(IpcResponseContext*)
+0000000000005680 00000000000000ac W ServiceSession::Receive()
+0000000000005730 000000000000003c W ServiceSession::HandleSignaled(unsigned long)
+0000000000005770 0000000000000030 T __libnx_initheap
+00000000000057a0 00000000000000d4 T __appInit
+0000000000005880 0000000000000034 T __appExit
+00000000000058c0 0000000000000120 W void std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_realloc_insert<IWaitable* const&>(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, IWaitable* const&)
+00000000000059e0 00000000000000c8 W WaitableManager<DefaultManagerOptions>::AddWaitable(IWaitable*)
+0000000000005ab0 0000000000000190 W WaitableManager<DefaultManagerOptions>::AddSession(unsigned int, ServiceObjectHolder&&)
+0000000000005c40 00000000000003c4 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CloneCurrentObjectEx>(IpcResponseContext*)
+0000000000006010 0000000000000278 W IServer<DmntCheatService>::HandleSignaled(unsigned long)
+0000000000006290 0000000000000460 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CopyFromCurrentDomain>(IpcResponseContext*)
+00000000000066f0 00000000000003d0 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CloneCurrentObject>(IpcResponseContext*)
+0000000000006ac0 0000000000000124 W std::vector<unsigned int, std::allocator<unsigned int> >::_M_default_append(unsigned long)
+0000000000006bf0 0000000000000124 W std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_default_append(unsigned long)
+0000000000006d20 000000000000016c W __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > > std::__remove_if<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}> >(__gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>)
+0000000000006e90 0000000000000270 W void std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_range_insert<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > > >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, std::forward_iterator_tag)
+0000000000007100 00000000000000d0 W void std::__insertion_sort<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+00000000000071d0 0000000000000184 W void std::__adjust_heap<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, IWaitable*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, long, IWaitable*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+0000000000007360 0000000000000214 W void std::__introsort_loop<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+0000000000007580 00000000000006ac W WaitableManager<DefaultManagerOptions>::GetWaitable()
+0000000000007c30 0000000000000424 W WaitableManager<DefaultManagerOptions>::ProcessLoop(void*)
+0000000000008060 00000000000004ac W WaitableManager<DefaultManagerOptions>::Process()
+0000000000008510 00000000000000a0 T DmntCheatDebugEventsManager::PerCoreThreadFunc(void*)
+00000000000085b0 00000000000000dc T DmntCheatDebugEventsManager::ContinueCheatProcess(unsigned int)
+0000000000008690 00000000000000dc T DmntCheatDebugEventsManager::Initialize()
+0000000000008770 0000000000000938 T DmntCheatVm::DecodeNextOpcode(CheatVmOpcode*)
+00000000000090b0 0000000000000080 T DmntCheatVm::SkipConditionalBlock()
+0000000000009130 00000000000000a4 T DmntCheatVm::LoadProgram(CheatEntry const*, unsigned long)
+00000000000091e0 0000000000000b90 T DmntCheatVm::Execute(CheatProcessMetadata const*)
+0000000000009d70 0000000000000048 T HidManagement::GetKeysDown(unsigned long*)
+0000000000009dc0 0000000000000064 W std::unordered_map<unsigned long, FsFile, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<unsigned long const, FsFile> > >::~unordered_map()
+0000000000009dc0 0000000000000064 W std::unordered_map<unsigned long, FsFile, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<unsigned long const, FsFile> > >::~unordered_map()
+0000000000009e30 0000000000000008 W IEvent::GetHandle()
+0000000000009e40 000000000000005c t PopulateMemoryExtents(MemoryRegionExtents*, unsigned int, unsigned long, unsigned long)
+0000000000009ea0 000000000000001c t StartDebugProcess(unsigned long)
+0000000000009ec0 0000000000000044 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::HandleSignaled(unsigned long)
+0000000000009f10 000000000000004c t DmntCheatManager::ResetCheatEntry(unsigned long) [clone .part.55]
+0000000000009f60 00000000000000e4 t DmntCheatManager::WriteCheatProcessMemoryForVm(unsigned long, void const*, unsigned long) [clone .part.212]
+000000000000a050 0000000000000050 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a050 0000000000000050 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a0a0 0000000000000050 t HosEvent<DmntCheatManager::DetectThread(void*)::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a0a0 0000000000000050 t HosEvent<DmntCheatManager::DetectThread(void*)::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a0f0 0000000000000064 t HosEvent<DmntCheatManager::DetectThread(void*)::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a160 0000000000000064 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+000000000000a1d0 0000000000000080 T DmntCheatManager::StartDebugEventsThread()
+000000000000a250 0000000000000080 T DmntCheatManager::WaitDebugEventsThread()
+000000000000a2d0 00000000000002b8 T DmntCheatManager::ParseCheats(char const*, unsigned long)
+000000000000a590 0000000000000148 T DmntCheatManager::LoadCheats(unsigned long, unsigned char const*)
+000000000000a6e0 0000000000000228 T DmntCheatManager::ParseCheatToggles(char const*, unsigned long)
+000000000000a910 0000000000000118 T DmntCheatManager::LoadCheatToggles(unsigned long)
+000000000000aa30 000000000000010c T DmntCheatManager::SaveCheatToggles(unsigned long)
+000000000000ab40 0000000000000024 T DmntCheatManager::PrepareDebugNextApplication()
+000000000000ab70 000000000000002c T DmntCheatManager::GetCheatProcessEventHandle()
+000000000000aba0 00000000000001ec T DmntCheatManager::InitializeCheatManager()
+000000000000ad90 0000000000000050 W std::_Rb_tree<unsigned long, std::pair<unsigned long const, FrozenAddressValue>, std::_Select1st<std::pair<unsigned long const, FrozenAddressValue> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned long const, FrozenAddressValue> >*)
+000000000000ade0 00000000000001a8 T DmntCheatManager::CloseActiveCheatProcess()
+000000000000af90 000000000000006c T DmntCheatManager::HasActiveCheatProcess()
+000000000000b000 0000000000000058 T DmntCheatManager::ReadCheatProcessMemoryForVm(unsigned long, void*, unsigned long)
+000000000000b060 000000000000009c T DmntCheatManager::ReadCheatProcessMemory(unsigned long, void*, unsigned long)
+000000000000b100 0000000000000048 T DmntCheatManager::WriteCheatProcessMemoryForVm(unsigned long, void const*, unsigned long)
+000000000000b150 0000000000000080 T DmntCheatManager::WriteCheatProcessMemory(unsigned long, void const*, unsigned long)
+000000000000b1d0 00000000000000b8 T DmntCheatManager::GetCheatProcessMappingCount(unsigned long*)
+000000000000b290 0000000000000110 T DmntCheatManager::GetCheatProcessMappings(MemoryInfo*, unsigned long, unsigned long*, unsigned long)
+000000000000b3a0 0000000000000098 T DmntCheatManager::QueryCheatProcessMemory(MemoryInfo*, unsigned long)
+000000000000b440 00000000000000ac T DmntCheatManager::GetCheatCount(unsigned long*)
+000000000000b4f0 00000000000000ec T DmntCheatManager::GetCheats(CheatEntry*, unsigned long, unsigned long*, unsigned long)
+000000000000b5e0 00000000000000d4 T DmntCheatManager::GetCheatById(CheatEntry*, unsigned int)
+000000000000b6c0 00000000000000e0 T DmntCheatManager::ToggleCheat(unsigned int)
+000000000000b7a0 0000000000000118 T DmntCheatManager::AddCheat(unsigned int*, CheatDefinition*, bool)
+000000000000b8c0 00000000000000ac T DmntCheatManager::RemoveCheat(unsigned int)
+000000000000b970 0000000000000084 T DmntCheatManager::GetFrozenAddressCount(unsigned long*)
+000000000000ba00 00000000000000ec T DmntCheatManager::GetFrozenAddresses(FrozenAddressEntry*, unsigned long, unsigned long*, unsigned long)
+000000000000baf0 00000000000000dc T DmntCheatManager::VmThread(void*)
+000000000000bbd0 0000000000000080 T DmntCheatManager::DebugEventsThread(void*)
+000000000000bc50 0000000000000040 T DmntCheatManager::GetHasActiveCheatProcess()
+000000000000bc90 00000000000000b8 T DmntCheatManager::GetCheatProcessMetadata(CheatProcessMetadata*)
+000000000000bd50 0000000000000100 T DmntCheatManager::GetFrozenAddress(FrozenAddressEntry*, unsigned long)
+000000000000be50 00000000000002ec T DmntCheatManager::ForceOpenCheatProcess()
+000000000000c140 00000000000002a4 T DmntCheatManager::OnNewApplicationLaunch()
+000000000000c3f0 0000000000000078 t HosEvent<DmntCheatManager::DetectThread(void*)::{lambda(unsigned long)#1}>::HandleSignaled(unsigned long)
+000000000000c470 0000000000000008 W std::map<unsigned long, FrozenAddressValue, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::~map()
+000000000000c470 0000000000000008 W std::map<unsigned long, FrozenAddressValue, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::~map()
+000000000000c480 0000000000000190 W std::_Rb_tree<unsigned long, std::pair<unsigned long const, FrozenAddressValue>, std::_Select1st<std::pair<unsigned long const, FrozenAddressValue> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::erase(unsigned long const&)
+000000000000c610 00000000000000f4 T DmntCheatManager::DisableFrozenAddress(unsigned long)
+000000000000c710 00000000000000b4 W std::_Rb_tree<unsigned long, std::pair<unsigned long const, FrozenAddressValue>, std::_Select1st<std::pair<unsigned long const, FrozenAddressValue> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::_M_get_insert_unique_pos(unsigned long const&)
+000000000000c7d0 000000000000012c W std::_Rb_tree<unsigned long, std::pair<unsigned long const, FrozenAddressValue>, std::_Select1st<std::pair<unsigned long const, FrozenAddressValue> >, std::less<unsigned long>, std::allocator<std::pair<unsigned long const, FrozenAddressValue> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned long const, FrozenAddressValue> >, unsigned long const&)
+000000000000c900 000000000000020c T DmntCheatManager::EnableFrozenAddress(unsigned long*, unsigned long, unsigned long)
+000000000000cb10 0000000000000748 T DmntCheatManager::DetectThread(void*)
+000000000000d260 0000000000000210 t ParseOverrideKey(char const*)
+000000000000d470 000000000000007c t DmntIniHandler(void*, char const*, char const*, char const*)
+000000000000d4f0 0000000000000088 t DmntTitleSpecificIniHandler(void*, char const*, char const*, char const*)
+000000000000d580 0000000000000080 T DmntConfigManager::RefreshConfiguration()
+000000000000d600 0000000000000094 T DmntConfigManager::GetTitleCheatEnableKey(unsigned long)
+000000000000d6a0 0000000000000064 T DmntConfigManager::HasCheatEnableButton(unsigned long)
+000000000000d710 0000000000000078 t ini_reader_string
+000000000000d790 0000000000000094 t find_chars_or_comment
+000000000000d830 0000000000000068 t rstrip
+000000000000d8a0 000000000000029c T ini_parse_stream
+000000000000db40 0000000000000018 T ini_parse_file
+000000000000db60 000000000000003c T ini_parse_string
+000000000000dba0 000000000000027c T pmdmntAtmosphereGetProcessInfo
+000000000000de20 0000000000000134 t _CacheValues()
+000000000000df60 000000000000001c T GetRuntimeFirmwareVersion()
+000000000000df80 0000000000000038 T SetFirmwareVersionForLibnx()
+000000000000dfc0 000000000000003c T HosMessageQueue::SendInternal(unsigned long)
+000000000000e000 0000000000000078 T HosMessageQueue::Send(unsigned long)
+000000000000e080 000000000000003c T HosMessageQueue::ReceiveInternal()
+000000000000e0c0 000000000000006c T HosMessageQueue::Receive(unsigned long*)
+000000000000e130 000000000000017c T detectKernelVersion
+000000000000e2b0 0000000000000030 T detectDebugger
+000000000000e2e0 000000000000008c T mutexLock
+000000000000e370 0000000000000030 T mutexUnlock
+000000000000e3a0 000000000000004c T rmutexLock
+000000000000e3f0 000000000000001c T rmutexUnlock
+000000000000e410 0000000000000060 T condvarWaitTimeout
+000000000000e470 00000000000001fc T threadCreate
+000000000000e670 00000000000000b0 T threadExit
+000000000000e720 0000000000000090 t _EntryWrap
+000000000000e7b0 0000000000000008 T threadStart
+000000000000e7c0 000000000000002c T threadWaitForExit
+000000000000e7f0 0000000000000054 T threadClose
+000000000000e850 000000000000000c T threadGetCurHandle
+000000000000e860 0000000000000010 T threadTlsGet
+000000000000e870 0000000000000010 T threadTlsSet
+000000000000e880 00000000000000d8 T threadTlsAlloc
+000000000000e960 0000000000000048 T threadTlsFree
+000000000000e9b0 0000000000000034 t ipcCloseObjectById
+000000000000e9f0 000000000000003c T pmdmntInitialize
+000000000000ea30 000000000000009c T pmdmntExit
+000000000000ead0 000000000000000c T pmdmntGetServiceSession
+000000000000eae0 00000000000000ec T pmdmntStartProcess
+000000000000ebd0 00000000000000fc T pmdmntGetApplicationPid
+000000000000ecd0 000000000000013c T pmdmntEnableDebugForApplication
+000000000000ee10 0000000000000034 t ipcCloseObjectById
+000000000000ee50 0000000000000124 t _hidGetSharedMemoryHandle.constprop.10
+000000000000ef80 0000000000000100 t _hidCmdWithNoInput
+000000000000f080 0000000000000134 t _hidCreateAppletResource.constprop.9
+000000000000f1c0 000000000000010c t _hidCmdWithInputU32
+000000000000f2d0 0000000000000108 t _hidCmdWithInputU64.constprop.11
+000000000000f3e0 00000000000001e0 T hidReset
+000000000000f5c0 000000000000000c T hidGetSharedmemAddr
+000000000000f5d0 000000000000006c T hidKeysHeld
+000000000000f640 000000000000000c T hidTouchCount
+000000000000f650 0000000000000578 T hidScanInput
+000000000000fbd0 0000000000000198 T hidSetSupportedNpadIdType
+000000000000fd70 000000000000000c T hidSetSupportedNpadStyleSet
+000000000000fd80 0000000000000008 T hidSetNpadJoyHoldType
+000000000000fd90 000000000000000c T hidSetNpadJoyAssignmentModeDual
+000000000000fda0 000000000000012c T hidExit
+000000000000fed0 0000000000000168 T hidInitialize
+0000000000010040 0000000000000034 t ipcCloseObjectById
+0000000000010080 000000000000003c T nsdevInitialize
+00000000000100c0 000000000000009c T nsdevExit
+0000000000010160 0000000000000044 T smAddOverrideHandle
+00000000000101b0 0000000000000060 T smGetServiceOverride
+0000000000010210 0000000000000014 T smHasInitialized
+0000000000010230 000000000000005c T smExit
+0000000000010290 0000000000000038 T smEncodeName
+00000000000102d0 000000000000012c T smGetServiceOriginal
+0000000000010400 0000000000000158 T smInitialize
+0000000000010560 0000000000000074 T smGetService
+00000000000105e0 000000000000014c T smRegisterService
+0000000000010730 0000000000000140 t _fatalImpl
+0000000000010870 0000000000000014 T fatalWithType
+0000000000010890 0000000000000014 T fatalSimple
+00000000000108b0 000000000000002c t _ldrSrvInitialize
+00000000000108e0 0000000000000034 t ipcCloseObjectById
+0000000000010920 0000000000000078 t _ldrSrvExit
+00000000000109a0 000000000000001c T ldrDmntInitialize
+00000000000109c0 0000000000000014 T ldrDmntExit
+00000000000109e0 0000000000000110 T ldrDmntGetModuleInfos
+0000000000010af0 0000000000000034 t ipcCloseObjectById
+0000000000010b30 000000000000003c T lrInitialize
+0000000000010b70 000000000000009c T lrExit
+0000000000010c10 0000000000000220 t ipcPrepareHeader
+0000000000010e30 000000000000022c t ipcParse
+0000000000011060 00000000000000b0 t serviceIpcParse
+0000000000011110 0000000000000034 t ipcCloseObjectById
+0000000000011150 0000000000000200 T fsInitialize
+0000000000011350 000000000000009c T fsExit
+00000000000113f0 00000000000001cc T fsMountSdcard
+00000000000115c0 00000000000001a4 T fsFsCreateFile
+0000000000011770 000000000000019c T fsFsDeleteFile
+0000000000011910 000000000000019c T fsFsCreateDirectory
+0000000000011ab0 000000000000019c T fsFsDeleteDirectory
+0000000000011c50 0000000000000214 T fsFsRenameFile
+0000000000011e70 0000000000000214 T fsFsRenameDirectory
+0000000000012090 00000000000001b0 T fsFsGetEntryType
+0000000000012240 00000000000001e4 T fsFsOpenFile
+0000000000012430 00000000000001f8 T fsFsOpenDirectory
+0000000000012630 00000000000001b0 T fsFsGetFreeSpace
+00000000000127e0 00000000000001b0 T fsFsGetTotalSpace
+0000000000012990 0000000000000194 T fsFsGetFileTimeStampRaw
+0000000000012b30 000000000000006c T fsFsClose
+0000000000012ba0 00000000000001f0 T fsFileRead
+0000000000012d90 00000000000001b8 T fsFileWrite
+0000000000012f50 000000000000016c T fsFileFlush
+00000000000130c0 0000000000000174 T fsFileSetSize
+0000000000013240 0000000000000194 T fsFileGetSize
+00000000000133e0 000000000000006c T fsFileClose
+0000000000013450 000000000000006c T fsDirClose
+00000000000134c0 00000000000001ec T fsDirRead
+00000000000136b0 0000000000000034 t ipcCloseObjectById
+00000000000136f0 0000000000000044 T setInitialize
+0000000000013740 000000000000009c T setExit
+00000000000137e0 000000000000003c T setsysInitialize
+0000000000013820 000000000000009c T setsysExit
+00000000000138c0 000000000000019c T setsysGetSettingsItemValue
+0000000000013a60 0000000000000010 T hosversionGet
+0000000000013a70 0000000000000010 T hosversionSet
+0000000000013a80 0000000000000044 t consoleDrawChar
+0000000000013ad0 0000000000000028 t debug_write
+0000000000013b00 0000000000000140 t consoleClearLine
+0000000000013c40 000000000000004c t consoleNewRow
+0000000000013c90 0000000000000118 t consolePrintChar
+0000000000013db0 000000000000015c t consoleCls
+0000000000013f10 00000000000007e0 t con_write
+00000000000146f0 00000000000000c8 T consoleDebugInit
+00000000000147c0 0000000000000010 t fsdev_link
+00000000000147d0 0000000000000010 t fsdev_dirreset
+00000000000147e0 0000000000000010 t fsdev_chmod
+00000000000147f0 000000000000001c t error_cmp
+0000000000014810 0000000000000058 t fsdev_translate_error
+0000000000014870 0000000000000040 t fsdev_fsync
+00000000000148b0 0000000000000060 t fsdev_ftruncate
+0000000000014910 0000000000000020 t fsdev_dirclose
+0000000000014930 000000000000016c t fsdev_dirnext
+0000000000014aa0 000000000000001c t fsdev_close
+0000000000014ac0 00000000000000a4 t fsdev_fstat
+0000000000014b70 00000000000000b0 t fsdev_seek
+0000000000014c20 0000000000000198 t fsdev_read
+0000000000014dc0 00000000000001a0 t fsdev_write
+0000000000014f60 0000000000000120 t fsdevFindDevice
+0000000000015080 0000000000000140 t _fsdevMountDevice
+00000000000151c0 00000000000001fc t fsdev_getfspath
+00000000000153c0 0000000000000070 t fsdev_rmdir
+0000000000015430 00000000000000d4 t fsdev_statvfs
+0000000000015510 00000000000000ec t fsdev_diropen
+0000000000015600 0000000000000070 t fsdev_mkdir
+0000000000015670 0000000000000114 t fsdev_rename
+0000000000015790 00000000000000e8 t fsdev_chdir
+0000000000015880 0000000000000070 t fsdev_unlink
+00000000000158f0 00000000000001bc t fsdev_stat
+0000000000015ab0 000000000000019c t fsdev_open
+0000000000015c50 00000000000000b8 t _fsdevUnmountDeviceStruct.part.4
+0000000000015d10 0000000000000010 t fsdev_fchmod
+0000000000015d20 0000000000000170 T fsdevMountSdmc
+0000000000015e90 0000000000000064 T fsdevUnmountAll
+0000000000015f00 000000000000012c T decode_utf8
+000000000001602c T svcMapMemory
+0000000000016034 T svcUnmapMemory
+000000000001603c T svcQueryMemory
+0000000000016050 T svcExitProcess
+0000000000016058 T svcCreateThread
+000000000001606c T svcStartThread
+0000000000016074 T svcExitThread
+000000000001607c T svcSleepThread
+0000000000016084 T svcGetThreadPriority
+0000000000016098 T svcSetThreadCoreMask
+00000000000160a0 T svcSignalEvent
+00000000000160a8 T svcMapSharedMemory
+00000000000160b0 T svcUnmapSharedMemory
+00000000000160b8 T svcCloseHandle
+00000000000160c0 T svcResetSignal
+00000000000160c8 T svcWaitSynchronization
+00000000000160dc T svcCancelSynchronization
+00000000000160e4 T svcArbitrateLock
+00000000000160ec T svcArbitrateUnlock
+00000000000160f4 T svcWaitProcessWideKeyAtomic
+00000000000160fc T svcSignalProcessWideKey
+0000000000016104 T svcConnectToNamedPort
+0000000000016118 T svcSendSyncRequest
+0000000000016120 T svcGetProcessId
+0000000000016134 T svcBreak
+000000000001613c T svcOutputDebugString
+0000000000016144 T svcReturnFromException
+000000000001614c T svcGetInfo
+0000000000016160 T svcCreateSession
+0000000000016178 T svcAcceptSession
+000000000001618c T svcReplyAndReceive
+00000000000161a0 T svcCreateEvent
+00000000000161b8 T svcDebugActiveProcess
+00000000000161cc T svcGetDebugEvent
+00000000000161d4 T svcLegacyContinueDebugEvent
+00000000000161dc T svcContinueDebugEvent
+00000000000161e4 T svcQueryDebugProcessMemory
+00000000000161f8 T svcReadDebugProcessMemory
+0000000000016200 T svcWriteDebugProcessMemory
+0000000000016208 T svcGetDebugThreadParam
+0000000000016220 T svcCallSecureMonitor
+0000000000016254 T __aarch64_read_tp
+0000000000016260 0000000000000104 t _waitLoop
+0000000000016370 000000000000000c T waitHandles
+0000000000016380 0000000000000058 T rwlockReadLock
+00000000000163e0 000000000000005c T rwlockReadUnlock
+0000000000016440 0000000000000084 T rwlockWriteLock
+00000000000164d0 000000000000003c T rwlockWriteUnlock
+0000000000016510 0000000000000014 T shmemLoadRemote
+0000000000016530 0000000000000084 T shmemMap
+00000000000165c0 0000000000000058 T shmemUnmap
+0000000000016620 0000000000000044 T shmemClose
+0000000000016670 000000000000007c t _GetRegionFromInfo.isra.1
+00000000000166f0 0000000000000114 T virtmemSetup
+0000000000016810 000000000000013c T virtmemReserve
+0000000000016950 0000000000000004 T virtmemFree
+0000000000016960 00000000000000c8 T virtmemReserveStack
+0000000000016a30 0000000000000004 T virtmemFreeStack
+0000000000016a40 0000000000000028 T appletGetAppletResourceUserId
+0000000000016a70 00000000000000a0 T __nx_dynamic
+0000000000016b10 0000000000000208 T envSetup
+0000000000016d20 0000000000000020 T envGetMainThreadHandle
+0000000000016d40 000000000000000c T envIsNso
+0000000000016d50 0000000000000014 T envHasArgv
+0000000000016d70 000000000000000c T envGetArgv
+0000000000016d80 000000000000000c T envGetExitFuncPtr
+0000000000016d90 0000000000000028 W __libnx_init
+0000000000016dc0 0000000000000020 W __libnx_exit
+0000000000016de0 000000000000001c T __syscall_exit
+0000000000016e00 0000000000000034 T __syscall_getreent
+0000000000016e40 0000000000000004 T __syscall_lock_acquire
+0000000000016e50 0000000000000004 T __syscall_lock_release
+0000000000016e60 0000000000000004 T __syscall_lock_acquire_recursive
+0000000000016e70 0000000000000004 T __syscall_lock_release_recursive
+0000000000016e80 0000000000000040 T __syscall_cond_broadcast
+0000000000016ec0 000000000000003c T __syscall_cond_wait
+0000000000016f00 0000000000000044 T __syscall_tls_create
+0000000000016f50 0000000000000018 T __syscall_tls_set
+0000000000016f70 0000000000000004 T __syscall_tls_get
+0000000000016f80 0000000000000018 T __syscall_tls_delete
+0000000000016fa0 0000000000000080 T newlibSetup
+0000000000017020 0000000000000324 T argvSetup
+0000000000017344 W __libnx_exception_entry
+00000000000173d0 t __libnx_exception_entry_start
+00000000000174f8 t __libnx_exception_entry_abort
+00000000000174fc t __libnx_exception_entry_end
+0000000000017504 T __libnx_exception_returnentry
+0000000000017520 00000000000000c4 T nxlinkSetup
+00000000000175e8 000000000000000c T __cxa_pure_virtual
+00000000000175f8 0000000000000004 T operator new[](unsigned long)
+0000000000017600 0000000000000068 T operator new(unsigned long)
+0000000000017668 000000000000003c T __cxxabiv1::__terminate(void (*)())
+00000000000176a8 0000000000000010 T std::get_terminate()
+00000000000176b8 0000000000000010 T std::terminate()
+00000000000176c8 0000000000000010 T __cxxabiv1::__unexpected(void (*)())
+00000000000176d8 0000000000000010 T std::get_unexpected()
+00000000000176e8 0000000000000010 T std::unexpected()
+00000000000176f8 000000000000000c T std::bad_alloc::what() const
+0000000000017708 0000000000000014 T std::bad_alloc::~bad_alloc()
+0000000000017708 0000000000000014 T std::bad_alloc::~bad_alloc()
+0000000000017720 0000000000000028 T std::bad_alloc::~bad_alloc()
+0000000000017748 0000000000000084 t get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
+00000000000177d0 000000000000015c t read_encoded_value_with_base(unsigned char, unsigned long, unsigned char const*, unsigned long*)
+0000000000017930 00000000000000c0 t get_ttype_entry(lsda_header_info*, unsigned long)
+00000000000179f0 0000000000000094 t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
+0000000000017a88 000000000000006c t base_of_encoded_value(unsigned char, _Unwind_Context*)
+0000000000017af8 0000000000000108 t parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+0000000000017c00 00000000000004dc T __gxx_personality_v0
+00000000000180e0 00000000000000f0 T __cxa_call_unexpected
+00000000000181d0 0000000000000004 T operator delete[](void*)
+00000000000181d8 0000000000000010 T std::get_new_handler()
+00000000000181e8 0000000000000004 T std::exception::~exception()
+00000000000181e8 0000000000000004 T std::exception::~exception()
+00000000000181f0 0000000000000014 T std::bad_exception::~bad_exception()
+00000000000181f0 0000000000000014 T std::bad_exception::~bad_exception()
+0000000000018208 000000000000000c T std::bad_exception::what() const
+0000000000018218 0000000000000028 T std::bad_exception::~bad_exception()
+0000000000018240 0000000000000004 T operator delete(void*, unsigned long)
+0000000000018248 0000000000000064 t __gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Exception*)
+00000000000182b0 0000000000000058 T __cxa_init_primary_exception
+0000000000018308 0000000000000054 T __cxa_throw
+0000000000018360 0000000000000070 T __cxa_rethrow
+00000000000183d0 00000000000000a0 T __cxa_begin_catch
+0000000000018470 0000000000000094 T __cxa_end_catch
+0000000000018508 000000000000000c W __gnu_cxx::__concurrence_lock_error::what() const
+0000000000018518 000000000000000c W __gnu_cxx::__concurrence_unlock_error::what() const
+0000000000018528 0000000000000014 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+0000000000018528 0000000000000014 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+0000000000018540 0000000000000014 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+0000000000018540 0000000000000014 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+0000000000018558 0000000000000038 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+0000000000018590 0000000000000038 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+00000000000185c8 0000000000000034 W __gnu_cxx::__throw_concurrence_lock_error()
+0000000000018600 0000000000000160 t (anonymous namespace)::pool::free(void*) [clone .constprop.2]
+0000000000018760 0000000000000128 t (anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.3]
+0000000000018888 0000000000000064 T __cxa_allocate_exception
+00000000000188f0 0000000000000030 T __cxa_free_exception
+0000000000018920 0000000000000004 T operator delete(void*)
+0000000000018928 0000000000000014 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000018928 0000000000000014 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000018940 0000000000000028 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000018968 0000000000000080 T __cxxabiv1::__si_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+00000000000189e8 000000000000013c T __cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+0000000000018b28 0000000000000068 T __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+0000000000018b90 0000000000000070 t std::local_Rb_tree_decrement(std::_Rb_tree_node_base*)
+0000000000018c00 0000000000000058 T std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+0000000000018c00 0000000000000058 t std::_Rb_tree_increment(std::_Rb_tree_node_base*) [clone .localalias.2]
+0000000000018c58 0000000000000004 T std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+0000000000018c60 0000000000000004 T std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+0000000000018c68 0000000000000298 T std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+0000000000018f00 00000000000004f4 T std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+00000000000193f8 0000000000000054 T std::__throw_logic_error(char const*)
+0000000000019450 0000000000000054 T std::__throw_length_error(char const*)
+00000000000194a8 0000000000000044 T __cxa_call_terminate
+00000000000194f0 0000000000000014 W __eh_globals_init::~__eh_globals_init()
+00000000000194f0 0000000000000014 W __eh_globals_init::~__eh_globals_init()
+0000000000019508 0000000000000048 t eh_globals_dtor(void*)
+0000000000019550 0000000000000024 T __cxa_get_globals_fast
+0000000000019578 0000000000000074 T __cxa_get_globals
+00000000000195f0 0000000000000004 T std::type_info::~type_info()
+00000000000195f0 0000000000000004 T std::type_info::~type_info()
+00000000000195f8 0000000000000008 T std::type_info::__is_pointer_p() const
+00000000000195f8 0000000000000008 T std::type_info::__is_function_p() const
+0000000000019600 000000000000006c T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+0000000000019670 0000000000000010 T __cxxabiv1::__class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+0000000000019680 0000000000000014 T __cxxabiv1::__class_type_info::~__class_type_info()
+0000000000019680 0000000000000014 T __cxxabiv1::__class_type_info::~__class_type_info()
+0000000000019698 0000000000000028 T __cxxabiv1::__class_type_info::~__class_type_info()
+00000000000196c0 00000000000000d4 T __cxxabiv1::__class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+0000000000019798 0000000000000068 T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+0000000000019800 00000000000000a8 T __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+00000000000198a8 0000000000000008 T std::logic_error::what() const
+00000000000198b0 0000000000000074 T std::logic_error::~logic_error()
+00000000000198b0 0000000000000074 T std::logic_error::~logic_error()
+0000000000019928 0000000000000024 T std::logic_error::~logic_error()
+0000000000019950 0000000000000014 T std::length_error::~length_error()
+0000000000019950 0000000000000014 T std::length_error::~length_error()
+0000000000019968 0000000000000024 T std::length_error::~length_error()
+0000000000019990 0000000000000048 T std::logic_error::logic_error(char const*)
+0000000000019990 0000000000000048 T std::logic_error::logic_error(char const*)
+00000000000199d8 0000000000000030 T std::length_error::length_error(char const*)
+00000000000199d8 0000000000000030 T std::length_error::length_error(char const*)
+0000000000019a08 0000000000000084 W std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+0000000000019a90 0000000000000098 t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.25]
+0000000000019a90 0000000000000098 t char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.22]
+0000000000019b28 0000000000000004 W std::string::_Rep::_M_destroy(std::allocator<char> const&)
+0000000000019b30 0000000000000034 W char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
+0000000000019b68 000000000000004c W std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+0000000000019b68 000000000000004c W std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+0000000000019bb8 0000000000000348 t __trunctfdf2
+0000000000019f00 000000000000015c t read_encoded_value_with_base
+000000000001a060 0000000000000070 t base_of_encoded_value
+000000000001a0d0 000000000000080c t execute_cfa_program
+000000000001a8e0 000000000000040c t uw_frame_state_for
+000000000001acf0 0000000000000158 t init_dwarf_reg_size_table
+000000000001ae48 0000000000000720 t execute_stack_op
+000000000001b568 000000000000037c t uw_update_context_1
+000000000001b8e8 0000000000000244 t uw_init_context_1
+000000000001bb30 00000000000000b4 t uw_update_context
+000000000001bbe8 00000000000000e0 t _Unwind_RaiseException_Phase2
+000000000001bcc8 0000000000000118 t _Unwind_ForcedUnwind_Phase2
+000000000001bde0 0000000000000164 t uw_install_context_1
+000000000001bf48 0000000000000054 t _Unwind_SetGR
+000000000001bfa0 0000000000000014 t _Unwind_GetIPInfo
+000000000001bfb8 0000000000000008 t _Unwind_SetIP
+000000000001bfc0 0000000000000008 t _Unwind_GetLanguageSpecificData
+000000000001bfc8 0000000000000008 t _Unwind_GetRegionStart
+000000000001bfd0 0000000000000008 t _Unwind_GetDataRelBase
+000000000001bfd8 0000000000000008 t _Unwind_GetTextRelBase
+000000000001bfe0 0000000000000004 t _Unwind_DebugHook
+000000000001bfe8 000000000000018c t _Unwind_RaiseException
+000000000001c178 0000000000000114 t _Unwind_Resume
+000000000001c290 0000000000000110 t _Unwind_Resume_or_Rethrow
+000000000001c3a0 0000000000000018 t _Unwind_DeleteException
+000000000001c3b8 000000000000001c t fde_unencoded_compare
+000000000001c3d8 00000000000000f4 t frame_downheap
+000000000001c4d0 00000000000000c0 t frame_heapsort
+000000000001c590 0000000000000060 t size_of_encoded_value
+000000000001c5f0 000000000000015c t read_encoded_value_with_base
+000000000001c750 0000000000000120 t get_cie_encoding
+000000000001c870 0000000000000068 t base_from_object.isra.5
+000000000001c8d8 0000000000000090 t fde_single_encoding_compare
+000000000001c968 0000000000000194 t classify_object_over_fdes
+000000000001cb00 0000000000000148 t add_fdes
+000000000001cc48 0000000000000188 t linear_search_fdes
+000000000001cdd0 00000000000000bc t fde_mixed_encoding_compare
+000000000001ce90 0000000000000698 t search_object
+000000000001d528 0000000000000120 t __deregister_frame_info_bases.part.8
+000000000001d648 0000000000000054 t __register_frame_info.part.7
+000000000001d6a0 0000000000000014 t __register_frame_info
+000000000001d6b8 0000000000000018 t __deregister_frame_info
+000000000001d6d0 00000000000001c0 t _Unwind_Find_FDE
+000000000001d890 0000000000000070 t __sfp_handle_exceptions
+000000000001d900 0000000000000018 T abort
+000000000001d918 00000000000000b8 T bsearch
+000000000001d9d0 0000000000000094 T _calloc_r
+000000000001da68 0000000000000014 T __cxa_atexit
+000000000001da80 0000000000000014 T __errno
+000000000001da98 000000000000015c T _fclose_r
+000000000001dbf8 000000000000001c T fclose
+000000000001dc18 0000000000000214 T __sflush_r
+000000000001de30 00000000000000b8 T _fflush_r
+000000000001dee8 0000000000000040 T fflush
+000000000001df28 00000000000001b0 T _fgets_r
+000000000001e0d8 000000000000003c T fgets
+000000000001e118 0000000000000078 t std
+000000000001e190 000000000000000c T _cleanup_r
+000000000001e1a0 0000000000000060 T __sfmoreglue
+000000000001e200 000000000000000c T __sfp_lock_acquire
+000000000001e210 000000000000000c T __sfp_lock_release
+000000000001e220 000000000000000c T __sinit_lock_acquire
+000000000001e230 000000000000000c T __sinit_lock_release
+000000000001e240 0000000000000080 T __sinit
+000000000001e2c0 0000000000000118 T __sfp
+000000000001e3d8 0000000000000044 T __libc_fini_array
+000000000001e420 0000000000000130 T _fopen_r
+000000000001e550 0000000000000030 T fopen
+000000000001e580 0000000000000094 T fprintf
+000000000001e618 0000000000000328 T _fread_r
+000000000001e940 0000000000000040 T fread
+000000000001e980 0000000000000118 T _malloc_trim_r
+000000000001ea98 00000000000002f4 T _free_r
+000000000001ed90 0000000000000004 T _fseek_r
+000000000001ed98 000000000000003c T fseek
+000000000001edd8 00000000000004c4 T _fseeko_r
+000000000001f2a0 0000000000000004 T _ftell_r
+000000000001f2a8 000000000000001c T ftell
+000000000001f2c8 0000000000000164 T _ftello_r
+000000000001f430 00000000000000b8 T _fwalk
+000000000001f4e8 00000000000000bc T _fwalk_reent
+000000000001f5a8 00000000000000e0 T _fwrite_r
+000000000001f688 0000000000000040 T fwrite
+000000000001f6c8 000000000000008c T __libc_init_array
+000000000001f758 0000000000000018 T isspace
+000000000001f770 000000000000001c T isxdigit
+000000000001f790 00000000000000a4 T __swhatbuf_r
+000000000001f838 000000000000010c T __smakebuf_r
+000000000001f948 0000000000000030 T memalign
+000000000001f978 0000000000000198 T _memalign_r
+000000000001fb10 000000000000001c T malloc
+000000000001fb30 000000000000001c T free
+000000000001fb50 000000000000087c T _malloc_r
+00000000000203cc 00000000000000d8 T memchr
+00000000000204c0 000000000000016c T memcpy
+0000000000020640 00000000000000ac T memmove
+0000000000020700 00000000000001dc T memset
+00000000000208e0 000000000000000c T __malloc_lock
+00000000000208f0 000000000000000c T __malloc_unlock
+0000000000020900 0000000000000020 t lflush
+0000000000020920 00000000000001d0 T __srefill_r
+0000000000020af0 000000000000025c T setvbuf
+0000000000020d50 00000000000000b4 T _raise_r
+0000000000020e08 000000000000001c T raise
+0000000000020e28 000000000000014c T snprintf
+0000000000020f78 00000000000000bc T sscanf
+0000000000021038 0000000000000050 T __sread
+0000000000021088 0000000000000008 T __seofread
+0000000000021090 000000000000006c T __swrite
+0000000000021100 0000000000000050 T __sseek
+0000000000021150 0000000000000008 T __sclose
+0000000000021158 0000000000000078 T strcasecmp
+00000000000211d0 00000000000000dc T strchr
+00000000000212c0 00000000000000e4 T strcmp
+00000000000213c0 0000000000000140 T strlen
+0000000000021500 0000000000000084 T strncat
+00000000000215dc 00000000000001b8 T strncmp
+0000000000021798 00000000000000a8 T strncpy
+0000000000021864 00000000000000e0 T strnlen
+0000000000021920 00000000000001ac t _strtoul_l.isra.0
+0000000000021ad0 0000000000000034 T _strtoul_r
+0000000000021b08 0000000000000048 T strtoul
+0000000000021b50 000000000000076c t get_arg
+00000000000222bc 0000000000003b38 T _svfprintf_r
+0000000000025df4 000000000000005c t get_arg
+0000000000025e50 0000000000002fd8 T __ssvfscanf_r
+0000000000028e28 000000000000076c t get_arg
+0000000000029594 0000000000003c28 T _vfprintf_r
+000000000002d1bc 00000000000000ec t __sbprintf
+000000000002d2a8 00000000000000d0 T _wcrtomb_r
+000000000002d378 0000000000000010 T _wcsrtombs_r
+000000000002d388 0000000000000140 T __swsetup_r
+000000000002d4c8 00000000000000d0 T __register_exitproc
+000000000002d598 0000000000000124 T __call_exitprocs
+000000000002d6c0 00000000000001a8 t quorem
+000000000002d868 00000000000010dc T _dtoa_r
+000000000002e948 00000000000000a8 T __sflags
+000000000002e9f0 00000000000004b8 T __sfvwrite_r
+000000000002eea8 0000000000000008 T iswspace
+000000000002eeb0 0000000000000008 T __localeconv_l
+000000000002eeb8 0000000000000028 T _localeconv_r
+000000000002eee0 000000000000002c T __locale_mb_cur_max
+000000000002ef10 00000000000000d8 T _mbrtowc_r
+000000000002efe8 00000000000002c8 T __utf8_mbtowc
+000000000002f2b0 0000000000000090 T _Balloc
+000000000002f340 000000000000001c T _Bfree
+000000000002f360 00000000000000e8 T __multadd
+000000000002f448 0000000000000120 T __s2b
+000000000002f568 000000000000005c T __hi0bits
+000000000002f5c8 00000000000000a0 T __lo0bits
+000000000002f668 000000000000002c T __i2b
+000000000002f698 00000000000001c8 T __multiply
+000000000002f860 0000000000000104 T __pow5mult
+000000000002f968 0000000000000134 T __lshift
+000000000002faa0 0000000000000050 T __mcmp
+000000000002faf0 000000000000014c T __mdiff
+000000000002fc40 0000000000000068 T __ulp
+000000000002fca8 0000000000000150 T __b2d
+000000000002fdf8 0000000000000138 T __d2b
+000000000002ff30 00000000000000a0 T __ratio
+000000000002ffd0 0000000000000068 T __copybits
+0000000000030038 0000000000000084 T __any_on
+00000000000300c0 0000000000000030 T realloc
+00000000000300f0 000000000000056c T _realloc_r
+0000000000030660 00000000000000bc T __sccl
+0000000000030720 000000000000000c T nanf
+0000000000030730 000000000000007c T frexp
+00000000000307b0 00000000000000a8 T sprintf
+0000000000030858 00000000000000c8 T stpncpy
+0000000000030920 0000000000000054 t sulp
+0000000000030978 00000000000010e8 T _strtod_l
+0000000000031a60 0000000000000040 T _strtod_r
+0000000000031aa0 00000000000001a0 t _strtoll_l.isra.0
+0000000000031c40 0000000000000034 T _strtoll_r
+0000000000031c78 00000000000001a0 t _strtol_l.isra.0
+0000000000031e18 0000000000000034 T _strtol_r
+0000000000031e50 00000000000001ac t _strtoull_l.isra.0
+0000000000032000 0000000000000034 T _strtoull_r
+0000000000032034 00000000000001c0 T __ssprint_r
+00000000000321f4 00000000000000f4 T _sungetc_r
+00000000000322e8 0000000000000070 T __ssrefill_r
+0000000000032358 00000000000000e0 T _sfread_r
+0000000000032438 00000000000000c8 T __submore
+0000000000032500 000000000000003c T __sprint_r
+0000000000032540 00000000000001dc T _wcsnrtombs_l
+0000000000032720 0000000000000054 T _wcsnrtombs_r
+0000000000032778 00000000000000e4 T __utf8_wctomb
+0000000000032860 0000000000000114 t rshift
+0000000000032978 00000000000007e8 T __gethex
+0000000000033160 0000000000000048 T __match
+00000000000331a8 000000000000022c T __hexnan
+00000000000333d8 000000000000004c T iswspace_l
+0000000000033428 0000000000000244 t __jp2uc
+0000000000033670 00000000000000bc T _jp2uc_l
+0000000000033730 000000000000000c T nan
+0000000000033740 0000000000000088 T category
+00000000000337c8 0000000000000008 t null_write
+00000000000337d0 0000000000000018 T setDefaultDevice
+00000000000337e8 0000000000000108 T FindDevice
+00000000000338f0 0000000000000034 T RemoveDevice
+0000000000033928 00000000000000d8 T AddDevice
+0000000000033a00 00000000000000a8 T _close_r
+0000000000033aa8 0000000000000080 T _fstat_r
+0000000000033b28 0000000000000010 T _getpid_r
+0000000000033b38 0000000000000008 T _isatty_r
+0000000000033b40 0000000000000010 T _kill_r
+0000000000033b50 0000000000000094 T _lseek_r
+0000000000033be8 00000000000000e0 T _open_r
+0000000000033cc8 00000000000000a4 T _read_r
+0000000000033d70 0000000000000078 T _sbrk_r
+0000000000033de8 00000000000000a4 T _write_r
+0000000000033e90 0000000000000020 T _exit
+0000000000033eb0 0000000000000234 T _concatenate_path
+00000000000340e8 0000000000000178 T chdir
+0000000000034260 0000000000000014 T __libc_lock_acquire
+0000000000034278 0000000000000014 T __libc_lock_release
+0000000000034290 000000000000000c T __libc_lock_init_recursive
+00000000000342a0 0000000000000014 T __libc_lock_acquire_recursive
+00000000000342b8 0000000000000014 T __libc_lock_release_recursive
+00000000000342d0 0000000000000004 T __libc_lock_close_recursive
+00000000000342d8 0000000000000018 T __libc_cond_broadcast
+00000000000342f0 0000000000000018 T __libc_cond_wait
+0000000000034308 000000000000003c T __free_handle
+0000000000034348 0000000000000058 T __release_handle
+00000000000343a0 00000000000000c0 T __alloc_handle
+0000000000034460 0000000000000020 T __get_handle
+0000000000034480 0000000000000020 T __getreent
+00000000000344a0 000000000000006c T pthread_mutex_lock
+0000000000034510 000000000000006c T pthread_mutex_unlock
+0000000000034580 00000000000000dc T pthread_once
+0000000000034660 0000000000000024 T pthread_key_create
+0000000000034688 0000000000000018 T pthread_setspecific
+00000000000346a0 0000000000000018 T pthread_getspecific
+00000000000346b8 0000000000000018 T pthread_key_delete
+00000000000346d0 0000000000000150 t __extenddftf2
+0000000000034820 0000000000000100 T strrchr
+0000000000034920 T _fini
+0000000000035010 V IDomainObject::s_DispatchTable
+0000000000035010 0000000000000010 V std::_Sp_make_shared_tag::_S_ti()::__tag
+00000000000352d0 000000000000001c r CSWTCH.8
+0000000000035450 0000000000000018 r error_table
+0000000000035480 000000000000000d V typeinfo name for std::bad_alloc
+00000000000354a0 000000000000000d V typeinfo name for std::exception
+00000000000354b0 0000000000000012 V typeinfo name for std::bad_exception
+00000000000354c8 0000000000000020 V typeinfo name for __cxxabiv1::__forced_unwind
+00000000000354e8 0000000000000024 V typeinfo name for __cxxabiv1::__foreign_exception
+0000000000035528 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_lock_error
+0000000000035550 0000000000000029 V typeinfo name for __gnu_cxx::__concurrence_unlock_error
+00000000000355d0 0000000000000025 V typeinfo name for __cxxabiv1::__si_class_type_info
+00000000000355f8 000000000000000d V typeinfo name for std::type_info
+0000000000035608 0000000000000022 V typeinfo name for __cxxabiv1::__class_type_info
+0000000000035630 0000000000000010 V typeinfo name for std::logic_error
+0000000000035640 0000000000000011 V typeinfo name for std::length_error
+0000000000035910 0000000000000008 r terminator.9403
+0000000000035918 0000000000000101 R _ctype_
+0000000000035ba8 0000000000000010 r blanks.6590
+0000000000035bb8 0000000000000010 r zeroes.6591
+0000000000035c88 0000000000000022 r basefix.6623
+0000000000035df8 0000000000000010 r blanks.6605
+0000000000035e08 0000000000000010 r zeroes.6606
+0000000000035ea8 0000000000000028 R __mprec_bigtens
+0000000000035ed0 00000000000000c8 R __mprec_tens
+0000000000035f98 000000000000000c r p05.5339
+0000000000035fd8 0000000000000014 r fpi.5419
+0000000000035ff0 0000000000000014 r fpinan.5455
+0000000000036008 0000000000000028 r tinytens
+0000000000036030 000000000000006c R __action_table
+00000000000360a0 0000000000000100 R __chclass
+00000000000361a0 000000000000006c R __state_table
+0000000000036210 0000000000000100 R __hexdig
+0000000000036328 00000000000000bc r a1
+00000000000363e8 00000000000000bc r a2
+00000000000364a8 000000000000005b r a3
+0000000000036508 0000000000000070 r a6
+0000000000036578 00000000000000a2 r a7
+0000000000036620 0000000000000040 r a8
+0000000000036660 000000000000172a r b02cf
+0000000000037d90 0000000000001a7c r d02f4
+0000000000039810 000000000000309c r categories
+000000000003c8b8 0000000000000003 R DIRECTORY_PARENT
+000000000003c8c0 r __EH_FRAME_BEGIN__
+000000000003c8c0 R __eh_frame_hdr_end
+000000000003c8c0 R __eh_frame_hdr_start
+0000000000044d80 r __FRAME_END__
+0000000000044e58 a _DYNAMIC
+0000000000049000 t __frame_dummy_init_array_entry
+0000000000049000 T __init_array_start
+0000000000049000 B __preinit_array_end
+0000000000049000 B __preinit_array_start
+0000000000049000 D __tdata_lma
+0000000000049000 D __tdata_lma_end
+0000000000049038 t __do_global_dtors_aux_fini_array_entry
+0000000000049038 T __fini_array_start
+0000000000049038 T __init_array_end
+0000000000049040 a _GLOBAL_OFFSET_TABLE_
+0000000000049040 T __fini_array_end
+0000000000049040 T __got_start__
+0000000000049368 D __dso_handle
+0000000000049368 D __got_end__
+0000000000049370 0000000000000008 D nx_inner_heap_size
+0000000000049378 0000000000000004 D __nx_applet_type
+0000000000049380 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<DmntCheatService, std::allocator<DmntCheatService>, (__gnu_cxx::_Lock_policy)2>
+00000000000493b8 0000000000000020 V vtable for ServiceSession::IHipcControlService
+00000000000493d8 0000000000000060 V vtable for ServiceSession
+0000000000049438 0000000000000020 V vtable for DmntCheatService
+0000000000049458 00000000000000e0 V vtable for WaitableManager<DefaultManagerOptions>
+0000000000049538 0000000000000038 V vtable for IServer<DmntCheatService>
+0000000000049570 0000000000000038 V vtable for ServiceServer<DmntCheatService>
+00000000000495a8 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>
+00000000000495e0 00000000000001e0 V DmntCheatService::s_DispatchTable
+00000000000497c0 0000000000000078 V ServiceSession::IHipcControlService::s_DispatchTable
+0000000000049838 0000000000000001 d g_enable_cheats_by_default
+0000000000049840 0000000000000038 V vtable for IEvent
+0000000000049878 0000000000000038 d vtable for HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>
+00000000000498b0 0000000000000038 d vtable for HosEvent<DmntCheatManager::DetectThread(void*)::{lambda(unsigned long)#1}>
+00000000000498e8 0000000000000010 d g_default_cheat_enable_key
+00000000000498f8 0000000000000008 d currentConsole
+0000000000049900 00000000000000e0 d dotab_null
+00000000000499e0 00000000000000e0 d dotab_stdout
+0000000000049ac0 00000000000000e0 d dotab_svc
+0000000000049ba0 0000000000000401 d __cwd
+0000000000049fa4 0000000000000004 d fsdev_fsdevice_cwd
+0000000000049fa8 0000000000000004 d fsdev_fsdevice_default
+0000000000049fb0 00000000000000e0 d fsdev_devoptab
+000000000004a090 0000000000000008 V __nx_exception_stack_size
+000000000004a098 0000000000000008 V DW.ref.__gxx_personality_v0
+000000000004a0a0 0000000000000008 D __cxxabiv1::__terminate_handler
+000000000004a0a8 0000000000000018 V typeinfo for std::bad_alloc
+000000000004a0c0 0000000000000028 V vtable for std::bad_alloc
+000000000004a0e8 0000000000000010 V typeinfo for std::exception
+000000000004a0f8 0000000000000018 V typeinfo for std::bad_exception
+000000000004a110 0000000000000010 V typeinfo for __cxxabiv1::__forced_unwind
+000000000004a120 0000000000000010 V typeinfo for __cxxabiv1::__foreign_exception
+000000000004a130 0000000000000028 V vtable for std::bad_exception
+000000000004a158 0000000000000018 V typeinfo for __gnu_cxx::__concurrence_lock_error
+000000000004a170 0000000000000018 V typeinfo for __gnu_cxx::__concurrence_unlock_error
+000000000004a188 0000000000000028 V vtable for __gnu_cxx::__concurrence_lock_error
+000000000004a1b0 0000000000000028 V vtable for __gnu_cxx::__concurrence_unlock_error
+000000000004a1d8 0000000000000018 V typeinfo for __cxxabiv1::__si_class_type_info
+000000000004a1f0 0000000000000058 V vtable for __cxxabiv1::__si_class_type_info
+000000000004a248 0000000000000008 D __cxxabiv1::__unexpected_handler
+000000000004a250 0000000000000010 V typeinfo for std::type_info
+000000000004a260 0000000000000018 V typeinfo for __cxxabiv1::__class_type_info
+000000000004a278 0000000000000058 V vtable for __cxxabiv1::__class_type_info
+000000000004a2d0 0000000000000018 V typeinfo for std::logic_error
+000000000004a2e8 0000000000000018 V typeinfo for std::length_error
+000000000004a300 0000000000000028 V vtable for std::logic_error
+000000000004a328 0000000000000028 V vtable for std::length_error
+000000000004a350 0000000000000008 D _impure_ptr
+000000000004a358 0000000000000768 d impure_data
+000000000004aac0 0000000000000008 D _global_impure_ptr
+000000000004aac8 0000000000000008 D __malloc_sbrk_base
+000000000004aad0 0000000000000008 D __malloc_trim_threshold
+000000000004aad8 0000000000000810 D __malloc_av_
+000000000004b2e8 00000000000001a8 D __global_locale
+000000000004b490 0000000000000002 d numempty
+000000000004b498 0000000000000018 D _C_numeric_locale
+000000000004b4b0 0000000000000004 d defaultDevice
+000000000004b4b8 0000000000000080 D devoptab_list
+000000000004b538 00000000000000e0 D dotab_stdnull
+000000000004b618 0000000000000400 d _current_working_directory
+000000000004ba18 0000000000000010 d __stderr_handle
+000000000004ba28 0000000000000010 d __stdin_handle
+000000000004ba38 0000000000000010 d __stdout_handle
+000000000004ba48 0000000000002000 d handles
+000000000004da48 D __TMC_END__
+000000000004da48 D __bss_start__
+000000000004da48 b completed.7870
+000000000004da50 b object.7875
+000000000004da80 0000000000080000 B nx_inner_heap
+00000000000cda80 0000000000000020 b g_per_core_queues
+00000000000cdaa0 000000000000000c b g_continued_signal
+00000000000cdab0 00000000000000e0 b g_per_core_threads
+00000000000cdb90 0000000000000004 b g_hid_keys_down_lock
+00000000000cdb98 0000000000000004 b g_sd_lock
+00000000000cdb9c 0000000000000001 b g_sd_initialized
+00000000000cdba0 000000000000000c b g_sd_fs
+00000000000cdbb0 0000000000000004 b g_file_handle_lock
+00000000000cdbb8 0000000000000008 b g_cur_fd
+00000000000cdbc0 0000000000000038 b g_file_handles
+00000000000cdbf8 0000000000000001 b g_needs_reload_vm_program
+00000000000cdbfc 0000000000000004 b g_cheat_process_debug_hnd
+00000000000cdc00 0000000000000030 b g_frozen_addresses_map
+00000000000cdc30 0000000000000004 b g_debug_event_thread_lock
+00000000000cdc34 0000000000000001 b g_has_debug_events_thread
+00000000000cdc38 0000000000000038 b g_debug_events_thread
+00000000000cdc70 0000000000000001 b g_should_save_cheat_toggles
+00000000000cdc78 0000000000000008 b g_cheat_process_event
+00000000000cdc80 0000000000000008 b g_cheat_vm
+00000000000cdc88 0000000000000001 b g_always_save_cheat_toggles
+00000000000cdc90 0000000000000038 b g_detect_thread
+00000000000cdcc8 0000000000000038 b g_vm_thread
+00000000000cdd00 0000000000000070 b g_cheat_process_metadata
+00000000000cdd70 0000000000000004 b g_cheat_lock
+00000000000cdd78 0000000000000004 b g_attach_lock
+00000000000cdd80 0000000000022600 b g_cheat_entries
+00000000000f0380 0000000000000800 b g_config_ini_data
+00000000000f0b80 0000000000000001 b g_HasCached
+00000000000f0b84 0000000000000004 b g_Mutex
+00000000000f0b88 0000000000000004 b g_firmware_version
+00000000000f0b8c 0000000000000004 b g_Version
+00000000000f0b90 0000000000000001 b g_VersionCached
+00000000000f0b94 0000000000000004 b g_VersionMutex
+00000000000f0b98 0000000000000008 b g_threadList
+00000000000f0ba0 0000000000000004 b g_threadMutex
+00000000000f0ba8 00000000000000e0 b g_tlsDestructors
+00000000000f0c88 0000000000000008 b g_tlsUsageMask
+00000000000f0c90 0000000000000008 b g_pmdmntRefCnt
+00000000000f0c98 000000000000000c b g_pmdmntSrv
+00000000000f0ca8 0000000000000050 b g_controllerDown
+00000000000f0cf8 00000000000001e0 b g_controllerEntries
+00000000000f0ed8 0000000000000190 b g_controllerHeaders
+00000000000f1068 0000000000000050 b g_controllerHeld
+00000000000f10b8 0000000000000028 b g_controllerLayout
+00000000000f10e0 0000000000000050 b g_controllerOld
+00000000000f1130 0000000000000004 b g_controllerP1AutoID
+00000000000f1138 0000000000000050 b g_controllerTimestamps
+00000000000f1188 0000000000000050 b g_controllerUp
+00000000000f11d8 000000000000000c b g_hidIAppletResource
+00000000000f11e8 0000000000000010 b g_hidLock
+00000000000f11f8 0000000000000020 b g_hidSharedmem
+00000000000f1218 000000000000000c b g_hidSrv
+00000000000f1228 0000000000000020 b g_keyboardDown
+00000000000f1248 0000000000000038 b g_keyboardEntry
+00000000000f1280 0000000000000020 b g_keyboardHeld
+00000000000f12a0 0000000000000008 b g_keyboardModDown
+00000000000f12a8 0000000000000008 b g_keyboardModHeld
+00000000000f12b0 0000000000000008 b g_keyboardModOld
+00000000000f12b8 0000000000000008 b g_keyboardModUp
+00000000000f12c0 0000000000000020 b g_keyboardOld
+00000000000f12e0 0000000000000008 b g_keyboardTimestamp
+00000000000f12e8 0000000000000020 b g_keyboardUp
+00000000000f1308 0000000000000400 b g_mouse
+00000000000f1708 0000000000000008 b g_mouseDown
+00000000000f1710 0000000000000008 b g_mouseEntry
+00000000000f1718 0000000000000008 b g_mouseHeld
+00000000000f1720 0000000000000008 b g_mouseOld
+00000000000f1728 0000000000000008 b g_mouseTimestamp
+00000000000f1730 0000000000000008 b g_mouseUp
+00000000000f1738 0000000000000008 b g_refCnt
+00000000000f1740 000000000000000a b g_sixaxisEnabled
+00000000000f1750 0000000000004650 b g_sixaxisLayouts
+00000000000f5da0 0000000000000298 b g_touchEntry
+00000000000f6038 0000000000000008 b g_touchTimestamp
+00000000000f6040 0000000000000008 b g_nsdevRefCnt
+00000000000f6048 000000000000000c b g_nsdevSrv
+00000000000f6058 0000000000000008 b g_refCnt
+00000000000f6060 0000000000000004 b g_smHandle
+00000000000f6068 0000000000000200 b g_smOverrides
+00000000000f6268 0000000000000008 b g_smOverridesNum
+00000000000f6270 0000000000000008 b g_dmntRefCnt
+00000000000f6278 000000000000000c b g_dmntSrv
+00000000000f6288 0000000000000008 b g_managerRefCnt
+00000000000f6290 000000000000000c b g_managerSrv
+00000000000f62a0 000000000000000c b g_fsSrv
+00000000000f62b0 0000000000000008 b g_refCnt
+00000000000f62b8 0000000000000008 b g_refCnt
+00000000000f62c0 0000000000000008 b g_refCntSys
+00000000000f62c8 0000000000000001 b g_setLanguageCodesInitialized
+00000000000f62d0 000000000000000c b g_setSrv
+00000000000f62e0 000000000000000c b g_setsysSrv
+00000000000f62ec 0000000000000004 b g_hosVersion
+00000000000f62f0 0000000000000058 b currentCopy
+00000000000f6348 0000000000002300 b fsdev_fsdevices
+00000000000f8648 0000000000000001 b fsdev_initialised
+00000000000f8650 0000000000000010 b g_AddressSpace
+00000000000f8660 0000000000000008 b g_CurrentAddr
+00000000000f8668 0000000000000008 b g_CurrentMapAddr
+00000000000f8670 0000000000000030 b g_Region
+00000000000f86a0 0000000000000004 b g_VirtMemMutex
+00000000000f86a8 0000000000000008 b g_appletResourceUserId
+00000000000f86b0 000000000000000c b g_appletSrv
+00000000000f86bc 0000000000000001 b g_hasRandomSeed
+00000000000f86bd 0000000000000001 b g_isNso
+00000000000f86c0 0000000000000004 b g_lastLoadResult
+00000000000f86c8 0000000000000008 b g_loaderRetAddr
+00000000000f86d0 0000000000000004 b g_mainThreadHandle
+00000000000f86d8 0000000000000008 b g_nextLoadArgv
+00000000000f86e0 0000000000000008 b g_nextLoadPath
+00000000000f86e8 0000000000000008 b g_overrideArgv
+00000000000f86f0 0000000000000008 b g_overrideHeapAddr
+00000000000f86f8 0000000000000008 b g_overrideHeapSize
+00000000000f8700 0000000000000004 b g_processHandle
+00000000000f8708 0000000000000010 b g_randomSeed
+00000000000f8718 0000000000000010 b g_syscallHints
+00000000000f8728 0000000000000004 V __nx_exception_ignoredebug
+00000000000f8730 0000000000000400 V __nx_exception_stack
+00000000000f8b30 0000000000000008 b g_argv_empty
+00000000000f8b38 0000000000000008 b (anonymous namespace)::__new_handler
+00000000000f8b40 0000000000000028 b (anonymous namespace)::emergency_pool
+00000000000f8b68 0000000000000010 b eh_globals
+00000000000f8b78 0000000000000008 b init
+00000000000f8b80 0000000000000020 V std::string::_Rep::_S_empty_rep_storage
+00000000000f8ba0 0000000000000062 b dwarf_reg_size_table
+00000000000f8c08 0000000000000004 b once_regsizes.9756
+00000000000f8c10 0000000000000008 b marker.9297
+00000000000f8c18 0000000000000010 b object_mutex
+00000000000f8c28 0000000000000008 b seen_objects
+00000000000f8c30 0000000000000008 b unseen_objects
+00000000000f8c38 000000000000000c b __sfp_recursive_mutex
+00000000000f8c48 000000000000000c b __sinit_recursive_mutex
+00000000000f8c58 0000000000000028 B __malloc_current_mallinfo
+00000000000f8c80 0000000000000008 B __malloc_max_sbrked_mem
+00000000000f8c88 0000000000000008 B __malloc_max_total_mem
+00000000000f8c90 0000000000000008 B __malloc_top_pad
+00000000000f8c98 000000000000000c b __malloc_recursive_mutex
+00000000000f8ca8 000000000000000c B __atexit_recursive_mutex
+00000000000f8cb8 0000000000000008 b heap_start.5295
+00000000000f8cc0 0000000000000008 B fake_heap_end
+00000000000f8cc8 0000000000000008 B fake_heap_start
+00000000000f8cd0 0000000000000400 b temp_cwd
+00000000000f90d0 0000000000000004 b __hndl_lock
+00000000000f90d4 0000000000000004 b __pthread_once_cv
+00000000000f90d8 0000000000000004 b __pthread_once_lock
+00000000000f90e0 0000000000000340 B __nx_exceptiondump
+00000000000f9420 0000000000000008 B __stack_top
+00000000000f9428 0000000000000008 B __system_argv
+00000000000f9430 0000000000000004 B __system_argc
+00000000000f9438 0000000000000004 B __nxlink_host
+00000000000f9440 B __tls_start
+00000000000fd848 B __bss_end__
+00000000000fd848 A __end__
+00000000000fd848 B __tls_end
+00000000000fe000 A __argdata__

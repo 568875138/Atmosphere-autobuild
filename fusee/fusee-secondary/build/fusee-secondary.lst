@@ -1,0 +1,950 @@
+000002a8 A __rebootstub_bin_size__
+00000ec0 A __sept_primary_bin_size__
+00000fb8 A __lp0fw_bin_size__
+0000c2e0 A __exosphere_bin_size__
+00015cc0 A __fusee_primary_bin_size__
+0001901c A __boot_100_kip_size__
+0001901c A __boot_200_kip_size__
+0001b030 A __sept_secondary_enc_size__
+0001ea4c A __sm_kip_size__
+000274d0 A __pm_kip_size__
+0002ca44 A __loader_kip_size__
+00039000 A __fusee_primary_bin_start__
+00039b3c A __ams_mitm_kip_size__
+0004ecc4 A __exosphere_bin_start__
+0005afa8 A __lp0fw_bin_start__
+0005bf64 A __rebootstub_bin_start__
+0005c210 A __splash_screen_bmp_start__
+00384036 A __splash_screen_bmp_size__
+003e024c A __sept_primary_bin_start__
+003e1110 A __sept_secondary_enc_start__
+003fc144 A __loader_kip_start__
+00428b8c A __pm_kip_start__
+00450060 A __sm_kip_start__
+0046eab0 A __ams_mitm_kip_start__
+004d2180 A __total_size__
+10000000 A __boot_100_kip_start__
+10000000 A __boot_200_kip_start__
+40003000 A __chainloader_start__
+40003000 T relocate_and_chainload
+4000300c 000000cc T relocate_and_chainload_main
+400030e0 A __chainloader_bss_start__
+400030e0 00006200 B g_chainloader_arg_data
+400092e0 00000004 B g_chainloader_argc
+400092e4 00000800 B g_chainloader_entries
+40009ae4 00000004 B g_chainloader_entrypoint
+40009ae8 00000004 B g_chainloader_num_entries
+40009b00 A __chainloader_end__
+40010000 A __nxboot_start__
+40010000 T nxboot
+4001000c 000001e0 T nxboot_finish
+400101f0 00000008 t __set_aes_keyslot_flags_veneer
+400101f8 00000008 t __clear_aes_keyslot_veneer
+40010200 00000008 t __cluster_boot_cpu0_veneer
+40010208 00000008 t __set_rsa_keyslot_flags_veneer
+40010210 00000008 t __display_end_veneer
+40010220 A __nxboot_bss_start__
+40010220 A __nxboot_end__
+90010000 A __stack_bottom__
+90020000 A __heap_start__
+90020000 A __stack_top__
+a0020000 A __heap_end__
+f0000000 A __start__
+f0000000 T _start
+f0000008 t _crt0
+f0000024 t _relocation_loop
+f000003c t _relocation_loop_end
+f00000a0 t _metadata
+f00000c0 t _content_headers
+f0000260 t _content_headers_end
+f000027c T _init
+f00002a0 A __chainloader_lma__
+f0000380 A __nxboot_lma__
+f00005a0 t .udivsi3_skip_div0_test
+f00005a0 T __aeabi_uidiv
+f00005a0 000000f4 T __udivsi3
+f0000694 00000020 T __aeabi_uidivmod
+f00006b4 T __aeabi_idiv
+f00006b4 00000128 T __divsi3
+f00006bc t .divsi3_skip_div0_test
+f00007dc 00000020 T __aeabi_idivmod
+f00007fc 00000004 W __aeabi_idiv0
+f00007fc 00000004 W __aeabi_ldiv0
+f0000800 T __aeabi_drsub
+f0000808 00000314 T __aeabi_dsub
+f0000808 00000314 T __subdf3
+f000080c 00000310 T __adddf3
+f000080c 00000310 T __aeabi_dadd
+f0000b1c 00000024 T __aeabi_ui2d
+f0000b1c 00000024 T __floatunsidf
+f0000b40 00000028 T __aeabi_i2d
+f0000b40 00000028 T __floatsidf
+f0000b68 00000048 T __aeabi_f2d
+f0000b68 00000048 T __extendsfdf2
+f0000bb0 00000074 T __aeabi_ul2d
+f0000bb0 00000074 T __floatundidf
+f0000bc4 00000060 T __aeabi_l2d
+f0000bc4 00000060 T __floatdidf
+f0000c24 00000290 T __aeabi_dmul
+f0000c24 00000290 T __muldf3
+f0000eb4 0000020c T __aeabi_ddiv
+f0000eb4 0000020c T __divdf3
+f00010c0 000000a0 T __aeabi_d2f
+f00010c0 000000a0 T __truncdfsf2
+f0001160 00000198 T __aeabi_fmul
+f0001160 00000198 T __mulsf3
+f00012f8 00000160 T __aeabi_fdiv
+f00012f8 00000160 T __divsf3
+f0001458 00000074 T __gesf2
+f0001458 00000074 T __gtsf2
+f0001460 0000006c T __lesf2
+f0001460 0000006c T __ltsf2
+f0001468 00000064 T __cmpsf2
+f0001468 00000064 T __eqsf2
+f0001468 00000064 T __nesf2
+f00014cc 00000028 T __aeabi_cfrcmple
+f00014dc 00000018 T __aeabi_cfcmpeq
+f00014dc 00000018 T __aeabi_cfcmple
+f00014f4 00000018 T __aeabi_fcmpeq
+f000150c 00000018 T __aeabi_fcmplt
+f0001524 00000018 T __aeabi_fcmple
+f000153c 00000018 T __aeabi_fcmpge
+f0001554 00000018 T __aeabi_fcmpgt
+f000156c T __aeabi_ldivmod
+f0001640 T __aeabi_uldivmod
+f000167c 00000028 T __clzdi2
+f00016a4 00000048 T __clzsi2
+f00016ec 00000224 T strcmp
+f0001910 00000098 T __gedf2
+f0001910 00000098 T __gtdf2
+f0001918 00000090 T __ledf2
+f0001918 00000090 T __ltdf2
+f0001920 00000088 T __cmpdf2
+f0001920 00000088 T __eqdf2
+f0001920 00000088 T __nedf2
+f00019a8 00000034 T __aeabi_cdrcmple
+f00019c4 00000018 T __aeabi_cdcmpeq
+f00019c4 00000018 T __aeabi_cdcmple
+f00019dc 00000018 T __aeabi_dcmpeq
+f00019f4 00000018 T __aeabi_dcmplt
+f0001a0c 00000018 T __aeabi_dcmple
+f0001a24 00000018 T __aeabi_dcmpge
+f0001a3c 00000018 T __aeabi_dcmpgt
+f0001a54 00000038 T __aeabi_dcmpun
+f0001a54 00000038 T __unorddf2
+f0001a8c 0000005c T __aeabi_d2iz
+f0001a8c 0000005c T __fixdfsi
+f0001ae8 00000054 T __aeabi_d2uiz
+f0001ae8 00000054 T __fixunsdfsi
+f0001b3c t deregister_tm_clones
+f0001b68 t register_tm_clones
+f0001ba0 t __do_global_dtors_aux
+f0001be4 t frame_dummy
+f0001c18 0000003c T tsec_enable_clkrst
+f0001c54 0000003c T tsec_disable_clkrst
+f0001c90 00000278 T tsec_get_key
+f0001f08 00000118 T tsec_load_fw
+f0002020 00000044 T tsec_run_fw
+f0002064 00000014 T fuse_disable_programming
+f0002078 0000001c T fuse_get_reserved_odm
+f0002094 00000018 T fuse_get_dram_id
+f00020ac 00000040 T fuse_get_retail_type
+f00020ec 000001b4 T gpt_get_header
+f00022a0 000000fc T gpt_iterate_through_entries
+f000239c 00000074 T btn_read
+f0002410 00000104 t smmu_map
+f0002514 000005b8 T smmu_emulate_tsec
+f0002acc 00000090 t rawdev_seek
+f0002b5c 00000008 t rawdev_fsync
+f0002b64 0000006c t rawdev_fstat
+f0002bd0 00000020 t rawdev_close
+f0002bf0 00000094 t rawdev_stat
+f0002c84 00000078 t rawdev_open
+f0002cfc 00000070 t rawdev_find_device
+f0002d6c 00000358 t rawdev_read
+f00030c4 000003a8 t rawdev_write
+f000346c 000001e4 T rawdev_mount_device
+f0003650 0000006c T rawdev_register_device
+f00036bc 00000090 T rawdev_unregister_device
+f000374c 00000074 T rawdev_unmount_device
+f00037c0 00000034 T rawdev_unmount_all
+f00037f4 00000010 t fsdev_fstat
+f0003804 00000010 t fsdev_dirreset
+f0003814 00000010 t fsdev_chmod
+f0003824 00000078 t fsdev_find_device
+f000389c 00000064 t fsdev_unlink
+f0003900 00000004 t fsdev_rmdir
+f0003904 00000064 t fsdev_fsync
+f0003968 000000c0 t fsdev_seek
+f0003a28 000000d8 t fsdev_ftruncate
+f0003b00 000000d8 t fsdev_statvfs
+f0003bd8 00000064 t fsdev_dirclose
+f0003c3c 000000fc t fsdev_filinfo_to_st
+f0003d38 000000cc t fsdev_dirnext
+f0003e04 00000058 t fsdev_diropen
+f0003e5c 00000064 t fsdev_mkdir
+f0003ec0 0000006c t fsdev_rename
+f0003f2c 00000064 t fsdev_chdir
+f0003f90 000000ac t fsdev_stat
+f000403c 00000068 t fsdev_read
+f00040a4 00000068 t fsdev_write
+f000410c 00000064 t fsdev_close
+f0004170 000000dc t fsdev_open
+f000424c 00000010 t fsdev_fchmod
+f000425c 00000010 t fsdev_link
+f000426c 00000248 T fsdev_mount_device
+f00044b4 00000070 T fsdev_register_device
+f0004524 00000094 T fsdev_unregister_device
+f00045b8 000000cc T fsdev_set_default_device
+f0004684 00000124 T fsdev_unmount_device
+f00047a8 0000003c T fsdev_unmount_all
+f00047e4 00000080 T __program_exit
+f0004864 00000160 T __program_init
+f00049c4 00000034 T setup_exception_handlers
+f00049f8 0000016c T exception_handler_main
+f0004b64 00000124 T mkey_detect_revision
+f0004c88 0000002c T mkey_get_revision
+f0004cb4 00000068 T mkey_get_keyslot
+f0004d1c 00000010 t chainloader_entry_comparator
+f0004d2c 000001b4 t load_list_entry
+f0004ee0 00000114 t parse_loadlist
+f0004ff4 000000e4 t loadlist_entry_ini_handler
+f00050d8 000001cc t loadlist_ini_handler
+f00052a4 000000cc t find_carveout
+f0005370 0000000c T get_loader_ctx
+f000537c 00000458 T load_payload
+f00057d4 000006bc T display_init
+f0005e90 00000018 T display_backlight
+f0005ea8 0000026c T display_end
+f0006114 000000b0 T display_color_screen
+f00061c4 000000b4 T display_init_framebuffer
+f0006278 000001ec T check_and_display_panic
+f0006464 0000003c T panic
+f00064a0 00000604 T derive_nx_keydata
+f0006aa4 00000248 t dvfs_power_ramp_down
+f0006cec 000002b0 t dvfs_power_ramp_up
+f0006f9c 0000068c t apply_periodic_compensation_trimmer
+f0007628 0000008c t emc_timing_update
+f00076b4 0000005c t change_dll_src.isra.4
+f0007710 00000054 t dll_disable
+f0007764 00000eb0 t update_clock_tree_delay.isra.3
+f0008614 00000400 t do_periodic_emc_compensation
+f0008a14 00003d68 t set_clock
+f000c77c 0000076c t train_one.isra.6.part.7.constprop.8
+f000cee8 00000184 T train_dram
+f000d06c 00000104 t max77620_regulator_enable.part.2
+f000d170 00000108 T max77620_regulator_set_voltage
+f000d278 00000010 T max77620_regulator_enable
+f000d288 00000064 t console_init_display
+f000d2ec 00000178 t console_write
+f000d464 00000040 T console_display
+f000d4a4 00000044 T console_resume
+f000d4e8 00000048 T console_end
+f000d530 000000e4 T console_init
+f000d614 000000f8 T _cluster_enable_power
+f000d70c 00000098 T _cluster_pmc_enable_partition
+f000d7a4 0000018c T cluster_boot_cpu0
+f000d930 000000d4 t try_add_sd_kip
+f000da04 0000010c T stratosphere_get_ini1
+f000db10 0000004c T stratosphere_free_ini1
+f000db5c 00000200 T stratosphere_get_sd_files_ini1
+f000dd5c 00000328 T stratosphere_merge_inis
+f000e084 000001d4 T package1_read_and_parse_boot0
+f000e258 00000050 T package1_get_tsec_fw
+f000e2a8 0000003c t gpio_simple_register_set
+f000e2e4 00000010 T gpio_configure_mode
+f000e2f4 00000014 T gpio_configure_direction
+f000e308 00000014 T gpio_write
+f000e31c 00000034 T gpio_read
+f000e350 00000238 t apply_ips_patch
+f000e588 000000e8 t has_patch.constprop.5
+f000e670 00000134 t name_matches_hash.constprop.4
+f000e7a4 00000280 t apply_ips_patches.constprop.2
+f000ea24 000002b8 t has_ips_patches.constprop.3
+f000ecdc 00000014 T kip_patches_set_enable_nogc
+f000ecf0 0000004c T apply_kernel_ips_patches
+f000ed3c 000002c4 T apply_kip_ips_patches
+f000f000 000001c8 t nxfs_mount_partition_gpt_callback
+f000f1c8 000000cc t nxfs_bis_crypto_encrypt
+f000f294 000000cc t nxfs_bis_crypto_decrypt
+f000f360 00000090 t mmc_partition_write
+f000f3f0 00000090 t mmc_partition_read
+f000f480 0000003c t mmc_partition_finalize
+f000f4bc 00000174 t mmc_partition_initialize
+f000f630 00000254 T nxfs_mount_all
+f000f884 00000030 T nxfs_unmount_all
+f000f8b4 00000034 t clear_aes_keyslot_iv.part.2
+f000f8e8 0000001c T ll_init
+f000f904 00000034 T se_check_for_error
+f000f938 0000004c T set_aes_keyslot_flags
+f000f984 00000058 T set_rsa_keyslot_flags
+f000f9dc 00000040 T clear_aes_keyslot
+f000fa1c 00000054 T set_aes_keyslot
+f000fa70 0000007c T trigger_se_blocking_op
+f000faec 00000078 T decrypt_data_into_keyslot
+f000fb64 000000ac T se_perform_aes_block_operation
+f000fc10 000000e0 T se_aes_ctr_crypt
+f000fcf0 00000068 T se_aes_ecb_encrypt_block
+f000fd58 0000005c T se_aes_ecb_decrypt_block
+f000fdb4 000000f4 T aes_128_xts_nintendo_xor_with_tweak
+f000fea8 000000c8 T aes_128_xts_nintendo_crypt_sector
+f000ff70 00000080 T se_aes_128_xts_nintendo_encrypt
+f000fff0 00000080 T se_aes_128_xts_nintendo_decrypt
+f0010070 00000250 T se_compute_aes_cmac
+f00102c0 00000024 T se_compute_aes_128_cmac
+f00102e4 000000a8 T se_calculate_sha256
+f001038c 00000034 T mc_enable_ahb_redirect
+f00103c0 00000034 T mc_disable_ahb_redirect
+f00103f4 000000f0 T search_pattern
+f00104e4 00000060 T get_kernel_info
+f0010544 000001a8 T package2_patch_kernel
+f00106ec 000001a0 T device_partition_read_data
+f001088c 000001a0 T device_partition_write_data
+f0010a2c 00000114 t exosphere_ini_handler
+f0010b40 000000a0 t stratosphere_ini_handler
+f0010be0 00000c08 T nxboot_main
+f00117e8 00000030 T splash_screen_wait_delay
+f0011818 00000224 T display_splash_screen_bmp
+f0011a3c 00000178 T clk_enable
+f0011bb4 00000040 T clkrst_enable
+f0011bf4 0000005c T clkrst_disable
+f0011c50 000000b4 T clkrst_reboot
+f0011d04 00000028 T get_file_size
+f0011d2c 00000054 T read_from_file
+f0011d80 00000024 t exit_callback
+f0011da4 000001d0 T main
+f0011f74 0000008c t i2c_write.part.0
+f0012000 000000b0 t i2c_read.part.1
+f00120b0 00000094 T i2c_query
+f0012144 0000008c T i2c_send
+f00121d0 00000104 T parse_hex_key
+f00122d4 000002dc T extkeys_initialize_keyset
+f00125b0 00000210 t package2_validate_metadata
+f00127c0 00000080 t package2_crypt_ctr.constprop.2
+f0012840 00000398 T package2_rebuild_and_copy
+f0012bd8 0000008c t reboot_to_payload
+f0012c64 00000048 T reboot_to_fusee_primary
+f0012cac 000000e8 T reboot_to_sept
+f0012d94 00000014 T wait_for_button_and_reboot
+f0012da8 00000010 T generic_panic
+f0012db8 0000004c T fatal_error
+f0012e04 0000006c T overlaps
+f0012e70 00000114 T hexdump
+f0012f84 000000d0 t sdmmc_device_send_r1_cmd.isra.1
+f0013054 0000014c t sdmmc_device_rw
+f00131a0 00000064 t sdmmc_sd_send_app_cmd
+f0013204 00000070 t sdmmc_device_send_csd.isra.8
+f0013274 000000d8 t sdmmc_sd_switch.isra.10
+f001334c 000000ac t sdmmc_sd_switch_hs
+f00133f8 000000e0 t sdmmc_mmc_select_hs
+f00134d8 000000a4 t sdmmc_mmc_select_hs200
+f001357c 0000006c t sdmmc_device_send_cid.isra.5
+f00135e8 00000020 T sdmmc_device_read
+f0013608 00000020 T sdmmc_device_write
+f0013628 00000f60 T sdmmc_device_sd_init
+f0014588 0000006c T sdmmc_mmc_select_partition
+f00145f4 00000a18 T sdmmc_device_mmc_init
+f001500c 000001ac t sdmmc_clk_set_source
+f00151b8 00000008 t sdmmc2_config
+f00151c0 00000168 t sdmmc_wait_for_inhibit
+f0015328 000000d4 t sdmmc_wait_busy
+f00153fc 000000dc t sdmmc_wait_for_cmd
+f00154d8 00000078 t is_sdmmc_clk_rst
+f0015550 00000078 t is_sdmmc_clk_enb
+f00155c8 00000098 t sdmmc_save_response.part.11
+f0015660 0000005c t sdmmc_print.isra.12
+f00156bc 00000184 t sdmmc1_config
+f0015840 00000008 t sdmmc4_config
+f0015848 00000008 t sdmmc3_config
+f0015850 00000038 T sdmmc_error
+f0015888 00000100 t sdmmc_autocal_config
+f0015988 0000019c t sdmmc_autocal_run
+f0015b24 00000038 T sdmmc_warn
+f0015b5c 00000038 T sdmmc_info
+f0015b94 00000038 T sdmmc_debug
+f0015bcc 0000007c T sdmmc_adjust_sd_clock
+f0015c48 0000007c T sdmmc_select_bus_width
+f0015cc4 00000074 T sdmmc_select_voltage
+f0015d38 000004e8 T sdmmc_select_speed
+f0016220 000005f8 T sdmmc_init
+f0016818 00000050 T sdmmc_load_response
+f0016868 000005a4 T sdmmc_send_cmd
+f0016e0c 00000194 T sdmmc_switch_voltage
+f0016fa0 0000001c T sdmmc_set_tuning_tap_val
+f0016fbc 00000310 T sdmmc_execute_tuning
+f00172cc 0000018c T sdmmc_abort
+f0017458 00000010 T log_set_log_level
+f0017468 00000010 T log_get_log_level
+f0017478 00000048 T vprint
+f00174c0 00000164 T print
+f0017624 00000078 t ini_reader_string
+f001769c 00000084 t find_chars_or_comment
+f0017720 00000064 t rstrip
+f0017784 00000284 T ini_parse_stream
+f0017a08 00000040 T ini_parse_string
+f0017a48 000000fc t tchar2uni
+f0017b44 000000fc t get_ldnumber
+f0017c40 00000070 t validate
+f0017cb0 00000070 t xname_sum
+f0017d20 0000001c t mem_cpy.part.0
+f0017d3c 00000134 t put_utf
+f0017e70 000003b4 t get_fileinfo
+f0018224 00000098 t init_alloc_info.isra.6
+f00182bc 00000078 t sync_window.part.7
+f0018334 000000d4 t dir_clear
+f0018408 00000128 t sync_fs
+f0018530 00000060 t move_window.part.8
+f0018590 000000ec t change_bitmap
+f001867c 000002e0 t get_fat
+f001895c 00000140 t dir_sdi
+f0018a9c 00000134 t check_fs
+f0018bd0 00000848 t find_volume
+f0019418 0000026c t put_fat.part.10
+f0019684 00000200 t remove_chain
+f0019884 00000084 t fill_last_frag.isra.11.part.12
+f0019908 00000088 t fill_first_frag.part.13
+f0019990 000003dc t create_chain
+f0019d6c 00000178 t dir_next
+f0019ee4 000001fc t load_xdir
+f001a0e0 0000005c t load_obj_xdir
+f001a13c 000000c8 t dir_alloc
+f001a204 00000128 t store_xdir
+f001a32c 000000b8 t dir_remove
+f001a3e4 00000230 t dir_read.constprop.14
+f001a614 000003a4 t dir_find
+f001a9b8 0000067c t follow_path
+f001b034 000006b8 t dir_register
+f001b6ec 0000008c T f_mount
+f001b778 000004d0 T f_open
+f001bc48 00000360 T f_read
+f001bfa8 00000400 T f_write
+f001c3a8 000002bc T f_sync
+f001c664 00000044 T f_close
+f001c6a8 00000038 T f_chdrive
+f001c6e0 00000138 T f_chdir
+f001c818 00000454 T f_lseek
+f001cc6c 00000128 T f_opendir
+f001cd94 00000028 T f_closedir
+f001cdbc 0000007c T f_readdir
+f001ce38 00000074 T f_stat
+f001ceac 0000024c T f_getfree
+f001d0f8 00000178 T f_truncate
+f001d270 00000188 T f_unlink
+f001d3f8 00000314 T f_mkdir
+f001d70c 00000328 T f_rename
+f001da34 00000078 T ff_uni2oem
+f001daac 00000040 T ff_oem2uni
+f001daec 00000178 T ff_wtoupper
+f001dc64 00000020 T disk_status
+f001dc84 0000004c T disk_initialize
+f001dcd0 00000060 T disk_read
+f001dd30 00000060 T disk_write
+f001dd90 0000002c T disk_ioctl
+f001ddbc 00000054 t console_newline.part.0
+f001de10 00000100 t video_drawchars.constprop.1
+f001df10 000001c4 T video_putc
+f001e0d4 00000078 T video_init
+f001e160 t _exception_handler_common
+f001e1a8 t _exception_handler_undefined_instruction
+f001e1cc t _exception_handler_swi
+f001e1f0 t _exception_handler_prefetch_abort
+f001e214 t _exception_handler_data_abort_normal
+f001e238 t _exception_handler_fiq
+f001e25c t _exception_handler_data_abort
+f001e284 T safecpy
+f001e290 t _safecpy_loop
+f001e2ac t _safecpy_loop_end
+f001e2b8 t _safecpy_end
+f001e2c0 00000130 T __udivmoddi4
+f001e3f0 00000024 T calloc
+f001e414 0000009c T _calloc_r
+f001e4b0 00000010 T __errno
+f001e4c0 0000016c T _fclose_r
+f001e62c 00000018 T fclose
+f001e644 00000288 T __sflush_r
+f001e8cc 0000009c T _fflush_r
+f001e968 0000003c T fflush
+f001e9a4 000001a4 T _fgets_r
+f001eb48 00000028 T fgets
+f001eb70 00000084 t std
+f001ebf4 00000018 T _cleanup_r
+f001ec0c 0000004c T __sfmoreglue
+f001ec58 00000094 T __sinit
+f001ecec 00000118 T __sfp
+f001ee04 00000018 T __sfp_lock_acquire
+f001ee1c 00000018 T __sfp_lock_release
+f001ee34 00000048 T __libc_fini_array
+f001ee7c 0000014c T _fopen_r
+f001efc8 00000020 T fopen
+f001efe8 00000314 T _fread_r
+f001f2fc 0000003c T fread
+f001f338 00000100 T _malloc_trim_r
+f001f438 000002e0 T _free_r
+f001f718 00000020 T _fseek_r
+f001f738 00000038 T fseek
+f001f770 000005f4 T _fseeko_r
+f001fd64 00000038 T ftell
+f001fd9c 000001bc T _ftello_r
+f001ff58 00000084 T _fwalk
+f001ffdc 0000008c T _fwalk_reent
+f0020068 00000088 T __libc_init_array
+f00200f0 000000a0 T __swhatbuf_r
+f0020190 00000100 T __smakebuf_r
+f0020290 00000024 T memalign
+f00202b4 00000160 T _memalign_r
+f0020414 0000001c T malloc
+f0020430 0000001c T free
+f002044c 000007d4 T _malloc_r
+f0020c20 00000110 T memchr
+f0020d30 00000104 T memcmp
+f0020e34 0000011c T memcpy
+f0020f50 00000158 T memmove
+f00210a8 00000118 T memset
+f00211c0 0000031c t validate_structure
+f00214dc 00000590 T mktime
+f0021a6c 00000018 T __malloc_lock
+f0021a84 00000018 T __malloc_unlock
+f0021a9c 00000038 T printf
+f0021ad4 00000020 T putchar
+f0021af4 000000e4 T _putc_r
+f0021bd8 000009a4 T qsort
+f002257c 00000028 t lflush
+f00225a4 000001bc T __srefill_r
+f0022760 00000264 T setvbuf
+f00229c4 000000d4 T snprintf
+f0022a98 00000074 T sscanf
+f0022b0c 0000004c T __sread
+f0022b58 00000008 T __seofread
+f0022b60 0000006c T __swrite
+f0022bcc 00000054 T __sseek
+f0022c20 00000014 T __sclose
+f0022c34 00000074 T stpcpy
+f0022ca8 00000184 T strchr
+f0022e2c 000000f0 T strcpy
+f0022f1c 00000640 T _strerror_r
+f002355c 00000020 T strerror
+f002357c 00000060 T strlen
+f00235dc 000000e8 T strncpy
+f00236c4 000004a4 t two_way_long_needle
+f0023b68 00000288 T strstr
+f0023df0 00000628 t get_arg
+f0024418 0000374c T _svfprintf_r
+f0027b64 0000004c t get_arg
+f0027bb0 00002ae0 T __ssvfscanf_r
+f002a690 00000024 T stat
+f002a6b4 00000234 T __tzcalc_limits
+f002a8e8 00000018 T __tz_lock
+f002a900 00000018 T __tz_unlock
+f002a918 00000014 T _tzset_unlocked
+f002a92c 00000474 T _tzset_unlocked_r
+f002ada0 00000008 T _user_strerror
+f002ada8 00000628 t get_arg
+f002b3d0 00003820 T _vfprintf_r
+f002ebf0 000000d4 t __sbprintf
+f002ecc4 000000ac T _vsnprintf_r
+f002ed70 0000003c T vsnprintf
+f002edac 00000110 T __swbuf_r
+f002eebc 0000005c T _wcrtomb_r
+f002ef18 00000024 T _wcsrtombs_r
+f002ef3c 00000158 T __swsetup_r
+f002f094 0000005c T div
+f002f0f0 000001f4 t quorem
+f002f2e8 000016b4 T _dtoa_r
+f003099c 000000bc T __sflags
+f0030a58 000004cc T __sfvwrite_r
+f0030f24 000000d0 T _findenv_r
+f0030ff4 0000001c T _getenv_r
+f0031010 0000000c T __gettzinfo
+f003101c 00000014 T iswspace
+f0031030 0000000c T _localeconv_r
+f003103c 00000010 T __locale_mb_cur_max
+f003104c 00000068 T _mbrtowc_r
+f00310b4 00000308 T __utf8_mbtowc
+f00313bc 0000008c T _Balloc
+f0031448 0000001c T _Bfree
+f0031464 000000ec T __multadd
+f0031550 000000e8 T __s2b
+f0031638 00000058 T __hi0bits
+f0031690 000000a0 T __lo0bits
+f0031730 00000024 T __i2b
+f0031754 000001e0 T __multiply
+f0031934 00000104 T __pow5mult
+f0031a38 000000f8 T __lshift
+f0031b30 00000064 T __mcmp
+f0031b94 00000188 T __mdiff
+f0031d1c 00000064 T __ulp
+f0031d80 000000e4 T __b2d
+f0031e64 00000114 T __d2b
+f0031f78 00000090 T __ratio
+f0032008 00000070 T __copybits
+f0032078 00000078 T __any_on
+f00320f0 00000024 T realloc
+f0032114 000004dc T _realloc_r
+f00325f0 000000cc T __sccl
+f00326bc 0000000c T nanf
+f00326c8 000000a4 T frexp
+f003276c 00000074 T siscanf
+f00327e0 00000064 T sprintf
+f0032844 00000108 T stpncpy
+f003294c 00000114 T strncmp
+f0032a60 0000005c T strnlen
+f0032abc 0000006c t sulp
+f0032b28 00001678 T _strtod_l
+f00341a0 0000000c T _strtod_r
+f00341ac 0000029c t _strtoll_l.isra.0
+f0034448 00000004 T _strtoll_r
+f003444c 000001c0 t _strtol_l.isra.0
+f003460c 00000004 T _strtol_r
+f0034610 0000027c t _strtoull_l.isra.0
+f003488c 00000004 T _strtoull_r
+f0034890 000001d0 t _strtoul_l.isra.0
+f0034a60 00000004 T _strtoul_r
+f0034a64 00000028 T strtoul
+f0034a8c 0000018c T __ssprint_r
+f0034c18 0000004c t get_arg
+f0034c64 000000e8 T _sungetc_r
+f0034d4c 00000068 T __ssrefill_r
+f0034db4 000000cc T _sfread_r
+f0034e80 0000223c T __ssvfiscanf_r
+f00370bc 000000b0 T __submore
+f003716c 00000034 T __sprint_r
+f00371a0 00000194 T _wcsnrtombs_l
+f0037334 00000050 T _wcsnrtombs_r
+f0037384 000000ec T __utf8_wctomb
+f0037470 00000018 T __env_lock
+f0037488 00000018 T __env_unlock
+f00374a0 000000f4 t rshift
+f0037594 00000838 T __gethex
+f0037dcc 00000068 T __match
+f0037e34 00000260 T __hexnan
+f0038094 00000044 T iswspace_l
+f00380d8 000001e8 t __jp2uc
+f00382c0 00000090 T _jp2uc_l
+f0038350 00000010 T nan
+f0038360 0000008c T category
+f00383ec 00000008 t null_write
+f00383f4 00000018 T setDefaultDevice
+f003840c 000000d4 T FindDevice
+f00384e0 0000002c T RemoveDevice
+f003850c 000000a4 T AddDevice
+f00385b0 00000090 T _close_r
+f0038640 00000078 T _fstat_r
+f00386b8 00000008 T _isatty_r
+f00386c0 00000088 T _lseek_r
+f0038748 000000cc T _open_r
+f0038814 00000084 T _read_r
+f0038898 00000074 T _sbrk_r
+f003890c 00000070 T _stat_r
+f003897c 00000084 T _write_r
+f0038a00 00000014 T __flockfile
+f0038a14 00000014 T __funlockfile
+f0038a28 00000018 T __libc_lock_acquire
+f0038a40 00000018 T __libc_lock_release
+f0038a58 00000018 T __libc_lock_init_recursive
+f0038a70 00000018 T __libc_lock_acquire_recursive
+f0038a88 00000018 T __libc_lock_release_recursive
+f0038aa0 00000018 T __libc_lock_close_recursive
+f0038ab8 00000090 T __release_handle
+f0038b48 000000b8 T __alloc_handle
+f0038c00 00000018 T __get_handle
+f0038c18 0000006c t __dirnext
+f0038c84 000000fc T opendir
+f0038d80 00000098 T closedir
+f0038e18 000000ec T readdir
+f0038f04 00000024 T __getreent
+f0038f28 0000004c T __aeabi_d2lz
+f0038f28 0000004c T __fixdfdi
+f0038f74 0000005c T __aeabi_d2ulz
+f0038f74 0000005c T __fixunsdfdi
+f0038fd0 T _fini
+f0038fe8 00000008 t __relocate_and_chainload_veneer
+f0038ff0 00000008 t __nxboot_finish_veneer
+f0039000 R fusee_primary_bin
+f004ecc0 R fusee_primary_bin_end
+f004ecc0 R fusee_primary_bin_size
+f004ecc4 R exosphere_bin
+f005afa4 R exosphere_bin_end
+f005afa4 R exosphere_bin_size
+f005afa8 R lp0fw_bin
+f005bf60 R lp0fw_bin_end
+f005bf60 R lp0fw_bin_size
+f005bf64 R rebootstub_bin
+f005c20c R rebootstub_bin_end
+f005c20c R rebootstub_bin_size
+f005c210 R splash_screen_bmp
+f03e0246 R splash_screen_bmp_end
+f03e0248 R splash_screen_bmp_size
+f03e024c R sept_primary_bin
+f03e110c R sept_primary_bin_end
+f03e110c R sept_primary_bin_size
+f03e1110 R sept_secondary_enc
+f03fc140 R sept_secondary_enc_end
+f03fc140 R sept_secondary_enc_size
+f03fc144 R loader_kip
+f0428b88 R loader_kip_end
+f0428b88 R loader_kip_size
+f0428b8c R pm_kip
+f045005c R pm_kip_end
+f045005c R pm_kip_size
+f0450060 R sm_kip
+f046eaac R sm_kip_end
+f046eaac R sm_kip_size
+f046eab0 R ams_mitm_kip
+f04a85ec R ams_mitm_kip_end
+f04a85ec R ams_mitm_kip_size
+f04a8628 00000050 r aarch64_payload.5063
+f04a872c 00000070 r g_rawdev_devoptab
+f04a87a4 00000050 r CSWTCH.17
+f04a87f4 00000030 r flag_mappings.7386
+f04a884c 00000070 r g_fsdev_devoptab
+f04a8964 00000020 r exception_names
+f04a8984 00000044 r register_names
+f04a8a54 00000080 r mkey_vectors
+f04a8ad4 00000080 r mkey_vectors_dev
+f04a8d88 00000080 r _display_config_10
+f04a8e08 00000388 r _display_config_11
+f04a9190 00000088 r _display_config_12
+f04a9218 00000080 r _display_config_13
+f04a9298 000000b0 r _display_config_14
+f04a9348 000002f0 r _display_config_2
+f04a9638 000001e0 r _display_config_3
+f04a9818 00000158 r _display_config_4
+f04a9970 000000a8 r _display_config_5
+f04a9a18 00000050 r _display_config_7
+f04a9a68 00000030 r _display_config_8
+f04a9a98 00000100 r cfg_display_framebuffer
+f04a9b98 00000040 r cfg_display_one_color
+f04a9c90 00000010 r devicekey_4x_seed
+f04a9ca0 00000010 r devicekey_seed
+f04a9cb0 00000010 r keyblob_mac_seed
+f04a9cc0 00000080 r keyblob_seeds
+f04a9d40 00000010 r masterkey_4x_seed
+f04a9d50 00000010 r masterkey_seed
+f04a9d60 00000020 r new_master_kek_seeds
+f04a9d80 00000084 r burst_mc_regs_off
+f04a9e04 00000374 r burst_regs_off
+f04aa178 00000020 r burst_regs_per_ch_off
+f04aa198 00000020 r burst_regs_per_ch_type
+f04aa1b8 00001400 r g_ram_pattern_dmi
+f04ab5b8 00001400 r g_ram_pattern_dq
+f04ac9b8 00000060 r la_scale_regs_off
+f04aca18 00000154 r pll_vals.6503
+f04ad028 00000050 r training_mod_regs_per_ch_off
+f04ad078 00000050 r training_mod_regs_per_ch_type
+f04ad0c8 00000228 r trim_regs_off
+f04ad2f0 00000028 r trim_regs_per_ch_off
+f04ad318 00000028 r trim_regs_per_ch_type
+f04ad340 00000010 r vref_regs_per_ch_off
+f04ad350 00000010 r vref_regs_per_ch_type
+f04ad360 00000208 r _pmic_regulators
+f04ad5c0 00000070 r dotab_stdout
+f04ad8fc 00000084 r known_partitions.6979
+f04adac4 0000018c r g_kernel_infos
+f04adc50 00000034 r g_kernel_patch_100_proc_id_recv
+f04adc84 00000034 r g_kernel_patch_100_proc_id_send
+f04adcb8 0000003c r g_kernel_patch_200_proc_id_recv
+f04adcf4 00000034 r g_kernel_patch_200_proc_id_send
+f04add28 0000003c r g_kernel_patch_300_proc_id_recv
+f04add64 00000034 r g_kernel_patch_300_proc_id_send
+f04add98 0000003c r g_kernel_patch_302_proc_id_recv
+f04addd4 00000034 r g_kernel_patch_302_proc_id_send
+f04ade08 00000034 r g_kernel_patch_400_proc_id_recv
+f04ade3c 00000034 r g_kernel_patch_400_proc_id_send
+f04ade70 00000034 r g_kernel_patch_500_proc_id_recv
+f04adea4 00000034 r g_kernel_patch_500_proc_id_send
+f04aded8 00000004 r g_kernel_patch_500_svc_control_codememory
+f04adedc 00000054 r g_kernel_patch_600_proc_id_recv
+f04adf30 00000054 r g_kernel_patch_600_proc_id_send
+f04adf84 00000004 r g_kernel_patch_600_svc_control_codememory
+f04adf88 00000054 r g_kernel_patch_700_proc_id_recv
+f04adfdc 00000054 r g_kernel_patch_700_proc_id_send
+f04ae030 00000004 r g_kernel_patch_700_svc_control_codememory
+f04ae034 00000038 r g_kernel_patches_100
+f04ae06c 00000038 r g_kernel_patches_200
+f04ae0a4 00000038 r g_kernel_patches_300
+f04ae0dc 00000038 r g_kernel_patches_302
+f04ae114 00000038 r g_kernel_patches_400
+f04ae14c 00000054 r g_kernel_patches_500
+f04ae1a0 00000054 r g_kernel_patches_600
+f04ae1f4 00000054 r g_kernel_patches_700
+f04ae248 00000010 r g_kernel_pattern_100_proc_id_recv
+f04ae258 00000010 r g_kernel_pattern_100_proc_id_send
+f04ae268 00000010 r g_kernel_pattern_200_proc_id_recv
+f04ae278 00000010 r g_kernel_pattern_200_proc_id_send
+f04ae288 00000010 r g_kernel_pattern_300_proc_id_recv
+f04ae298 00000010 r g_kernel_pattern_300_proc_id_send
+f04ae2a8 00000010 r g_kernel_pattern_302_proc_id_recv
+f04ae2b8 00000010 r g_kernel_pattern_302_proc_id_send
+f04ae2c8 00000010 r g_kernel_pattern_400_proc_id_recv
+f04ae2d8 00000010 r g_kernel_pattern_400_proc_id_send
+f04ae2e8 00000010 r g_kernel_pattern_500_proc_id_recv
+f04ae2f8 00000010 r g_kernel_pattern_500_proc_id_send
+f04ae308 0000001c r g_kernel_pattern_600_proc_id_recv
+f04ae324 0000001c r g_kernel_pattern_600_proc_id_send
+f04ae340 0000001c r g_kernel_pattern_700_proc_id_recv
+f04ae35c 0000001c r g_kernel_pattern_700_proc_id_send
+f04ae3dc 00000100 r dev_pkc_modulus
+f04aeb30 00000100 r retail_pkc_modulus
+f04aed00 0000001c r g_clk_reg_offsets
+f04aed1c 0000001c r g_rst_reg_offsets
+f04aee1c 00000018 r CSWTCH.6
+f04af680 00000020 r taac_exp
+f04af6a0 00000040 r taac_mant
+f04af6e0 00000020 r tran_exp
+f04af700 00000010 r tran_mant
+f04af710 0000003c r CSWTCH.4
+f04af74c 0000003c r CSWTCH.5
+f04afa68 00000080 r ExCvt
+f04afae8 0000000d r LfnOfs
+f04afb20 000001f2 r cvt1.4435
+f04afd14 000000bc r cvt2.4436
+f04afdd0 00000100 r uc850
+f04afed0 00000100 r video_font_draw_table32
+f04affd0 R exception_handler_table
+f04afff0 00000101 R _ctype_
+f04b00f4 00000004 R _global_impure_ptr
+f04b00f8 00000030 r DAYS_IN_MONTH
+f04b0128 00000030 r _DAYS_BEFORE_MONTH
+f04b0894 00000010 r blanks.7433
+f04b08a4 00000010 r zeroes.7434
+f04b08bc 00000022 r basefix.7477
+f04b0934 00000010 r blanks.7448
+f04b0944 00000010 r zeroes.7449
+f04b09a8 00000060 R __month_lengths
+f04b0a08 00000028 R __mprec_bigtens
+f04b0a30 000000c8 R __mprec_tens
+f04b0af8 0000000c r p05.6167
+f04b0b14 00000014 r fpi.6247
+f04b0b28 00000014 r fpinan.6283
+f04b0b40 00000028 r tinytens
+f04b0b68 0000006c R __action_table
+f04b0bd4 00000100 R __chclass
+f04b0cd4 0000006c R __state_table
+f04b0d40 00000022 r basefix.6979
+f04b0d64 00000100 R __hexdig
+f04b0e78 000000bc r a1
+f04b0f34 000000bc r a2
+f04b0ff0 0000005b r a3
+f04b104c 00000070 r a6
+f04b10bc 000000a2 r a7
+f04b1160 00000040 r a8
+f04b11a0 0000172a r b02cf
+f04b28cc 00001a7c r d02f4
+f04b4348 0000000c R _C_numeric_locale
+f04b4354 0000309c r categories
+f04b73f8 00000070 R dotab_stdnull
+f04b7468 t __frame_dummy_init_array_entry
+f04b7468 T __init_array_start
+f04b7468 T __preinit_array_end
+f04b7468 T __preinit_array_start
+f04b746c t __do_global_dtors_aux_fini_array_entry
+f04b746c T __fini_array_start
+f04b746c T __init_array_end
+f04b7470 A __exidx_end
+f04b7470 A __exidx_start
+f04b7470 T __fini_array_end
+f04b7470 00000004 D smmu_heap
+f04b7474 00000028 D VolumeStr
+f04b749c 00000070 d nonallocatable_entries.6823
+f04b750c 00000004 d g_active_timing_table_idx
+f04b7510 00000001 d g_write_training_pattern
+f04b7514 0000c080 D nx_abca2_dram_0234
+f04c3594 0000c080 D nx_abca2_dram_1
+f04cf614 00000001 D g_current_emmc_partition
+f04cf618 00000008 d g_emmc_boot0_mmcpart
+f04cf620 00000008 d g_emmc_boot1_mmcpart
+f04cf628 00000008 d g_emmc_user_mmcpart
+f04cf630 00000008 d g_sd_mmcpart
+f04cf638 00000004 d nl.4784
+f04cf63c 00001000 d video_fontdata
+f04d063c 0000000c d __sfp_recursive_mutex
+f04d0648 0000000c d __sinit_recursive_mutex
+f04d0654 00000004 D _impure_ptr
+f04d0658 00000460 d impure_data
+f04d0ab8 00000408 D __malloc_av_
+f04d0ec0 00000004 D __malloc_sbrk_base
+f04d0ec4 00000004 D __malloc_trim_threshold
+f04d0ec8 0000000c d __malloc_recursive_mutex
+f04d0ed4 00000004 d __tz_mutex
+f04d0ed8 00000008 D _tzname
+f04d0ee0 00000058 d tzinfo
+f04d0f38 0000016c D __global_locale
+f04d10a4 00000004 D environ
+f04d10a8 0000000c d __env_recursive_mutex
+f04d10b4 00000002 d numempty
+f04d10b8 00000004 d defaultDevice
+f04d10bc 0000008c D devoptab_list
+f04d1148 00000004 d __hndl_lock
+f04d114c 0000000c d __stderr_handle
+f04d1158 0000000c d __stdin_handle
+f04d1164 0000000c d __stdout_handle
+f04d1170 00001000 d handles
+f04d2180 D __TMC_END__
+f04d2180 A __bss_start__
+f04d2180 A __data_end__
+f04d2180 b completed.9044
+f04d2184 b object.9049
+f04d21a0 00001600 b g_rawdev_devices
+f04d37a0 0000ae60 b g_fsdev_devices
+f04de600 00000028 B g_volume_to_devparts
+f04de628 00000004 B __program_exit_callback
+f04de62c 00000001 b g_determined_mkey_revision
+f04de630 00000004 b g_mkey_revision
+f04de634 00000080 b g_old_masterkeys
+f04de6b4 00008510 b g_loader_ctx
+f04e6bc4 00000004 b _display_ver
+f04e6bc8 00000100 b conf.6178
+f04e6cc8 00000004 b g_panic_code
+f04e6cd0 00001200 b g_dec_keyblobs
+f04e7ed0 00000001 b g_fsp_for_next_freq
+f04e7ed1 00000001 b g_is_pllmb
+f04e7ed2 00000001 b g_display_initialized
+f04e7ed4 00000004 b g_framebuffer
+f04e7ed8 00000004 b g_sd_files_ini1
+f04e7edc 00000004 b g_stratosphere_ini1
+f04e7ee0 00000001 b g_enable_nogc_patches
+f04e7ee1 00000001 b g_ahb_redirect_enabled
+f04e7ee8 00000128 b g_emmc_device
+f04e8010 00000001 b g_emmc_device_initialized
+f04e8014 00000040 b g_emmc_sdmmc
+f04e8058 00000128 b g_sd_device
+f04e8180 00000001 b g_sd_device_initialized
+f04e8184 00000040 b g_sd_sdmmc
+f04e81d0 00001600 b g_keyblobs
+f04e97d0 00000004 b g_splash_start_time
+f04e97d4 00000001 b g_do_nxboot
+f04e97d8 00000004 b g_stage2_args
+f04e97dc 00000400 b line.5617
+f04e9bdc 00000020 b sdmmc_clk_sources
+f04e9bfc 00000002 B g_screen_log_level
+f04e9bfe 00000001 b CurrVol
+f04e9c00 00000260 b DirBuf
+f04e9e60 00000028 b FatFs
+f04e9e88 00000002 b Fsid
+f04e9e8c 00000200 b LfnBuf
+f04ea08c 00000004 b bgx
+f04ea090 00000004 b console_col
+f04ea094 00000004 b console_row
+f04ea098 00000004 b eorx
+f04ea09c 00000004 b video_console_address
+f04ea0a0 00000004 b video_fb_address
+f04ea0b0 b _exception_handler_stack
+f04eb0b0 b _regs
+f04eb0f4 00000028 B __malloc_current_mallinfo
+f04eb11c 00000004 B __malloc_max_sbrked_mem
+f04eb120 00000004 B __malloc_max_total_mem
+f04eb124 00000004 B __malloc_top_pad
+f04eb128 0000000b b __tzname_dst
+f04eb134 0000000b b __tzname_std
+f04eb140 00000004 b prev_tzenv
+f04eb144 00000004 B _daylight
+f04eb148 00000004 B _timezone
+f04eb14c 00000004 b initial_env
+f04eb150 00000004 b heap_start.6107
+f04eb154 00000004 B fake_heap_end
+f04eb158 00000004 B fake_heap_start
+f04eb15c 00000048 B __syscalls
+f04eb1a4 00000004 B __program_argv
+f04eb1a8 00000004 B __program_argc
+f04eb1c0 A __bss_end__
+f04eb1c0 A __end__

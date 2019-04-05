@@ -1,0 +1,20 @@
+4003f000 A __start__
+4003f000 T _start
+4003f010 t reboot_type
+4003f014 T jump_to_reboot_payload
+4003f05c 00000010 T do_shutdown
+4003f06c 00000014 t timer_wait
+4003f080 00000028 T i2c_load_config
+4003f0a8 00000058 T i2c_init
+4003f100 00000060 T i2c_write
+4003f160 0000007c T i2c_read
+4003f1dc 0000002a T i2c_query
+4003f208 00000012 T i2c_send_byte_command
+4003f21c 00000060 T i2c_stop_rtc_alarm
+4003f27c 00000012 T i2c_send_shutdown_cmd
+4003f290 0000000c t __do_shutdown_from_arm
+4003f2a0 T _init
+4003f2a4 T _fini
+4003f2a8 B __bss_end__
+4003f2a8 B __bss_start__
+4003f2a8 A __end__

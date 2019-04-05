@@ -1,0 +1,1083 @@
+0000000000000000 b _TLS_MODULE_BASE_
+0000000000000000 0000000000000401 b __fixedpath
+0000000000000000 A __start__
+0000000000000000 T _start
+0000000000000080 t startup
+00000000000000a4 t bssclr_start
+00000000000000cc t bss_loop
+0000000000000120 T __nx_exit
+0000000000000130 T __nx_mod0
+0000000000000150 T _init
+00000000000001c0 000000000000000c W IWaitable::HandleDeferred()
+00000000000001d0 0000000000000038 T exit
+0000000000000210 0000000000000028 t _GLOBAL__sub_I__ZN13EmbeddedBoot24MainEv
+0000000000000240 000000000000008c t _GLOBAL__sub_I__ZN12Registration14GetProcessListEv
+00000000000002d0 0000000000000248 T main
+0000000000000408 0000000000002000 b tmp_buffer.7237
+0000000000000518 0000000000000054 t _GLOBAL__sub_I_eh_alloc.cc
+0000000000000570 0000000000000054 t _GLOBAL__sub_I_eh_globals.cc
+00000000000005c8 t deregister_tm_clones
+00000000000005f8 t register_tm_clones
+0000000000000630 t __do_global_dtors_aux
+0000000000000678 t frame_dummy
+00000000000006b0 0000000000000150 t HasLaunchedTitle(unsigned long)
+0000000000000800 0000000000000074 t GetGpioPadLow(GpioPadName)
+0000000000000880 0000000000000078 t WaitForMitm(char const*)
+0000000000000900 0000000000000010 W std::vector<unsigned long, std::allocator<unsigned long> >::~vector()
+0000000000000900 0000000000000010 W std::vector<unsigned long, std::allocator<unsigned long> >::~vector()
+0000000000000910 0000000000000120 W void std::vector<unsigned long, std::allocator<unsigned long> >::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long> > >, unsigned long const&)
+0000000000000a30 00000000000000ac t LaunchTitle(unsigned long, FsStorageId, unsigned int, unsigned long*) [clone .constprop.30]
+0000000000000ae0 00000000000003c8 T EmbeddedBoot2::Main()
+0000000000000eb0 00000000000000a0 t SetResourceLimits(ResourceLimitUtils::ResourceLimitCategory, unsigned long)
+0000000000000f50 00000000000002c4 T ResourceLimitUtils::InitializeLimits()
+0000000000001220 00000000000000b4 T ResourceLimitUtils::EnsureApplicationResourcesAvailable()
+00000000000012e0 000000000000003c T ResourceLimitUtils::GetResourceLimitHandle(unsigned short)
+0000000000001320 0000000000000014 T ResourceLimitUtils::GetResourceLimitHandleByCategory(ResourceLimitUtils::ResourceLimitCategory)
+0000000000001340 0000000000000190 T ResourceLimitUtils::BoostSystemMemoryResourceLimit(unsigned long)
+00000000000014d0 000000000000001c T ShellService::LaunchProcess(Out<unsigned long, void>, Registration::TidSid, unsigned int)
+00000000000014f0 00000000000000cc T ShellService::TerminateProcessId(unsigned long)
+00000000000015c0 00000000000000cc T ShellService::TerminateTitleId(unsigned long)
+0000000000001690 0000000000000024 T ShellService::GetProcessWaitEvent(Out<CopiedHandle, void>)
+00000000000016c0 0000000000000008 T ShellService::GetProcessEventType(Out<unsigned long, void>, Out<unsigned long, void>)
+00000000000016d0 0000000000000168 T ShellService::FinalizeExitedProcess(unsigned long)
+0000000000001840 00000000000000d0 T ShellService::ClearProcessNotificationFlag(unsigned long)
+0000000000001910 000000000000001c T ShellService::NotifyBootFinished()
+0000000000001930 00000000000000c8 T ShellService::GetApplicationProcessId(Out<unsigned long, void>)
+0000000000001a00 0000000000000008 T ShellService::BoostSystemMemoryResourceLimit(unsigned long)
+0000000000001a10 0000000000000008 T ShellService::BoostSystemThreadsResourceLimit()
+0000000000001a20 000000000000001c T DebugMonitorService::GetUnknownStub(Out<unsigned int, void>, OutBuffer<unsigned char, (BufferType)0>, unsigned long)
+0000000000001a40 0000000000000028 T DebugMonitorService::GetDebugProcessIds(Out<unsigned int, void>, OutBuffer<unsigned long, (BufferType)0>)
+0000000000001a70 0000000000000008 T DebugMonitorService::LaunchDebugProcess(unsigned long)
+0000000000001a80 00000000000000cc T DebugMonitorService::GetTitleProcessId(Out<unsigned long, void>, unsigned long)
+0000000000001b50 0000000000000008 T DebugMonitorService::EnableDebugForTitleId(Out<CopiedHandle, void>, unsigned long)
+0000000000001b60 00000000000000c8 T DebugMonitorService::GetApplicationProcessId(Out<unsigned long, void>)
+0000000000001c30 0000000000000008 T DebugMonitorService::EnableDebugForApplication(Out<CopiedHandle, void>)
+0000000000001c40 0000000000000008 T DebugMonitorService::DisableDebug(unsigned int)
+0000000000001c50 00000000000000c4 T DebugMonitorService::AtmosphereGetProcessInfo(Out<CopiedHandle, void>, Out<Registration::TidSid, void>, unsigned long)
+0000000000001d20 0000000000000078 T DebugMonitorService::AtmosphereGetCurrentLimitInfo(Out<unsigned long, void>, Out<unsigned long, void>, unsigned int, unsigned int)
+0000000000001da0 00000000000000cc T InformationService::GetTitleId(Out<unsigned long, void>, unsigned long)
+0000000000001e70 0000000000000008 W IEvent::GetHandle()
+0000000000001e80 000000000000000c W ProcessWaiter::GetHandle()
+0000000000001e90 0000000000000004 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000001e90 0000000000000004 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000001ea0 0000000000000004 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+0000000000001eb0 0000000000000018 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+0000000000001ed0 0000000000000044 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::HandleSignaled(unsigned long)
+0000000000001f20 0000000000000008 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000001f30 0000000000000004 W std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+0000000000001f40 0000000000000058 t IEvent* CreateSystemEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>(CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}, bool) [clone .isra.4] [clone .constprop.60]
+0000000000001fa0 000000000000007c W HosEvent<unsigned int (*)(unsigned long)>::HandleSignaled(unsigned long)
+0000000000002020 0000000000000050 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+0000000000002020 0000000000000050 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+0000000000002070 0000000000000050 W HosEvent<unsigned int (*)(unsigned long)>::~HosEvent()
+0000000000002070 0000000000000050 W HosEvent<unsigned int (*)(unsigned long)>::~HosEvent()
+00000000000020c0 0000000000000064 t HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>::~HosEvent()
+0000000000002130 0000000000000064 W HosEvent<unsigned int (*)(unsigned long)>::~HosEvent()
+00000000000021a0 00000000000000cc W ProcessList::~ProcessList()
+00000000000021a0 00000000000000cc W ProcessList::~ProcessList()
+0000000000002270 000000000000008c W ProcessWaiter::~ProcessWaiter()
+0000000000002270 000000000000008c W ProcessWaiter::~ProcessWaiter()
+0000000000002300 0000000000000094 W ProcessWaiter::~ProcessWaiter()
+00000000000023a0 000000000000000c T Registration::GetProcessList()
+00000000000023b0 0000000000000074 T Registration::InitializeSystemResources()
+0000000000002408 0000000000002000 b tmp_buffer.7261
+0000000000002430 000000000000000c T Registration::GetProcessLaunchStartEvent()
+0000000000002440 00000000000000d4 T Registration::LaunchProcess(unsigned long, FsStorageId, unsigned long, unsigned long*)
+0000000000002520 0000000000000004 T Registration::LaunchProcessByTidSid(Registration::TidSid, unsigned long, unsigned long*)
+0000000000002530 0000000000000090 T Registration::SetProcessState(unsigned long, ProcessState)
+00000000000025c0 0000000000000154 T Registration::HasApplicationProcess(std::shared_ptr<Registration::Process>*)
+0000000000002720 00000000000000c4 T Registration::GetProcess(unsigned long)
+00000000000027f0 0000000000000134 T Registration::LaunchDebugProcess(unsigned long)
+0000000000002930 00000000000000c4 T Registration::GetProcessByTitleId(unsigned long)
+0000000000002a00 000000000000009c T Registration::GetDebugProcessIds(unsigned long*, unsigned int, unsigned int*)
+0000000000002aa0 000000000000002c T Registration::GetProcessEventHandle()
+0000000000002ad0 0000000000000088 T Registration::EnableDebugForTitleId(unsigned long, unsigned int*)
+0000000000002b60 0000000000000074 T Registration::EnableDebugForApplication(unsigned int*)
+0000000000002be0 000000000000003c T Registration::DisableDebug(unsigned int)
+0000000000002c20 00000000000001fc W void std::vector<std::shared_ptr<Registration::Process>, std::allocator<std::shared_ptr<Registration::Process> > >::_M_realloc_insert<std::shared_ptr<Registration::Process> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<Registration::Process>*, std::vector<std::shared_ptr<Registration::Process>, std::allocator<std::shared_ptr<Registration::Process> > > >, std::shared_ptr<Registration::Process> const&)
+0000000000002e20 00000000000001a8 T Registration::AddProcessToList(std::shared_ptr<Registration::Process>)
+0000000000002fd0 0000000000000154 W std::vector<std::shared_ptr<Registration::Process>, std::allocator<std::shared_ptr<Registration::Process> > >::_M_erase(__gnu_cxx::__normal_iterator<std::shared_ptr<Registration::Process>*, std::vector<std::shared_ptr<Registration::Process>, std::allocator<std::shared_ptr<Registration::Process> > > >)
+0000000000003130 00000000000001d8 T Registration::RemoveProcessFromList(unsigned long)
+0000000000003310 0000000000000588 T Registration::HandleProcessLaunch()
+00000000000038a0 0000000000000068 T Registration::ProcessLaunchStartCallback(unsigned long)
+0000000000003910 0000000000000198 T Registration::FinalizeExitedProcess(std::shared_ptr<Registration::Process>)
+0000000000003ab0 0000000000000368 T Registration::HandleSignaledProcess(std::shared_ptr<Registration::Process>)
+0000000000003e20 00000000000000ac W ProcessWaiter::HandleSignaled(unsigned long)
+0000000000003ed0 000000000000026c T Registration::GetProcessEventType(unsigned long*, unsigned long*)
+0000000000004140 0000000000000008 W ServiceSession::GetHandle()
+0000000000004150 0000000000000004 W ServiceSession::PreProcessRequest(IpcResponseContext*)
+0000000000004160 0000000000000004 W ServiceSession::PostProcessResponse(IpcResponseContext*)
+0000000000004170 0000000000000004 W ServiceSession::IHipcControlService::~IHipcControlService()
+0000000000004170 0000000000000004 W ServiceSession::IHipcControlService::~IHipcControlService()
+0000000000004180 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000004180 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000004190 0000000000000018 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+00000000000041b0 00000000000000f8 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+00000000000041b0 00000000000000f8 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+00000000000042b0 0000000000000004 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+00000000000042c0 0000000000000028 W WaitableManager<DefaultManagerOptions>::FreeDomain(IDomainObject*)
+00000000000042f0 0000000000000028 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::FreeDomain(IDomainObject*)
+0000000000004320 0000000000000034 W WaitableManager<DefaultManagerOptions>::ReserveObject(IDomainObject*, unsigned int*)
+0000000000004360 0000000000000034 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ReserveObject(IDomainObject*, unsigned int*)
+00000000000043a0 0000000000000038 W WaitableManager<DefaultManagerOptions>::CancelSynchronization()
+00000000000043e0 0000000000000038 W WaitableManager<DefaultManagerOptions>::AllocateDomain()
+0000000000004420 0000000000000034 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::AllocateDomain()
+0000000000004460 0000000000000044 W WaitableManager<DefaultManagerOptions>::GetObject(IDomainObject*, unsigned int)
+00000000000044b0 0000000000000044 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::GetObject(IDomainObject*, unsigned int)
+0000000000004500 0000000000000048 W WaitableManager<DefaultManagerOptions>::ReserveSpecificObject(IDomainObject*, unsigned int)
+0000000000004550 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ReserveSpecificObject(IDomainObject*, unsigned int)
+00000000000045a0 0000000000000008 W ServiceSession::IHipcControlService::~IHipcControlService()
+00000000000045b0 0000000000000008 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+00000000000045c0 000000000000004c W ServiceSession::HandleDeferred()
+0000000000004610 0000000000000010 W ServiceSession::CleanupResponse(IpcResponseContext*)
+0000000000004620 0000000000000050 W IWaitable::Compare(IWaitable*, IWaitable*)
+0000000000004670 0000000000000024 W std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+00000000000046a0 0000000000000060 W WaitableManager<DefaultManagerOptions>::RequestStop()
+0000000000004700 00000000000000b0 W WaitableManager<DefaultManagerOptions>::NotifySignaled(IWaitable*)
+00000000000047b0 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::ForceFreeObject(unsigned int)
+0000000000004800 0000000000000048 W WaitableManager<DefaultManagerOptions>::ForceFreeObject(unsigned int)
+0000000000004850 0000000000000048 W non-virtual thunk to WaitableManager<DefaultManagerOptions>::FreeObject(IDomainObject*, unsigned int)
+00000000000048a0 0000000000000048 W WaitableManager<DefaultManagerOptions>::FreeObject(IDomainObject*, unsigned int)
+00000000000048f0 000000000000003c W non-virtual thunk to WaitableManager<DefaultManagerOptions>::SetObject(IDomainObject*, unsigned int, ServiceObjectHolder&&)
+0000000000004930 000000000000003c W WaitableManager<DefaultManagerOptions>::SetObject(IDomainObject*, unsigned int, ServiceObjectHolder&&)
+0000000000004970 000000000000010c W ServiceSession::~ServiceSession()
+0000000000004a80 000000000000010c W ServiceSession::~ServiceSession()
+0000000000004a80 000000000000010c W ServiceSession::~ServiceSession()
+0000000000004b90 0000000000000100 W WaitableManager<DefaultManagerOptions>::~WaitableManager()
+0000000000004c90 0000000000000af8 W ServiceSession::HandleReceived()
+0000000000005790 00000000000005b8 W ServiceSession::GetResponse(IpcResponseContext*)
+0000000000005d50 0000000000000650 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::QueryPointerBufferSize>(IpcResponseContext*)
+00000000000063a0 0000000000000d3c W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::ConvertCurrentObjectToDomain>(IpcResponseContext*)
+00000000000070e0 00000000000000ac W ServiceSession::Receive()
+0000000000007190 000000000000003c W ServiceSession::HandleSignaled(unsigned long)
+00000000000071d0 0000000000000120 W void std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_realloc_insert<IWaitable* const&>(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, IWaitable* const&)
+00000000000072f0 00000000000000c8 W WaitableManager<DefaultManagerOptions>::AddWaitable(IWaitable*)
+00000000000073c0 0000000000000190 W WaitableManager<DefaultManagerOptions>::AddSession(unsigned int, ServiceObjectHolder&&)
+0000000000007550 0000000000000884 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CloneCurrentObjectEx>(IpcResponseContext*)
+0000000000007de0 0000000000000dd8 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CopyFromCurrentDomain>(IpcResponseContext*)
+0000000000008bc0 00000000000008a4 W unsigned int WrapIpcCommandImpl<&ServiceSession::IHipcControlService::CloneCurrentObject>(IpcResponseContext*)
+0000000000009470 0000000000000124 W std::vector<unsigned int, std::allocator<unsigned int> >::_M_default_append(unsigned long)
+00000000000095a0 0000000000000124 W std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_default_append(unsigned long)
+00000000000096d0 000000000000016c W __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > > std::__remove_if<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}> >(__gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>, __gnu_cxx::__ops::_Iter_pred<WaitableManager<DefaultManagerOptions>::GetWaitable()::{lambda(IWaitable*)#2}>)
+0000000000009840 0000000000000270 W void std::vector<IWaitable*, std::allocator<IWaitable*> >::_M_range_insert<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > > >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, std::forward_iterator_tag)
+0000000000009ab0 00000000000000d0 W void std::__insertion_sort<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+0000000000009b80 0000000000000184 W void std::__adjust_heap<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, IWaitable*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, long, IWaitable*, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+0000000000009d10 0000000000000214 W void std::__introsort_loop<__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)> >(__gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, __gnu_cxx::__normal_iterator<IWaitable**, std::vector<IWaitable*, std::allocator<IWaitable*> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(IWaitable*, IWaitable*)>)
+0000000000009f30 00000000000006ac W WaitableManager<DefaultManagerOptions>::GetWaitable()
+000000000000a5e0 00000000000004ac W WaitableManager<DefaultManagerOptions>::Process()
+000000000000aa90 0000000000000710 T ProcessTracking::MainLoop(void*)
+000000000000b1a0 0000000000000010 T BootModeService::GetBootMode(Out<unsigned int, void>)
+000000000000b1b0 0000000000000010 T BootModeService::SetMaintenanceBoot()
+000000000000b1c0 0000000000000010 T BootModeService::SetMaintenanceBootForEmbeddedBoot2()
+000000000000b1d0 0000000000000254 t ipcPrepareHeader
+000000000000b430 0000000000000008 W IServer<InformationService>::GetHandle()
+000000000000b440 0000000000000008 W IServer<BootModeService>::GetHandle()
+000000000000b450 0000000000000008 W IServer<DebugMonitorService>::GetHandle()
+000000000000b460 0000000000000008 W IServer<ShellService>::GetHandle()
+000000000000b470 0000000000000004 W BootModeService::~BootModeService()
+000000000000b470 0000000000000004 W BootModeService::~BootModeService()
+000000000000b480 0000000000000004 W ShellService::~ShellService()
+000000000000b480 0000000000000004 W ShellService::~ShellService()
+000000000000b490 0000000000000004 W DebugMonitorService::~DebugMonitorService()
+000000000000b490 0000000000000004 W DebugMonitorService::~DebugMonitorService()
+000000000000b4a0 0000000000000004 W InformationService::~InformationService()
+000000000000b4a0 0000000000000004 W InformationService::~InformationService()
+000000000000b4b0 0000000000000004 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b4b0 0000000000000004 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b4c0 0000000000000004 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+000000000000b4d0 0000000000000018 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+000000000000b4f0 0000000000000004 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b4f0 0000000000000004 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b500 0000000000000004 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+000000000000b510 0000000000000018 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+000000000000b530 0000000000000004 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b530 0000000000000004 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b540 0000000000000004 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+000000000000b550 0000000000000018 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+000000000000b570 0000000000000004 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b570 0000000000000004 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b580 0000000000000004 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+000000000000b590 0000000000000018 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+000000000000b5b0 0000000000000004 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+000000000000b5c0 0000000000000004 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+000000000000b5d0 0000000000000004 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+000000000000b5e0 0000000000000004 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+000000000000b5f0 0000000000000008 W ShellService::~ShellService()
+000000000000b600 0000000000000008 W DebugMonitorService::~DebugMonitorService()
+000000000000b610 0000000000000008 W BootModeService::~BootModeService()
+000000000000b620 0000000000000008 W InformationService::~InformationService()
+000000000000b630 0000000000000008 W std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b640 0000000000000008 W std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b650 0000000000000008 W std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b660 0000000000000008 W std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+000000000000b670 0000000000000020 W IServer<InformationService>::~IServer()
+000000000000b670 0000000000000020 W IServer<InformationService>::~IServer()
+000000000000b690 0000000000000050 W IServer<InformationService>::~IServer()
+000000000000b6e0 0000000000000020 W ServiceServer<InformationService>::~ServiceServer()
+000000000000b6e0 0000000000000020 W ServiceServer<InformationService>::~ServiceServer()
+000000000000b700 0000000000000050 W ServiceServer<InformationService>::~ServiceServer()
+000000000000b750 0000000000000020 W IServer<BootModeService>::~IServer()
+000000000000b750 0000000000000020 W IServer<BootModeService>::~IServer()
+000000000000b770 0000000000000050 W IServer<BootModeService>::~IServer()
+000000000000b7c0 0000000000000020 W ServiceServer<BootModeService>::~ServiceServer()
+000000000000b7c0 0000000000000020 W ServiceServer<BootModeService>::~ServiceServer()
+000000000000b7e0 0000000000000050 W ServiceServer<BootModeService>::~ServiceServer()
+000000000000b830 0000000000000020 W IServer<DebugMonitorService>::~IServer()
+000000000000b830 0000000000000020 W IServer<DebugMonitorService>::~IServer()
+000000000000b850 0000000000000050 W IServer<DebugMonitorService>::~IServer()
+000000000000b8a0 0000000000000020 W ServiceServer<DebugMonitorService>::~ServiceServer()
+000000000000b8a0 0000000000000020 W ServiceServer<DebugMonitorService>::~ServiceServer()
+000000000000b8c0 0000000000000050 W ServiceServer<DebugMonitorService>::~ServiceServer()
+000000000000b910 0000000000000020 W IServer<ShellService>::~IServer()
+000000000000b910 0000000000000020 W IServer<ShellService>::~IServer()
+000000000000b930 0000000000000050 W IServer<ShellService>::~IServer()
+000000000000b980 0000000000000020 W ServiceServer<ShellService>::~ServiceServer()
+000000000000b980 0000000000000020 W ServiceServer<ShellService>::~ServiceServer()
+000000000000b9a0 0000000000000050 W ServiceServer<ShellService>::~ServiceServer()
+000000000000b9f0 00000000000002b0 t ipcPrepareHeaderForDomain.constprop.569
+000000000000bca0 0000000000000198 W unsigned int WrapIpcCommandImpl<&ShellService::BoostSystemThreadsResourceLimit>(IpcResponseContext*)
+000000000000be40 0000000000000170 W unsigned int WrapIpcCommandImpl<&ShellService::GetProcessWaitEvent>(IpcResponseContext*)
+000000000000bfb0 00000000000001b4 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::EnableDebugForApplication>(IpcResponseContext*)
+000000000000c170 00000000000001ac W unsigned int WrapIpcCommandImpl<&DebugMonitorService::DisableDebug>(IpcResponseContext*)
+000000000000c320 000000000000017c W unsigned int WrapIpcCommandImpl<&BootModeService::GetBootMode>(IpcResponseContext*)
+000000000000c4a0 00000000000001c8 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::EnableDebugForTitleId>(IpcResponseContext*)
+000000000000c670 0000000000000174 W unsigned int WrapIpcCommandImpl<&ShellService::GetProcessEventType>(IpcResponseContext*)
+000000000000c7f0 00000000000001ec W unsigned int WrapIpcCommandImpl<&DebugMonitorService::AtmosphereGetProcessInfo>(IpcResponseContext*)
+000000000000c9e0 0000000000000224 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::GetDebugProcessIds>(IpcResponseContext*)
+000000000000cc10 00000000000001e0 W unsigned int WrapIpcCommandImpl<&ShellService::LaunchProcess>(IpcResponseContext*)
+000000000000cdf0 00000000000001d4 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::AtmosphereGetCurrentLimitInfo>(IpcResponseContext*)
+000000000000cfd0 0000000000000234 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::GetUnknownStub>(IpcResponseContext*)
+000000000000d210 0000000000000148 W unsigned int WrapIpcCommandImpl<&ShellService::NotifyBootFinished>(IpcResponseContext*)
+000000000000d360 00000000000001d4 W unsigned int WrapIpcCommandImpl<&ShellService::GetApplicationProcessId>(IpcResponseContext*)
+000000000000d540 00000000000001d8 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::GetTitleProcessId>(IpcResponseContext*)
+000000000000d720 0000000000000148 W unsigned int WrapIpcCommandImpl<&BootModeService::SetMaintenanceBoot>(IpcResponseContext*)
+000000000000d870 00000000000001d4 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::GetApplicationProcessId>(IpcResponseContext*)
+000000000000da50 00000000000001d8 W unsigned int WrapIpcCommandImpl<&InformationService::GetTitleId>(IpcResponseContext*)
+000000000000dc30 0000000000000030 T __libnx_initheap
+000000000000dc60 0000000000000148 T RegisterPrivilegedProcessesWithFs()
+000000000000ddb0 00000000000000c8 T __appInit
+000000000000de80 000000000000002c T __appExit
+000000000000deb0 0000000000000328 W Encoder<CommandMetaInfo<std::tuple<unsigned long>, unsigned int>, std::tuple<unsigned long> >::EncodeFailure(IpcResponseContext*, unsigned int)
+000000000000e1e0 0000000000000160 W unsigned int WrapIpcCommandImpl<&DebugMonitorService::LaunchDebugProcess>(IpcResponseContext*)
+000000000000e340 0000000000000160 W unsigned int WrapIpcCommandImpl<&ShellService::BoostSystemMemoryResourceLimit>(IpcResponseContext*)
+000000000000e4a0 0000000000000160 W unsigned int WrapIpcCommandImpl<&ShellService::ClearProcessNotificationFlag>(IpcResponseContext*)
+000000000000e600 0000000000000160 W unsigned int WrapIpcCommandImpl<&ShellService::FinalizeExitedProcess>(IpcResponseContext*)
+000000000000e760 0000000000000160 W unsigned int WrapIpcCommandImpl<&ShellService::TerminateTitleId>(IpcResponseContext*)
+000000000000e8c0 0000000000000160 W unsigned int WrapIpcCommandImpl<&ShellService::TerminateProcessId>(IpcResponseContext*)
+000000000000ea20 0000000000000278 W IServer<InformationService>::HandleSignaled(unsigned long)
+000000000000eca0 0000000000000278 W IServer<ShellService>::HandleSignaled(unsigned long)
+000000000000ef20 0000000000000278 W IServer<BootModeService>::HandleSignaled(unsigned long)
+000000000000f1a0 0000000000000278 W IServer<DebugMonitorService>::HandleSignaled(unsigned long)
+000000000000f420 0000000000000134 t _CacheValues()
+000000000000f560 000000000000001c T GetRuntimeFirmwareVersion()
+000000000000f580 0000000000000038 T SetFirmwareVersionForLibnx()
+000000000000f5c0 0000000000000034 t ipcCloseObjectById
+000000000000f600 0000000000000038 T smManagerAmsInitialize
+000000000000f640 0000000000000090 T smManagerAmsExit
+000000000000f6d0 00000000000001a0 T smManagerAmsEndInitialDefers
+000000000000f870 00000000000001dc T smManagerAmsHasMitm
+000000000000fa50 000000000000017c T detectKernelVersion
+000000000000fbd0 0000000000000030 T detectDebugger
+000000000000fc00 0000000000000008 T semaphoreInit
+000000000000fc10 0000000000000044 T semaphoreSignal
+000000000000fc60 0000000000000058 T semaphoreWait
+000000000000fcc0 000000000000008c T mutexLock
+000000000000fd50 0000000000000030 T mutexUnlock
+000000000000fd80 000000000000004c T rmutexLock
+000000000000fdd0 000000000000001c T rmutexUnlock
+000000000000fdf0 0000000000000060 T condvarWaitTimeout
+000000000000fe50 00000000000001fc T threadCreate
+0000000000010050 00000000000000b0 T threadExit
+0000000000010100 0000000000000090 t _EntryWrap
+0000000000010190 0000000000000008 T threadStart
+00000000000101a0 000000000000002c T threadWaitForExit
+00000000000101d0 0000000000000054 T threadClose
+0000000000010230 000000000000000c T threadGetCurHandle
+0000000000010240 0000000000000010 T threadTlsGet
+0000000000010250 0000000000000010 T threadTlsSet
+0000000000010260 00000000000000d8 T threadTlsAlloc
+0000000000010340 0000000000000048 T threadTlsFree
+0000000000010390 0000000000000034 t ipcCloseObjectById
+00000000000103d0 000000000000003c T smManagerInitialize
+0000000000010410 000000000000009c T smManagerExit
+00000000000104b0 000000000000010c T smManagerRegisterProcess
+00000000000105c0 00000000000000cc T smManagerUnregisterProcess
+0000000000010690 0000000000000044 T smAddOverrideHandle
+00000000000106e0 0000000000000060 T smGetServiceOverride
+0000000000010740 0000000000000014 T smHasInitialized
+0000000000010760 000000000000005c T smExit
+00000000000107c0 0000000000000038 T smEncodeName
+0000000000010800 000000000000012c T smGetServiceOriginal
+0000000000010930 0000000000000158 T smInitialize
+0000000000010a90 0000000000000074 T smGetService
+0000000000010b10 000000000000014c T smRegisterService
+0000000000010c60 0000000000000140 t _fatalImpl
+0000000000010da0 0000000000000014 T fatalWithType
+0000000000010dc0 0000000000000014 T fatalSimple
+0000000000010de0 0000000000000034 t ipcCloseObjectById
+0000000000010e20 000000000000009c T gpioExit
+0000000000010ec0 0000000000000068 T gpioInitialize
+0000000000010f30 0000000000000274 T gpioOpenSession
+00000000000111b0 00000000000001a8 T gpioPadSetDirection
+0000000000011360 00000000000001bc T gpioPadGetValue
+0000000000011520 000000000000006c T gpioPadClose
+0000000000011590 0000000000000034 t ipcCloseObjectById
+00000000000115d0 000000000000009c T fsprExit
+0000000000011670 0000000000000148 T fsprRegisterProgram
+00000000000117c0 00000000000000cc T fsprUnregisterProgram
+0000000000011890 00000000000000d8 T fsprSetCurrentProcess
+0000000000011970 0000000000000084 T fsprInitialize
+0000000000011a00 000000000000002c t _ldrSrvInitialize
+0000000000011a30 0000000000000034 t ipcCloseObjectById
+0000000000011a70 0000000000000078 t _ldrSrvExit
+0000000000011af0 000000000000001c T ldrPmInitialize
+0000000000011b10 0000000000000014 T ldrPmExit
+0000000000011b30 000000000000012c T ldrPmCreateProcess
+0000000000011c60 00000000000000e8 T ldrPmGetProgramInfo
+0000000000011d50 00000000000000f4 T ldrPmRegisterTitle
+0000000000011e50 00000000000000cc T ldrPmUnregisterTitle
+0000000000011f20 000000000000002c t _splSrvInitialize
+0000000000011f50 000000000000007c t _splGetCryptoSrv
+0000000000011fd0 0000000000000018 t _splGetGeneralSrv.part.6
+0000000000011ff0 0000000000000034 t ipcCloseObjectById
+0000000000012030 0000000000000078 t _splSrvExit
+00000000000120b0 000000000000001c T splInitialize
+00000000000120d0 0000000000000014 T splExit
+00000000000120f0 000000000000010c T splGetConfig
+0000000000012200 0000000000000034 t ipcCloseObjectById
+0000000000012240 000000000000003c T lrInitialize
+0000000000012280 000000000000009c T lrExit
+0000000000012320 0000000000000220 t ipcPrepareHeader
+0000000000012540 000000000000022c t ipcParse
+0000000000012770 00000000000000b0 t serviceIpcParse
+0000000000012820 0000000000000034 t ipcCloseObjectById
+0000000000012860 0000000000000200 T fsInitialize
+0000000000012a60 000000000000009c T fsExit
+0000000000012b00 00000000000001cc T fsMountSdcard
+0000000000012cd0 00000000000001a4 T fsFsCreateFile
+0000000000012e80 000000000000019c T fsFsDeleteFile
+0000000000013020 000000000000019c T fsFsCreateDirectory
+00000000000131c0 000000000000019c T fsFsDeleteDirectory
+0000000000013360 0000000000000214 T fsFsRenameFile
+0000000000013580 0000000000000214 T fsFsRenameDirectory
+00000000000137a0 00000000000001b0 T fsFsGetEntryType
+0000000000013950 00000000000001e4 T fsFsOpenFile
+0000000000013b40 00000000000001f8 T fsFsOpenDirectory
+0000000000013d40 00000000000001b0 T fsFsGetFreeSpace
+0000000000013ef0 00000000000001b0 T fsFsGetTotalSpace
+00000000000140a0 0000000000000194 T fsFsGetFileTimeStampRaw
+0000000000014240 000000000000006c T fsFsClose
+00000000000142b0 00000000000001f0 T fsFileRead
+00000000000144a0 00000000000001b8 T fsFileWrite
+0000000000014660 000000000000016c T fsFileFlush
+00000000000147d0 0000000000000174 T fsFileSetSize
+0000000000014950 0000000000000194 T fsFileGetSize
+0000000000014af0 000000000000006c T fsFileClose
+0000000000014b60 000000000000006c T fsDirClose
+0000000000014bd0 00000000000001ec T fsDirRead
+0000000000014dc0 0000000000000034 t ipcCloseObjectById
+0000000000014e00 000000000000003c T setsysInitialize
+0000000000014e40 000000000000009c T setsysExit
+0000000000014ee0 000000000000019c T setsysGetSettingsItemValue
+0000000000015080 0000000000000010 T hosversionGet
+0000000000015090 0000000000000010 T hosversionSet
+00000000000150a0 0000000000000044 t consoleDrawChar
+00000000000150f0 0000000000000028 t debug_write
+0000000000015120 0000000000000140 t consoleClearLine
+0000000000015260 000000000000004c t consoleNewRow
+00000000000152b0 0000000000000118 t consolePrintChar
+00000000000153d0 000000000000015c t consoleCls
+0000000000015530 00000000000007e0 t con_write
+0000000000015d10 00000000000000c8 T consoleDebugInit
+0000000000015de0 0000000000000010 t fsdev_link
+0000000000015df0 0000000000000010 t fsdev_dirreset
+0000000000015e00 0000000000000010 t fsdev_chmod
+0000000000015e10 000000000000001c t error_cmp
+0000000000015e30 0000000000000058 t fsdev_translate_error
+0000000000015e90 0000000000000040 t fsdev_fsync
+0000000000015ed0 0000000000000060 t fsdev_ftruncate
+0000000000015f30 0000000000000020 t fsdev_dirclose
+0000000000015f50 000000000000016c t fsdev_dirnext
+00000000000160c0 000000000000001c t fsdev_close
+00000000000160e0 00000000000000a4 t fsdev_fstat
+0000000000016190 00000000000000b0 t fsdev_seek
+0000000000016240 0000000000000198 t fsdev_read
+00000000000163e0 00000000000001a0 t fsdev_write
+0000000000016580 0000000000000120 t fsdevFindDevice
+00000000000166a0 0000000000000140 t _fsdevMountDevice
+00000000000167e0 00000000000001fc t fsdev_getfspath
+00000000000169e0 0000000000000070 t fsdev_rmdir
+0000000000016a50 00000000000000d4 t fsdev_statvfs
+0000000000016b30 00000000000000ec t fsdev_diropen
+0000000000016c20 0000000000000070 t fsdev_mkdir
+0000000000016c90 0000000000000114 t fsdev_rename
+0000000000016db0 00000000000000e8 t fsdev_chdir
+0000000000016ea0 0000000000000070 t fsdev_unlink
+0000000000016f10 00000000000001bc t fsdev_stat
+00000000000170d0 000000000000019c t fsdev_open
+0000000000017270 00000000000000b8 t _fsdevUnmountDeviceStruct.part.4
+0000000000017330 0000000000000010 t fsdev_fchmod
+0000000000017340 0000000000000170 T fsdevMountSdmc
+00000000000174b0 0000000000000064 T fsdevUnmountAll
+0000000000017520 000000000000012c T decode_utf8
+000000000001764c T svcMapMemory
+0000000000017654 T svcUnmapMemory
+000000000001765c T svcQueryMemory
+0000000000017670 T svcExitProcess
+0000000000017678 T svcCreateThread
+000000000001768c T svcStartThread
+0000000000017694 T svcExitThread
+000000000001769c T svcSleepThread
+00000000000176a4 T svcSignalEvent
+00000000000176ac T svcCloseHandle
+00000000000176b4 T svcResetSignal
+00000000000176bc T svcWaitSynchronization
+00000000000176d0 T svcCancelSynchronization
+00000000000176d8 T svcArbitrateLock
+00000000000176e0 T svcArbitrateUnlock
+00000000000176e8 T svcWaitProcessWideKeyAtomic
+00000000000176f0 T svcSignalProcessWideKey
+00000000000176f8 T svcConnectToNamedPort
+000000000001770c T svcSendSyncRequest
+0000000000017714 T svcGetProcessId
+0000000000017728 T svcBreak
+0000000000017730 T svcOutputDebugString
+0000000000017738 T svcReturnFromException
+0000000000017740 T svcGetInfo
+0000000000017754 T svcGetResourceLimitLimitValue
+0000000000017768 T svcGetResourceLimitCurrentValue
+000000000001777c T svcCreateSession
+0000000000017794 T svcAcceptSession
+00000000000177a8 T svcReplyAndReceive
+00000000000177bc T svcCreateEvent
+00000000000177d4 T svcSetUnsafeLimit
+00000000000177dc T svcGetProcessList
+00000000000177f0 T svcGetSystemInfo
+0000000000017804 T svcStartProcess
+000000000001780c T svcTerminateProcess
+0000000000017814 T svcGetProcessInfo
+0000000000017828 T svcCreateResourceLimit
+000000000001783c T svcSetResourceLimitLimitValue
+0000000000017844 T svcCallSecureMonitor
+0000000000017878 T __aarch64_read_tp
+0000000000017890 0000000000000104 t _waitLoop
+00000000000179a0 000000000000000c T waitHandles
+00000000000179b0 000000000000007c t _GetRegionFromInfo.isra.1
+0000000000017a30 0000000000000114 T virtmemSetup
+0000000000017b50 00000000000000c8 T virtmemReserveStack
+0000000000017c20 0000000000000004 T virtmemFreeStack
+0000000000017c30 00000000000000a0 T __nx_dynamic
+0000000000017cd0 0000000000000028 W __libnx_init
+0000000000017d00 0000000000000020 W __libnx_exit
+0000000000017d20 000000000000001c T __syscall_exit
+0000000000017d40 0000000000000034 T __syscall_getreent
+0000000000017d80 0000000000000004 T __syscall_lock_acquire
+0000000000017d90 0000000000000004 T __syscall_lock_release
+0000000000017da0 0000000000000004 T __syscall_lock_acquire_recursive
+0000000000017db0 0000000000000004 T __syscall_lock_release_recursive
+0000000000017dc0 0000000000000040 T __syscall_cond_broadcast
+0000000000017e00 000000000000003c T __syscall_cond_wait
+0000000000017e40 0000000000000044 T __syscall_tls_create
+0000000000017e90 0000000000000018 T __syscall_tls_set
+0000000000017eb0 0000000000000004 T __syscall_tls_get
+0000000000017ec0 0000000000000018 T __syscall_tls_delete
+0000000000017ee0 0000000000000080 T newlibSetup
+0000000000017f60 0000000000000324 T argvSetup
+0000000000018284 W __libnx_exception_entry
+0000000000018310 t __libnx_exception_entry_start
+0000000000018438 t __libnx_exception_entry_abort
+000000000001843c t __libnx_exception_entry_end
+0000000000018444 T __libnx_exception_returnentry
+0000000000018460 0000000000000208 T envSetup
+0000000000018670 0000000000000020 T envGetMainThreadHandle
+0000000000018690 000000000000000c T envIsNso
+00000000000186a0 0000000000000014 T envHasArgv
+00000000000186c0 000000000000000c T envGetArgv
+00000000000186d0 000000000000000c T envGetExitFuncPtr
+00000000000186e0 00000000000000c4 T nxlinkSetup
+00000000000187a8 000000000000000c T __cxa_pure_virtual
+00000000000187b8 0000000000000068 T operator new(unsigned long)
+0000000000018820 000000000000003c T __cxxabiv1::__terminate(void (*)())
+0000000000018860 0000000000000010 T std::get_terminate()
+0000000000018870 0000000000000010 T std::terminate()
+0000000000018880 0000000000000010 T __cxxabiv1::__unexpected(void (*)())
+0000000000018890 0000000000000010 T std::get_unexpected()
+00000000000188a0 0000000000000010 T std::unexpected()
+00000000000188b0 000000000000000c T std::bad_alloc::what() const
+00000000000188c0 0000000000000014 T std::bad_alloc::~bad_alloc()
+00000000000188c0 0000000000000014 T std::bad_alloc::~bad_alloc()
+00000000000188d8 0000000000000028 T std::bad_alloc::~bad_alloc()
+0000000000018900 0000000000000084 t get_adjusted_ptr(std::type_info const*, std::type_info const*, void**)
+0000000000018988 000000000000015c t read_encoded_value_with_base(unsigned char, unsigned long, unsigned char const*, unsigned long*)
+0000000000018ae8 00000000000000c0 t get_ttype_entry(lsda_header_info*, unsigned long)
+0000000000018ba8 0000000000000094 t check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
+0000000000018c40 000000000000006c t base_of_encoded_value(unsigned char, _Unwind_Context*)
+0000000000018cb0 0000000000000108 t parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+0000000000018db8 00000000000004dc T __gxx_personality_v0
+0000000000019298 00000000000000f0 T __cxa_call_unexpected
+0000000000019388 0000000000000010 T std::get_new_handler()
+0000000000019398 0000000000000004 T std::exception::~exception()
+0000000000019398 0000000000000004 T std::exception::~exception()
+00000000000193a0 0000000000000014 T std::bad_exception::~bad_exception()
+00000000000193a0 0000000000000014 T std::bad_exception::~bad_exception()
+00000000000193b8 000000000000000c T std::bad_exception::what() const
+00000000000193c8 0000000000000028 T std::bad_exception::~bad_exception()
+00000000000193f0 0000000000000004 T operator delete(void*, unsigned long)
+00000000000193f8 0000000000000064 t __gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Exception*)
+0000000000019460 0000000000000058 T __cxa_init_primary_exception
+00000000000194b8 0000000000000054 T __cxa_throw
+0000000000019510 0000000000000070 T __cxa_rethrow
+0000000000019580 00000000000000a0 T __cxa_begin_catch
+0000000000019620 0000000000000094 T __cxa_end_catch
+00000000000196b8 000000000000000c W __gnu_cxx::__concurrence_lock_error::what() const
+00000000000196c8 000000000000000c W __gnu_cxx::__concurrence_unlock_error::what() const
+00000000000196d8 0000000000000014 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+00000000000196d8 0000000000000014 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+00000000000196f0 0000000000000014 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+00000000000196f0 0000000000000014 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+0000000000019708 0000000000000038 W __gnu_cxx::__concurrence_lock_error::~__concurrence_lock_error()
+0000000000019740 0000000000000038 W __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
+0000000000019778 0000000000000034 W __gnu_cxx::__throw_concurrence_lock_error()
+00000000000197b0 0000000000000160 t (anonymous namespace)::pool::free(void*) [clone .constprop.2]
+0000000000019910 0000000000000128 t (anonymous namespace)::pool::allocate(unsigned long) [clone .constprop.3]
+0000000000019a38 0000000000000064 T __cxa_allocate_exception
+0000000000019aa0 0000000000000030 T __cxa_free_exception
+0000000000019ad0 0000000000000004 T operator delete(void*)
+0000000000019ad8 0000000000000014 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000019ad8 0000000000000014 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000019af0 0000000000000028 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0000000000019b18 0000000000000080 T __cxxabiv1::__si_class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+0000000000019b98 000000000000013c T __cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+0000000000019cd8 0000000000000068 T __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+0000000000019d40 0000000000000054 T std::__throw_logic_error(char const*)
+0000000000019d98 0000000000000054 T std::__throw_length_error(char const*)
+0000000000019df0 0000000000000044 T __cxa_call_terminate
+0000000000019e38 0000000000000014 W __eh_globals_init::~__eh_globals_init()
+0000000000019e38 0000000000000014 W __eh_globals_init::~__eh_globals_init()
+0000000000019e50 0000000000000048 t eh_globals_dtor(void*)
+0000000000019e98 0000000000000024 T __cxa_get_globals_fast
+0000000000019ec0 0000000000000074 T __cxa_get_globals
+0000000000019f38 0000000000000004 T std::type_info::~type_info()
+0000000000019f38 0000000000000004 T std::type_info::~type_info()
+0000000000019f40 0000000000000008 T std::type_info::__is_pointer_p() const
+0000000000019f40 0000000000000008 T std::type_info::__is_function_p() const
+0000000000019f48 000000000000006c T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+0000000000019fb8 0000000000000010 T __cxxabiv1::__class_type_info::__do_find_public_src(long, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+0000000000019fc8 0000000000000014 T __cxxabiv1::__class_type_info::~__class_type_info()
+0000000000019fc8 0000000000000014 T __cxxabiv1::__class_type_info::~__class_type_info()
+0000000000019fe0 0000000000000028 T __cxxabiv1::__class_type_info::~__class_type_info()
+000000000001a008 00000000000000d4 T __cxxabiv1::__class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+000000000001a0e0 0000000000000068 T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+000000000001a148 00000000000000a8 T __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+000000000001a1f0 0000000000000008 T std::logic_error::what() const
+000000000001a1f8 0000000000000074 T std::logic_error::~logic_error()
+000000000001a1f8 0000000000000074 T std::logic_error::~logic_error()
+000000000001a270 0000000000000024 T std::logic_error::~logic_error()
+000000000001a298 0000000000000014 T std::length_error::~length_error()
+000000000001a298 0000000000000014 T std::length_error::~length_error()
+000000000001a2b0 0000000000000024 T std::length_error::~length_error()
+000000000001a2d8 0000000000000048 T std::logic_error::logic_error(char const*)
+000000000001a2d8 0000000000000048 T std::logic_error::logic_error(char const*)
+000000000001a320 0000000000000030 T std::length_error::length_error(char const*)
+000000000001a320 0000000000000030 T std::length_error::length_error(char const*)
+000000000001a350 0000000000000084 W std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+000000000001a3d8 0000000000000098 t char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.25]
+000000000001a3d8 0000000000000098 t char* std::string::_S_construct<char*>(char*, char*, std::allocator<char> const&, std::forward_iterator_tag) [clone .part.22]
+000000000001a470 0000000000000004 W std::string::_Rep::_M_destroy(std::allocator<char> const&)
+000000000001a478 0000000000000034 W char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag)
+000000000001a4b0 000000000000004c W std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+000000000001a4b0 000000000000004c W std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)
+000000000001a500 000000000000015c t read_encoded_value_with_base
+000000000001a660 0000000000000070 t base_of_encoded_value
+000000000001a6d0 000000000000080c t execute_cfa_program
+000000000001aee0 000000000000040c t uw_frame_state_for
+000000000001b2f0 0000000000000158 t init_dwarf_reg_size_table
+000000000001b448 0000000000000720 t execute_stack_op
+000000000001bb68 000000000000037c t uw_update_context_1
+000000000001bee8 0000000000000244 t uw_init_context_1
+000000000001c130 00000000000000b4 t uw_update_context
+000000000001c1e8 00000000000000e0 t _Unwind_RaiseException_Phase2
+000000000001c2c8 0000000000000118 t _Unwind_ForcedUnwind_Phase2
+000000000001c3e0 0000000000000164 t uw_install_context_1
+000000000001c548 0000000000000054 t _Unwind_SetGR
+000000000001c5a0 0000000000000014 t _Unwind_GetIPInfo
+000000000001c5b8 0000000000000008 t _Unwind_SetIP
+000000000001c5c0 0000000000000008 t _Unwind_GetLanguageSpecificData
+000000000001c5c8 0000000000000008 t _Unwind_GetRegionStart
+000000000001c5d0 0000000000000008 t _Unwind_GetDataRelBase
+000000000001c5d8 0000000000000008 t _Unwind_GetTextRelBase
+000000000001c5e0 0000000000000004 t _Unwind_DebugHook
+000000000001c5e8 000000000000018c t _Unwind_RaiseException
+000000000001c778 0000000000000114 t _Unwind_Resume
+000000000001c890 0000000000000110 t _Unwind_Resume_or_Rethrow
+000000000001c9a0 0000000000000018 t _Unwind_DeleteException
+000000000001c9b8 000000000000001c t fde_unencoded_compare
+000000000001c9d8 00000000000000f4 t frame_downheap
+000000000001cad0 00000000000000c0 t frame_heapsort
+000000000001cb90 0000000000000060 t size_of_encoded_value
+000000000001cbf0 000000000000015c t read_encoded_value_with_base
+000000000001cd50 0000000000000120 t get_cie_encoding
+000000000001ce70 0000000000000068 t base_from_object.isra.5
+000000000001ced8 0000000000000090 t fde_single_encoding_compare
+000000000001cf68 0000000000000194 t classify_object_over_fdes
+000000000001d100 0000000000000148 t add_fdes
+000000000001d248 0000000000000188 t linear_search_fdes
+000000000001d3d0 00000000000000bc t fde_mixed_encoding_compare
+000000000001d490 0000000000000698 t search_object
+000000000001db28 0000000000000120 t __deregister_frame_info_bases.part.8
+000000000001dc48 0000000000000054 t __register_frame_info.part.7
+000000000001dca0 0000000000000014 t __register_frame_info
+000000000001dcb8 0000000000000018 t __deregister_frame_info
+000000000001dcd0 00000000000001c0 t _Unwind_Find_FDE
+000000000001de90 0000000000000018 T abort
+000000000001dea8 00000000000000b8 T bsearch
+000000000001df60 0000000000000094 T _calloc_r
+000000000001dff8 0000000000000014 T __cxa_atexit
+000000000001e010 0000000000000014 T __errno
+000000000001e028 000000000000015c T _fclose_r
+000000000001e188 000000000000001c T fclose
+000000000001e1a8 0000000000000214 T __sflush_r
+000000000001e3c0 00000000000000b8 T _fflush_r
+000000000001e478 0000000000000040 T fflush
+000000000001e4b8 0000000000000078 t std
+000000000001e530 000000000000000c T _cleanup_r
+000000000001e540 0000000000000060 T __sfmoreglue
+000000000001e5a0 000000000000000c T __sfp_lock_acquire
+000000000001e5b0 000000000000000c T __sfp_lock_release
+000000000001e5c0 000000000000000c T __sinit_lock_acquire
+000000000001e5d0 000000000000000c T __sinit_lock_release
+000000000001e5e0 0000000000000080 T __sinit
+000000000001e660 0000000000000118 T __sfp
+000000000001e778 0000000000000044 T __libc_fini_array
+000000000001e7c0 0000000000000130 T _fopen_r
+000000000001e8f0 0000000000000030 T fopen
+000000000001e920 0000000000000118 T _malloc_trim_r
+000000000001ea38 00000000000002f4 T _free_r
+000000000001ed30 0000000000000004 T _fseek_r
+000000000001ed38 00000000000004c4 T _fseeko_r
+000000000001f200 00000000000000b8 T _fwalk
+000000000001f2b8 00000000000000bc T _fwalk_reent
+000000000001f378 000000000000008c T __libc_init_array
+000000000001f408 000000000000001c T isxdigit
+000000000001f428 00000000000000a4 T __swhatbuf_r
+000000000001f4d0 000000000000010c T __smakebuf_r
+000000000001f5e0 0000000000000030 T memalign
+000000000001f610 0000000000000198 T _memalign_r
+000000000001f7a8 000000000000001c T malloc
+000000000001f7c8 000000000000001c T free
+000000000001f7e8 000000000000087c T _malloc_r
+0000000000020064 00000000000000d8 T memchr
+0000000000020140 000000000000016c T memcpy
+00000000000202c0 00000000000000ac T memmove
+0000000000020380 00000000000001dc T memset
+0000000000020560 000000000000000c T __malloc_lock
+0000000000020570 000000000000000c T __malloc_unlock
+0000000000020580 0000000000000020 t lflush
+00000000000205a0 00000000000001d0 T __srefill_r
+0000000000020770 000000000000025c T setvbuf
+00000000000209d0 00000000000000b4 T _raise_r
+0000000000020a88 000000000000001c T raise
+0000000000020aa8 00000000000000bc T sscanf
+0000000000020b68 0000000000000050 T __sread
+0000000000020bb8 0000000000000008 T __seofread
+0000000000020bc0 000000000000006c T __swrite
+0000000000020c30 0000000000000050 T __sseek
+0000000000020c80 0000000000000008 T __sclose
+0000000000020cc0 00000000000001bc T stpcpy
+0000000000020e7c 00000000000000dc T strchr
+0000000000020f80 00000000000000e4 T strcmp
+0000000000021080 0000000000000140 T strlen
+00000000000211c0 0000000000000084 T strncat
+000000000002129c 00000000000001b8 T strncmp
+0000000000021458 00000000000000a8 T strncpy
+0000000000021524 00000000000000e0 T strnlen
+00000000000215e0 00000000000001ac t _strtoul_l.isra.0
+0000000000021790 0000000000000034 T _strtoul_r
+00000000000217c8 0000000000000048 T strtoul
+0000000000021810 000000000000005c t get_arg
+000000000002186c 0000000000002fd8 T __ssvfscanf_r
+0000000000024848 00000000000000d0 T _wcrtomb_r
+0000000000024918 0000000000000010 T _wcsrtombs_r
+0000000000024928 00000000000000d0 T __register_exitproc
+00000000000249f8 0000000000000124 T __call_exitprocs
+0000000000024b20 00000000000001a8 t quorem
+0000000000024cc8 00000000000010dc T _dtoa_r
+0000000000025da8 00000000000000a8 T __sflags
+0000000000025e50 0000000000000008 T iswspace
+0000000000025e58 0000000000000008 T __localeconv_l
+0000000000025e60 0000000000000028 T _localeconv_r
+0000000000025e88 000000000000002c T __locale_mb_cur_max
+0000000000025eb8 00000000000000d8 T _mbrtowc_r
+0000000000025f90 00000000000002c8 T __utf8_mbtowc
+0000000000026258 0000000000000090 T _Balloc
+00000000000262e8 000000000000001c T _Bfree
+0000000000026308 00000000000000e8 T __multadd
+00000000000263f0 0000000000000120 T __s2b
+0000000000026510 000000000000005c T __hi0bits
+0000000000026570 00000000000000a0 T __lo0bits
+0000000000026610 000000000000002c T __i2b
+0000000000026640 00000000000001c8 T __multiply
+0000000000026808 0000000000000104 T __pow5mult
+0000000000026910 0000000000000134 T __lshift
+0000000000026a48 0000000000000050 T __mcmp
+0000000000026a98 000000000000014c T __mdiff
+0000000000026be8 0000000000000068 T __ulp
+0000000000026c50 0000000000000150 T __b2d
+0000000000026da0 0000000000000138 T __d2b
+0000000000026ed8 00000000000000a0 T __ratio
+0000000000026f78 0000000000000068 T __copybits
+0000000000026fe0 0000000000000084 T __any_on
+0000000000027068 0000000000000030 T realloc
+0000000000027098 000000000000056c T _realloc_r
+0000000000027608 00000000000000bc T __sccl
+00000000000276c8 000000000000000c T nanf
+00000000000276d8 000000000000007c T frexp
+0000000000027758 00000000000000a8 T sprintf
+0000000000027800 00000000000000c8 T stpncpy
+00000000000278c8 0000000000000054 t sulp
+0000000000027920 00000000000010e8 T _strtod_l
+0000000000028a08 0000000000000040 T _strtod_r
+0000000000028a48 00000000000001a0 t _strtoll_l.isra.0
+0000000000028be8 0000000000000034 T _strtoll_r
+0000000000028c20 00000000000001a0 t _strtol_l.isra.0
+0000000000028dc0 0000000000000034 T _strtol_r
+0000000000028df8 00000000000001ac t _strtoull_l.isra.0
+0000000000028fa8 0000000000000034 T _strtoull_r
+0000000000028fdc 00000000000001c0 T __ssprint_r
+000000000002919c 00000000000000f4 T _sungetc_r
+0000000000029290 0000000000000070 T __ssrefill_r
+0000000000029300 00000000000000e0 T _sfread_r
+00000000000293e0 000000000000076c t get_arg
+0000000000029b4c 0000000000003b38 T _svfprintf_r
+000000000002d688 00000000000000c8 T __submore
+000000000002d750 00000000000001dc T _wcsnrtombs_l
+000000000002d930 0000000000000054 T _wcsnrtombs_r
+000000000002d988 00000000000000e4 T __utf8_wctomb
+000000000002da70 0000000000000114 t rshift
+000000000002db88 00000000000007e8 T __gethex
+000000000002e370 0000000000000048 T __match
+000000000002e3b8 000000000000022c T __hexnan
+000000000002e5e8 000000000000004c T iswspace_l
+000000000002e638 0000000000000244 t __jp2uc
+000000000002e880 00000000000000bc T _jp2uc_l
+000000000002e940 000000000000000c T nan
+000000000002e950 0000000000000088 T category
+000000000002e9d8 0000000000000008 t null_write
+000000000002e9e0 0000000000000018 T setDefaultDevice
+000000000002e9f8 0000000000000108 T FindDevice
+000000000002eb00 0000000000000034 T RemoveDevice
+000000000002eb38 00000000000000d8 T AddDevice
+000000000002ec10 00000000000000a8 T _close_r
+000000000002ecb8 0000000000000080 T _fstat_r
+000000000002ed38 0000000000000010 T _getpid_r
+000000000002ed48 0000000000000008 T _isatty_r
+000000000002ed50 0000000000000010 T _kill_r
+000000000002ed60 0000000000000094 T _lseek_r
+000000000002edf8 00000000000000e0 T _open_r
+000000000002eed8 00000000000000a4 T _read_r
+000000000002ef80 0000000000000078 T _sbrk_r
+000000000002eff8 00000000000000a4 T _write_r
+000000000002f0a0 0000000000000020 T _exit
+000000000002f0c0 0000000000000234 T _concatenate_path
+000000000002f2f8 0000000000000178 T chdir
+000000000002f470 0000000000000014 T __libc_lock_acquire
+000000000002f488 0000000000000014 T __libc_lock_release
+000000000002f4a0 000000000000000c T __libc_lock_init_recursive
+000000000002f4b0 0000000000000014 T __libc_lock_acquire_recursive
+000000000002f4c8 0000000000000014 T __libc_lock_release_recursive
+000000000002f4e0 0000000000000004 T __libc_lock_close_recursive
+000000000002f4e8 0000000000000018 T __libc_cond_broadcast
+000000000002f500 0000000000000018 T __libc_cond_wait
+000000000002f518 000000000000003c T __free_handle
+000000000002f558 0000000000000058 T __release_handle
+000000000002f5b0 00000000000000c0 T __alloc_handle
+000000000002f670 0000000000000020 T __get_handle
+000000000002f690 0000000000000074 t __dirnext
+000000000002f708 0000000000000110 T opendir
+000000000002f818 00000000000000a4 T closedir
+000000000002f8c0 00000000000000fc T readdir
+000000000002f9c0 0000000000000020 T __getreent
+000000000002f9e0 000000000000006c T pthread_mutex_lock
+000000000002fa50 000000000000006c T pthread_mutex_unlock
+000000000002fac0 00000000000000dc T pthread_once
+000000000002fba0 0000000000000024 T pthread_key_create
+000000000002fbc8 0000000000000018 T pthread_setspecific
+000000000002fbe0 0000000000000018 T pthread_getspecific
+000000000002fbf8 0000000000000018 T pthread_key_delete
+000000000002fc10 0000000000000150 t __extenddftf2
+000000000002fd60 0000000000000348 t __trunctfdf2
+00000000000300a8 0000000000000070 t __sfp_handle_exceptions
+0000000000030118 0000000000000100 T strrchr
+0000000000030218 T _fini
+0000000000031010 0000000000000260 r g_additional_launch_programs
+0000000000031338 0000000000000078 r g_resource_limits_6x
+00000000000313b0 0000000000000078 r g_memory_resource_limits_4x
+0000000000031428 0000000000000078 r g_resource_limits_4x
+00000000000314a0 0000000000000078 r g_memory_resource_limits_deprecated
+0000000000031518 0000000000000078 r g_resource_limits_deprecated
+0000000000031590 0000000000000010 V std::_Sp_make_shared_tag::_S_ti()::__tag
+00000000000315a0 V IDomainObject::s_DispatchTable
+0000000000031650 000000000000001c r CSWTCH.8
+0000000000031690 000000000000002c r g_fspr_default_fac
+00000000000316c0 000000000000001c r g_fspr_default_fah
+00000000000317d0 0000000000000018 r error_table
+0000000000031800 000000000000000d V typeinfo name for std::bad_alloc
+0000000000031820 000000000000000d V typeinfo name for std::exception
+0000000000031830 0000000000000012 V typeinfo name for std::bad_exception
+0000000000031848 0000000000000020 V typeinfo name for __cxxabiv1::__forced_unwind
+0000000000031868 0000000000000024 V typeinfo name for __cxxabiv1::__foreign_exception
+00000000000318a8 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_lock_error
+00000000000318d0 0000000000000029 V typeinfo name for __gnu_cxx::__concurrence_unlock_error
+0000000000031950 0000000000000025 V typeinfo name for __cxxabiv1::__si_class_type_info
+0000000000031978 000000000000000d V typeinfo name for std::type_info
+0000000000031988 0000000000000022 V typeinfo name for __cxxabiv1::__class_type_info
+00000000000319b0 0000000000000010 V typeinfo name for std::logic_error
+00000000000319c0 0000000000000011 V typeinfo name for std::length_error
+0000000000031c90 0000000000000008 r terminator.9403
+0000000000031c98 0000000000000101 R _ctype_
+0000000000031e60 0000000000000022 r basefix.6623
+0000000000031f20 0000000000000028 R __mprec_bigtens
+0000000000031f48 00000000000000c8 R __mprec_tens
+0000000000032010 000000000000000c r p05.5339
+0000000000032050 0000000000000014 r fpi.5419
+0000000000032068 0000000000000014 r fpinan.5455
+0000000000032080 0000000000000028 r tinytens
+00000000000320a8 000000000000006c R __action_table
+0000000000032118 0000000000000100 R __chclass
+0000000000032218 000000000000006c R __state_table
+0000000000032410 0000000000000010 r blanks.6590
+0000000000032420 0000000000000010 r zeroes.6591
+0000000000032430 0000000000000100 R __hexdig
+0000000000032548 00000000000000bc r a1
+0000000000032608 00000000000000bc r a2
+00000000000326c8 000000000000005b r a3
+0000000000032728 0000000000000070 r a6
+0000000000032798 00000000000000a2 r a7
+0000000000032840 0000000000000040 r a8
+0000000000032880 000000000000172a r b02cf
+0000000000033fb0 0000000000001a7c r d02f4
+0000000000035a30 000000000000309c r categories
+0000000000038ad8 0000000000000003 R DIRECTORY_PARENT
+0000000000038ae0 r __EH_FRAME_BEGIN__
+0000000000038ae0 R __eh_frame_hdr_end
+0000000000038ae0 R __eh_frame_hdr_start
+0000000000040bf4 r __FRAME_END__
+0000000000040cd0 a _DYNAMIC
+0000000000045000 t __frame_dummy_init_array_entry
+0000000000045000 T __init_array_start
+0000000000045000 B __preinit_array_end
+0000000000045000 B __preinit_array_start
+0000000000045000 D __tdata_lma
+0000000000045000 D __tdata_lma_end
+0000000000045028 t __do_global_dtors_aux_fini_array_entry
+0000000000045028 T __fini_array_start
+0000000000045028 T __init_array_end
+0000000000045030 a _GLOBAL_OFFSET_TABLE_
+0000000000045030 T __fini_array_end
+0000000000045030 T __got_start__
+0000000000045358 D __dso_handle
+0000000000045358 D __got_end__
+0000000000045360 0000000000000020 d MountSdCard()::required_active_services
+0000000000045380 0000000000000038 V vtable for IEvent
+00000000000453b8 0000000000000038 V vtable for ProcessWaiter
+00000000000453f0 0000000000000038 V vtable for HosEvent<unsigned int (*)(unsigned long)>
+0000000000045428 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<Registration::Process, std::allocator<Registration::Process>, (__gnu_cxx::_Lock_policy)2>
+0000000000045460 0000000000000038 d vtable for HosEvent<CreateWriteOnlySystemEvent<false>()::{lambda(unsigned long)#1}>
+0000000000045498 0000000000000020 V vtable for ServiceSession::IHipcControlService
+00000000000454b8 0000000000000060 V vtable for ServiceSession
+0000000000045518 00000000000000e0 V vtable for WaitableManager<DefaultManagerOptions>
+00000000000455f8 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<ServiceSession::IHipcControlService, std::allocator<ServiceSession::IHipcControlService>, (__gnu_cxx::_Lock_policy)2>
+0000000000045630 0000000000000078 V ServiceSession::IHipcControlService::s_DispatchTable
+00000000000456a8 0000000000000008 D nx_inner_heap_size
+00000000000456b0 0000000000000004 D __nx_applet_type
+00000000000456b8 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<InformationService, std::allocator<InformationService>, (__gnu_cxx::_Lock_policy)2>
+00000000000456f0 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<BootModeService, std::allocator<BootModeService>, (__gnu_cxx::_Lock_policy)2>
+0000000000045728 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<DebugMonitorService, std::allocator<DebugMonitorService>, (__gnu_cxx::_Lock_policy)2>
+0000000000045760 0000000000000038 V vtable for std::_Sp_counted_ptr_inplace<ShellService, std::allocator<ShellService>, (__gnu_cxx::_Lock_policy)2>
+0000000000045798 0000000000000020 V vtable for BootModeService
+00000000000457b8 0000000000000020 V vtable for InformationService
+00000000000457d8 0000000000000020 V vtable for ShellService
+00000000000457f8 0000000000000020 V vtable for DebugMonitorService
+0000000000045818 0000000000000038 V vtable for IServer<ShellService>
+0000000000045850 0000000000000038 V vtable for ServiceServer<ShellService>
+0000000000045888 0000000000000038 V vtable for IServer<DebugMonitorService>
+00000000000458c0 0000000000000038 V vtable for ServiceServer<DebugMonitorService>
+00000000000458f8 0000000000000038 V vtable for IServer<BootModeService>
+0000000000045930 0000000000000038 V vtable for ServiceServer<BootModeService>
+0000000000045968 0000000000000038 V vtable for IServer<InformationService>
+00000000000459a0 0000000000000038 V vtable for ServiceServer<InformationService>
+00000000000459d8 0000000000000180 V DebugMonitorService::s_DispatchTable
+0000000000045b58 00000000000001c8 V ShellService::s_DispatchTable
+0000000000045d20 0000000000000018 V InformationService::s_DispatchTable
+0000000000045d38 0000000000000030 V BootModeService::s_DispatchTable
+0000000000045d68 0000000000000008 d currentConsole
+0000000000045d70 00000000000000e0 d dotab_null
+0000000000045e50 00000000000000e0 d dotab_stdout
+0000000000045f30 00000000000000e0 d dotab_svc
+0000000000046010 0000000000000401 d __cwd
+0000000000046414 0000000000000004 d fsdev_fsdevice_cwd
+0000000000046418 0000000000000004 d fsdev_fsdevice_default
+0000000000046420 00000000000000e0 d fsdev_devoptab
+0000000000046500 0000000000000008 V __nx_exception_stack_size
+0000000000046508 0000000000000008 V DW.ref.__gxx_personality_v0
+0000000000046510 0000000000000008 D __cxxabiv1::__terminate_handler
+0000000000046518 0000000000000018 V typeinfo for std::bad_alloc
+0000000000046530 0000000000000028 V vtable for std::bad_alloc
+0000000000046558 0000000000000010 V typeinfo for std::exception
+0000000000046568 0000000000000018 V typeinfo for std::bad_exception
+0000000000046580 0000000000000010 V typeinfo for __cxxabiv1::__forced_unwind
+0000000000046590 0000000000000010 V typeinfo for __cxxabiv1::__foreign_exception
+00000000000465a0 0000000000000028 V vtable for std::bad_exception
+00000000000465c8 0000000000000018 V typeinfo for __gnu_cxx::__concurrence_lock_error
+00000000000465e0 0000000000000018 V typeinfo for __gnu_cxx::__concurrence_unlock_error
+00000000000465f8 0000000000000028 V vtable for __gnu_cxx::__concurrence_lock_error
+0000000000046620 0000000000000028 V vtable for __gnu_cxx::__concurrence_unlock_error
+0000000000046648 0000000000000018 V typeinfo for __cxxabiv1::__si_class_type_info
+0000000000046660 0000000000000058 V vtable for __cxxabiv1::__si_class_type_info
+00000000000466b8 0000000000000008 D __cxxabiv1::__unexpected_handler
+00000000000466c0 0000000000000010 V typeinfo for std::type_info
+00000000000466d0 0000000000000018 V typeinfo for __cxxabiv1::__class_type_info
+00000000000466e8 0000000000000058 V vtable for __cxxabiv1::__class_type_info
+0000000000046740 0000000000000018 V typeinfo for std::logic_error
+0000000000046758 0000000000000018 V typeinfo for std::length_error
+0000000000046770 0000000000000028 V vtable for std::logic_error
+0000000000046798 0000000000000028 V vtable for std::length_error
+00000000000467c0 0000000000000008 D _impure_ptr
+00000000000467c8 0000000000000768 d impure_data
+0000000000046f30 0000000000000008 D _global_impure_ptr
+0000000000046f38 0000000000000008 D __malloc_sbrk_base
+0000000000046f40 0000000000000008 D __malloc_trim_threshold
+0000000000046f48 0000000000000810 D __malloc_av_
+0000000000047758 00000000000001a8 D __global_locale
+0000000000047900 0000000000000002 d numempty
+0000000000047908 0000000000000018 D _C_numeric_locale
+0000000000047920 0000000000000004 d defaultDevice
+0000000000047928 0000000000000080 D devoptab_list
+00000000000479a8 00000000000000e0 D dotab_stdnull
+0000000000047a88 0000000000000400 d _current_working_directory
+0000000000047e88 0000000000000010 d __stderr_handle
+0000000000047e98 0000000000000010 d __stdin_handle
+0000000000047ea8 0000000000000010 d __stdout_handle
+0000000000047eb8 0000000000002000 d handles
+0000000000049eb8 D __TMC_END__
+0000000000049eb8 D __bss_start__
+0000000000049eb8 b completed.7870
+0000000000049ec0 b object.7875
+0000000000049ef0 0000000000000018 b g_launched_titles
+0000000000049f08 0000000000000078 b g_resource_limits
+0000000000049f80 000000000000000c b g_resource_limit_handles
+0000000000049f90 0000000000000090 b g_memory_resource_limits
+000000000004a020 0000000000000004 b g_memory_limit_type
+000000000004a028 0000000000000008 b g_system_boost_size
+000000000004a030 0000000000000001 b g_has_boot_finished
+000000000004a038 0000000000000028 b g_process_list
+000000000004a060 0000000000000008 b g_process_event
+000000000004a068 0000000000000008 b g_debug_title_event
+000000000004a070 0000000000000008 b g_debug_application_event
+000000000004a078 0000000000000008 b g_process_launch_start_event
+000000000004a080 0000000000000004 b g_process_launch_mutex
+000000000004a088 0000000000000028 b g_process_launch_state
+000000000004a0b0 0000000000000010 b g_sema_finish_launch
+000000000004a0c0 0000000000000008 b g_debug_on_launch_tid
+000000000004a0c8 0000000000000001 b g_debug_next_application
+000000000004a0d0 0000000000000028 b g_dead_process_list
+000000000004a0f8 0000000000001000 b g_ac_buf
+000000000004b0f8 0000000000000001 b g_is_maintenance_boot
+000000000004b100 0000000000030000 B nx_inner_heap
+000000000007b100 0000000000000001 b g_HasCached
+000000000007b104 0000000000000004 b g_Mutex
+000000000007b108 0000000000000004 b g_firmware_version
+000000000007b110 0000000000000008 b g_smManagerAmsRefcnt
+000000000007b118 000000000000000c b g_smManagerAmsSrv
+000000000007b124 0000000000000004 b g_Version
+000000000007b128 0000000000000001 b g_VersionCached
+000000000007b12c 0000000000000004 b g_VersionMutex
+000000000007b130 0000000000000008 b g_threadList
+000000000007b138 0000000000000004 b g_threadMutex
+000000000007b140 00000000000000e0 b g_tlsDestructors
+000000000007b220 0000000000000008 b g_tlsUsageMask
+000000000007b228 0000000000000008 b g_smManagerRefcnt
+000000000007b230 000000000000000c b g_smManagerSrv
+000000000007b240 0000000000000008 b g_refCnt
+000000000007b248 0000000000000004 b g_smHandle
+000000000007b250 0000000000000200 b g_smOverrides
+000000000007b450 0000000000000008 b g_smOverridesNum
+000000000007b458 000000000000000c b g_gpioSrv
+000000000007b468 0000000000000008 b g_refCnt
+000000000007b470 0000000000000008 b g_fsprRefCnt
+000000000007b478 000000000000000c b g_fsprSrv
+000000000007b488 0000000000000008 b g_pmRefCnt
+000000000007b490 000000000000000c b g_pmSrv
+000000000007b4a0 000000000000000c b g_splCryptoSrv
+000000000007b4b0 000000000000000c b g_splEsSrv
+000000000007b4c0 000000000000000c b g_splFsSrv
+000000000007b4d0 000000000000000c b g_splManuSrv
+000000000007b4e0 0000000000000008 b g_splRefCnt
+000000000007b4e8 000000000000000c b g_splSrv
+000000000007b4f8 000000000000000c b g_splSslSrv
+000000000007b508 0000000000000008 b g_managerRefCnt
+000000000007b510 000000000000000c b g_managerSrv
+000000000007b520 000000000000000c b g_fsSrv
+000000000007b530 0000000000000008 b g_refCnt
+000000000007b538 0000000000000008 b g_refCntSys
+000000000007b540 000000000000000c b g_setsysSrv
+000000000007b54c 0000000000000004 b g_hosVersion
+000000000007b550 0000000000000058 b currentCopy
+000000000007b5a8 0000000000002300 b fsdev_fsdevices
+000000000007d8a8 0000000000000001 b fsdev_initialised
+000000000007d8b0 0000000000000010 b g_AddressSpace
+000000000007d8c0 0000000000000008 b g_CurrentMapAddr
+000000000007d8c8 0000000000000030 b g_Region
+000000000007d8f8 0000000000000004 b g_VirtMemMutex
+000000000007d8fc 0000000000000004 V __nx_exception_ignoredebug
+000000000007d900 0000000000000400 V __nx_exception_stack
+000000000007dd00 0000000000000008 b g_argv_empty
+000000000007dd08 0000000000000001 b g_hasRandomSeed
+000000000007dd09 0000000000000001 b g_isNso
+000000000007dd0c 0000000000000004 b g_lastLoadResult
+000000000007dd10 0000000000000008 b g_loaderRetAddr
+000000000007dd18 0000000000000004 b g_mainThreadHandle
+000000000007dd20 0000000000000008 b g_nextLoadArgv
+000000000007dd28 0000000000000008 b g_nextLoadPath
+000000000007dd30 0000000000000008 b g_overrideArgv
+000000000007dd38 0000000000000008 b g_overrideHeapAddr
+000000000007dd40 0000000000000008 b g_overrideHeapSize
+000000000007dd48 0000000000000004 b g_processHandle
+000000000007dd50 0000000000000010 b g_randomSeed
+000000000007dd60 0000000000000010 b g_syscallHints
+000000000007dd70 0000000000000008 b (anonymous namespace)::__new_handler
+000000000007dd78 0000000000000028 b (anonymous namespace)::emergency_pool
+000000000007dda0 0000000000000010 b eh_globals
+000000000007ddb0 0000000000000008 b init
+000000000007ddb8 0000000000000020 V std::string::_Rep::_S_empty_rep_storage
+000000000007ddd8 0000000000000062 b dwarf_reg_size_table
+000000000007de40 0000000000000004 b once_regsizes.9756
+000000000007de48 0000000000000008 b marker.9297
+000000000007de50 0000000000000010 b object_mutex
+000000000007de60 0000000000000008 b seen_objects
+000000000007de68 0000000000000008 b unseen_objects
+000000000007de70 000000000000000c b __sfp_recursive_mutex
+000000000007de80 000000000000000c b __sinit_recursive_mutex
+000000000007de90 0000000000000028 B __malloc_current_mallinfo
+000000000007deb8 0000000000000008 B __malloc_max_sbrked_mem
+000000000007dec0 0000000000000008 B __malloc_max_total_mem
+000000000007dec8 0000000000000008 B __malloc_top_pad
+000000000007ded0 000000000000000c b __malloc_recursive_mutex
+000000000007dee0 000000000000000c B __atexit_recursive_mutex
+000000000007def0 0000000000000008 b heap_start.5295
+000000000007def8 0000000000000008 B fake_heap_end
+000000000007df00 0000000000000008 B fake_heap_start
+000000000007df08 0000000000000400 b temp_cwd
+000000000007e308 0000000000000004 b __hndl_lock
+000000000007e30c 0000000000000004 b __pthread_once_cv
+000000000007e310 0000000000000004 b __pthread_once_lock
+000000000007e320 0000000000000340 B __nx_exceptiondump
+000000000007e660 0000000000000008 B __stack_top
+000000000007e668 0000000000000008 B __system_argv
+000000000007e670 0000000000000004 B __system_argc
+000000000007e678 0000000000000004 B __nxlink_host
+000000000007e680 B __tls_start
+0000000000082a88 B __bss_end__
+0000000000082a88 A __end__
+0000000000082a88 B __tls_end
+0000000000083000 A __argdata__

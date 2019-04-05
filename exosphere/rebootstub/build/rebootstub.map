@@ -1,0 +1,218 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .text.deregister_tm_clones
+                0x0000000000000000       0x2c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .text.register_tm_clones
+                0x0000000000000000       0x34 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .data.__dso_handle
+                0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x0000000000000000       0x30 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .text.frame_dummy
+                0x0000000000000000       0x28 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .bss.completed.9044
+                0x0000000000000000        0x1 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .bss.object.9049
+                0x0000000000000000       0x18 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x2a /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+ .text          0x0000000000000000        0x0 shutdown.o
+ .data          0x0000000000000000        0x0 shutdown.o
+ .bss           0x0000000000000000        0x0 shutdown.o
+ .text          0x0000000000000000        0x0 i2c.o
+ .data          0x0000000000000000        0x0 i2c.o
+ .bss           0x0000000000000000        0x0 i2c.o
+ .text          0x0000000000000000        0x0 start.o
+ .data          0x0000000000000000        0x0 start.o
+ .bss           0x0000000000000000        0x0 start.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x30 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+ .init          0x0000000000000000        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+ .fini          0x0000000000000000        0x8 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x000000004003f000                . = 0x4003f000
+                0x000000004003f000                __start__ = ABSOLUTE (.)
+
+.text           0x000000004003f000      0x2a0
+ *(.text.start)
+ .text.start    0x000000004003f000       0x5c start.o
+                0x000000004003f000                _start
+                0x000000004003f014                jump_to_reboot_payload
+ *(.text*)
+ .text.do_shutdown
+                0x000000004003f05c       0x10 shutdown.o
+                0x000000004003f05c                do_shutdown
+ .text.timer_wait
+                0x000000004003f06c       0x14 i2c.o
+ .text.i2c_load_config
+                0x000000004003f080       0x28 i2c.o
+                0x000000004003f080                i2c_load_config
+ .text.i2c_init
+                0x000000004003f0a8       0x58 i2c.o
+                0x000000004003f0a8                i2c_init
+ .text.i2c_write
+                0x000000004003f100       0x60 i2c.o
+                0x000000004003f100                i2c_write
+ .text.i2c_read
+                0x000000004003f160       0x7c i2c.o
+                0x000000004003f160                i2c_read
+ .text.i2c_query
+                0x000000004003f1dc       0x2c i2c.o
+                0x000000004003f1dc                i2c_query
+ .text.i2c_send_byte_command
+                0x000000004003f208       0x14 i2c.o
+                0x000000004003f208                i2c_send_byte_command
+ .text.i2c_stop_rtc_alarm
+                0x000000004003f21c       0x60 i2c.o
+                0x000000004003f21c                i2c_stop_rtc_alarm
+ .text.i2c_send_shutdown_cmd
+                0x000000004003f27c       0x14 i2c.o
+                0x000000004003f27c                i2c_send_shutdown_cmd
+ .text.i2c_send_shutdown_cmd.__stub
+                0x000000004003f290        0xc linker stubs
+                0x000000004003f29c                . = ALIGN (0x4)
+
+.glue_7         0x000000004003f2a0        0x0
+ .glue_7        0x000000004003f2a0        0x0 linker stubs
+
+.glue_7t        0x000000004003f2a0        0x0
+ .glue_7t       0x000000004003f2a0        0x0 linker stubs
+
+.vfp11_veneer   0x000000004003f2a0        0x0
+ .vfp11_veneer  0x000000004003f2a0        0x0 linker stubs
+
+.v4_bx          0x000000004003f2a0        0x0
+ .v4_bx         0x000000004003f2a0        0x0 linker stubs
+
+.init           0x000000004003f2a0        0x4
+ .init          0x000000004003f2a0        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+                0x000000004003f2a0                _init
+
+.fini           0x000000004003f2a4        0x4
+ .fini          0x000000004003f2a4        0x4 /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+                0x000000004003f2a4                _fini
+
+.iplt           0x000000004003f2a8        0x0
+ .iplt          0x000000004003f2a8        0x0 shutdown.o
+
+.igot.plt       0x000000004003f2a8        0x0
+ .igot.plt      0x000000004003f2a8        0x0 shutdown.o
+
+.rel.dyn        0x000000004003f2a8        0x0
+ .rel.iplt      0x000000004003f2a8        0x0 shutdown.o
+
+.rodata         0x000000004003f2a8        0x0
+ *(.rodata*)
+                0x000000004003f2a8                . = ALIGN (0x4)
+
+.bss            0x000000004003f2a8        0x0
+                0x000000004003f2a8                __bss_start__ = .
+ *(.bss* COMMON)
+                0x000000004003f2a8                . = ALIGN (0x8)
+                0x000000004003f2a8                __bss_end__ = .
+                0x000000004003f2a8                . = ALIGN (0x4)
+                0x000000004003f2a8                __end__ = ABSOLUTE (.)
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtbegin.o
+LOAD shutdown.o
+LOAD i2c.o
+LOAD start.o
+START GROUP
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/libgcc.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/../../../../arm-none-eabi/lib/thumb/libg.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/../../../../arm-none-eabi/lib/thumb/libc.a
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/../../../../arm-none-eabi/lib/thumb/libsysbase.a
+END GROUP
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtend.o
+LOAD /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crtn.o
+OUTPUT(/developer/exosphere/rebootstub/rebootstub.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x26
+ .ARM.attributes
+                0x0000000000000000       0x1c /opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/8.3.0/thumb/crti.o
+ .ARM.attributes
+                0x000000000000001c       0x2a shutdown.o
+ .ARM.attributes
+                0x0000000000000046       0x2a i2c.o
+ .ARM.attributes
+                0x0000000000000070       0x1a start.o
+
+.comment        0x0000000000000000       0x22
+ .comment       0x0000000000000000       0x22 shutdown.o
+                                         0x23 (size before relaxing)
+ .comment       0x0000000000000022       0x23 i2c.o
+
+.debug_info     0x0000000000000000      0x563
+ .debug_info    0x0000000000000000       0xc9 shutdown.o
+ .debug_info    0x00000000000000c9      0x474 i2c.o
+ .debug_info    0x000000000000053d       0x26 start.o
+
+.debug_abbrev   0x0000000000000000      0x1c8
+ .debug_abbrev  0x0000000000000000       0x64 shutdown.o
+ .debug_abbrev  0x0000000000000064      0x150 i2c.o
+ .debug_abbrev  0x00000000000001b4       0x14 start.o
+
+.debug_aranges  0x0000000000000000       0xa0
+ .debug_aranges
+                0x0000000000000000       0x20 shutdown.o
+ .debug_aranges
+                0x0000000000000020       0x60 i2c.o
+ .debug_aranges
+                0x0000000000000080       0x20 start.o
+
+.debug_ranges   0x0000000000000000       0x80
+ .debug_ranges  0x0000000000000000       0x10 shutdown.o
+ .debug_ranges  0x0000000000000010       0x70 i2c.o
+
+.debug_line     0x0000000000000000      0x56a
+ .debug_line    0x0000000000000000       0x90 shutdown.o
+ .debug_line    0x0000000000000090      0x466 i2c.o
+ .debug_line    0x00000000000004f6       0x74 start.o
+
+.debug_str      0x0000000000000000      0x28a
+ .debug_str     0x0000000000000000      0x18c shutdown.o
+                                        0x1c0 (size before relaxing)
+ .debug_str     0x000000000000018c       0xc6 i2c.o
+                                        0x25c (size before relaxing)
+ .debug_str     0x0000000000000252       0x38 start.o
+                                         0x5e (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x124
+ .debug_frame   0x0000000000000000       0x28 shutdown.o
+ .debug_frame   0x0000000000000028       0xfc i2c.o
+
+.debug_loc      0x0000000000000000      0x4b7
+ .debug_loc     0x0000000000000000      0x4b7 i2c.o

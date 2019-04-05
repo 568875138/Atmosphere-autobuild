@@ -1,0 +1,343 @@
+00000000 A __heap_end__
+00000000 A __heap_start__
+40003000 A __chainloader_start__
+40003000 T relocate_and_chainload
+4000300c 0000007e T relocate_and_chainload_main
+40003090 0000000c t __relocate_and_chainload_main_from_arm
+400030a0 A __chainloader_bss_start__
+400030a0 00006200 B g_chainloader_arg_data
+400092a0 00000004 B g_chainloader_argc
+400092a4 00000800 B g_chainloader_entries
+40009aa4 00000004 B g_chainloader_entrypoint
+40009aa8 00000004 B g_chainloader_num_entries
+40009ac0 A __chainloader_end__
+4000c000 A __stack_bottom__
+40010000 A __stack_top__
+40010000 A __start__
+40010000 T _start
+4001002c t _relocation_loop
+40010048 t _second_relocation_start
+40010054 t _second_relocation_loop
+40010070 t _relocation_loop_end
+400100d4 T _init
+400100e0 0000000c t ____program_init_from_arm
+400100ec 0000000c t __main_from_arm
+40010100 A __chainloader_lma__
+400101a0 t .udivsi3_skip_div0_test
+400101a0 T __aeabi_uidiv
+400101a0 000000fc T __udivsi3
+4001029c 00000020 T __aeabi_uidivmod
+400102bc 00000002 W __aeabi_idiv0
+400102bc 00000002 W __aeabi_ldiv0
+400102c0 T __aeabi_uldivmod
+400102fc 00000028 T __clzdi2
+40010324 00000048 T __clzsi2
+4001036c t deregister_tm_clones
+40010398 t register_tm_clones
+400103cc t __do_global_dtors_aux
+400103fc t frame_dummy
+40010424 000000a0 T check_and_display_panic
+400104c4 0000002c T panic
+400104f0 00000038 T sdram_get_params
+40010528 000017fc T sdram_init
+40011d24 00000048 T btn_read
+40011d6c 00000022 T __program_exit
+40011d90 00000084 T __program_init
+40011e14 00000008 T stage2_get_program_path
+40011e1c 0000022c T load_stage2
+40012048 00006278 T sdram_lp0_save_params
+400182c0 000000b4 T derive_7x_keys
+40018374 000000b8 t max77620_regulator_enable.part.2
+4001842c 000000ac T max77620_regulator_set_voltage
+400184d8 00000014 T max77620_regulator_enable
+400184ec 000000c4 T config_oscillators
+400185b0 000000a8 T config_gpios
+40018658 000001b8 T mbist_workaround
+40018810 00000074 T config_se_brom
+40018884 000001a0 T nx_hwinit
+40018a24 00000030 T mc_enable_ahb_redirect
+40018a54 00000030 T mc_disable_ahb_redirect
+40018a84 00000084 T mc_enable
+40018b08 00000030 t clear_aes_keyslot_iv.part.2
+40018b38 00000012 T ll_init
+40018b4c 00000030 T se_check_for_error
+40018b7c 00000040 T set_aes_keyslot_flags
+40018bbc 00000034 T clear_aes_keyslot
+40018bf0 0000003c T set_aes_keyslot
+40018c2c 00000050 T trigger_se_blocking_op
+40018c7c 0000005c T decrypt_data_into_keyslot
+40018cd8 00000074 T se_perform_aes_block_operation
+40018d4c 00000048 T se_aes_ecb_decrypt_block
+40018d94 00000060 T se_aes_128_cbc_decrypt
+40018df4 00000070 T se_generate_random
+40018e64 00000070 T se_generate_random_key
+40018ed4 00000028 T se_set_in_context_save_mode
+40018efc 00000040 T se_generate_srk
+40018f3c 00000048 T se_encrypt_with_srk
+40018f84 0000026c T se_save_context
+400191f0 0000000c t exit_callback
+400191fc 00000254 T main
+40019450 00000094 T draw_splash
+400194e4 000000f8 T clk_enable
+400195dc 00000034 T clkrst_enable
+40019610 00000070 T clkrst_reboot
+40019680 00000018 T clkrst_enable_fuse_regs
+40019698 0000001c T fuse_init
+400196b4 0000000c T fuse_disable_programming
+400196c0 00000018 T fuse_get_reserved_odm
+400196d8 00000038 t gpio_simple_register_set
+40019710 00000012 T gpio_configure_mode
+40019724 00000014 T gpio_configure_direction
+40019738 00000014 T gpio_write
+4001974c 0000002c T gpio_read
+40019778 00000090 T mount_sd
+40019808 00000050 T unmount_sd
+40019858 0000005c T read_from_file
+400198b4 00000494 T display_init
+40019d48 00000010 T display_backlight
+40019d58 000001a4 T display_end
+40019efc 00000080 T display_color_screen
+40019f7c 00000078 T display_init_framebuffer
+40019ff4 00000060 t i2c_write.part.0
+4001a054 00000078 t i2c_read.part.1
+4001a0cc 00000080 T i2c_init
+4001a14c 00000054 T i2c_query
+4001a1a0 0000004c T i2c_send
+4001a1ec 00000024 T setup_exception_handlers
+4001a210 00000118 T exception_handler_main
+4001a328 00000074 T prepare_for_reboot_to_self
+4001a39c 00000084 T reboot_to_self
+4001a420 00000010 T wait_for_button_and_reboot
+4001a430 0000000c T generic_panic
+4001a43c 00000034 T fatal_error
+4001a470 00000074 T overlaps
+4001a4e4 000000d8 T hexdump
+4001a5bc 00000088 t sdmmc_device_send_r1_cmd.isra.1
+4001a644 000000f8 t sdmmc_device_rw
+4001a73c 00000038 t sdmmc_sd_send_app_cmd
+4001a774 00000042 t sdmmc_device_send_csd.isra.8
+4001a7b8 0000008c t sdmmc_sd_switch.isra.10
+4001a844 00000074 t sdmmc_sd_switch_hs
+4001a8b8 0000003c t sdmmc_device_send_cid.isra.5
+4001a8f4 00000014 T sdmmc_device_read
+4001a908 00000014 T sdmmc_device_write
+4001a91c 00000032 T sdmmc_device_finish
+4001a950 00000a3c T sdmmc_device_sd_init
+4001b38c 00000114 t sdmmc_clk_set_source
+4001b4a0 00000004 t sdmmc2_config
+4001b4a4 000000d0 t sdmmc_wait_for_inhibit
+4001b574 00000078 t sdmmc_wait_busy
+4001b5ec 00000084 t sdmmc_wait_for_cmd
+4001b670 00000040 t is_sdmmc_clk_rst
+4001b6b0 00000040 t is_sdmmc_clk_enb
+4001b6f0 00000060 t sdmmc_save_response.part.11
+4001b750 00000040 t sdmmc_print.isra.12
+4001b790 00000100 t sdmmc1_config
+4001b890 00000004 t sdmmc4_config
+4001b894 00000004 t sdmmc3_config
+4001b898 0000001c T sdmmc_error
+4001b8b4 000000a0 t sdmmc_autocal_config
+4001b954 00000138 t sdmmc_autocal_run
+4001ba8c 0000001c T sdmmc_warn
+4001baa8 0000001c T sdmmc_info
+4001bac4 0000001c T sdmmc_debug
+4001bae0 00000046 T sdmmc_adjust_sd_clock
+4001bb28 0000005c T sdmmc_select_bus_width
+4001bb84 00000054 T sdmmc_select_voltage
+4001bbd8 000003c8 T sdmmc_select_speed
+4001bfa0 00000456 T sdmmc_init
+4001c3f8 000000b4 T sdmmc_finish
+4001c4ac 0000002e T sdmmc_load_response
+4001c4dc 000003dc T sdmmc_send_cmd
+4001c8b8 000000fc T sdmmc_switch_voltage
+4001c9b4 00000230 T sdmmc_execute_tuning
+4001cbe4 00000100 T sdmmc_abort
+4001cce4 000000c2 T LZ_Uncompress
+4001cda8 0000000c T log_set_log_level
+4001cdb4 0000000c T log_get_log_level
+4001cdc0 00000038 T vprint
+4001cdf8 00000100 T print
+4001cef8 0000050c t number.isra.0
+4001d404 000000b4 t string.isra.1
+4001d4b8 0000067c T vsnprintf
+4001db34 00000018 T snprintf
+4001db4c 000000b8 t tchar2uni
+4001dc04 0000003e t get_ldnumber
+4001dc44 0000003a t validate
+4001dc80 00000044 t xname_sum
+4001dcc4 00000014 t mem_cpy.part.0
+4001dcd8 000000f0 t put_utf
+4001ddc8 000002e4 t get_fileinfo
+4001e0ac 00000088 t init_alloc_info.isra.6
+4001e134 00000046 t sync_window.part.7
+4001e17c 0000007c t dir_clear
+4001e1f8 000000f4 t sync_fs
+4001e2ec 00000038 t move_window.part.8
+4001e324 000000b6 t change_bitmap
+4001e3dc 00000198 t get_fat
+4001e574 000000b8 t dir_sdi
+4001e62c 000000cc t check_fs
+4001e6f8 000005fc t find_volume
+4001ecf4 00000148 t put_fat.part.10
+4001ee3c 0000012c t remove_chain
+4001ef68 00000046 t fill_last_frag.isra.11.part.12
+4001efb0 0000005a t fill_first_frag.part.13
+4001f00c 00000260 t create_chain
+4001f26c 000000f0 t dir_next
+4001f35c 0000013c t load_xdir
+4001f498 0000008a t dir_alloc
+4001f524 000000bc t store_xdir
+4001f5e0 00000190 t dir_read.constprop.14
+4001f770 00000280 t dir_find
+4001f9f0 00000420 t follow_path
+4001fe10 00000534 t dir_register
+40020344 00000054 T f_mount
+40020398 0000031e T f_open
+400206b8 000001e0 T f_read
+40020898 00000216 T f_sync
+40020ab0 00000026 T f_close
+40020ad8 0000004c T f_stat
+40020b24 00000048 T ff_uni2oem
+40020b6c 00000030 T ff_oem2uni
+40020b9c 000000d8 T ff_wtoupper
+40020c74 00000004 T disk_status
+40020c78 00000004 T disk_initialize
+40020c7c 00000028 T disk_read
+40020ca4 00000028 T disk_write
+40020ccc 00000004 T disk_ioctl
+40020cd0 00000044 t console_newline.part.0
+40020d14 000000b4 t video_drawchars.constprop.1
+40020dc8 000000fc T video_putc
+40020ec4 00000020 T video_puts
+40020ee4 0000004c T video_init
+40020f40 t _exception_handler_common
+40020f88 t _exception_handler_undefined_instruction
+40020fac t _exception_handler_swi
+40020fd0 t _exception_handler_prefetch_abort
+40020ff4 t _exception_handler_data_abort_normal
+40021018 t _exception_handler_fiq
+4002103c t _exception_handler_data_abort
+40021064 T safecpy
+40021070 t _safecpy_loop
+4002108c t _safecpy_loop_end
+40021098 t _safecpy_end
+400210a0 000001a6 T __udivmoddi4
+40021248 0000002e T __libc_fini_array
+40021278 0000004e T __libc_init_array
+400212c8 000000aa T memcpy
+40021374 000000b4 T memmove
+40021428 000000b0 T memset
+400214d8 00000010 T strcpy
+400214e8 0000006c T strlen
+40021554 00000084 T strncpy
+400215d8 0000002e T strnlen
+40021608 T _fini
+40021618 00000008 t __safecpy_from_thumb
+40021620 00000008 t ____clzdi2_from_thumb
+40021628 0000000c t ____aeabi_ldiv0_from_arm
+40021634 00000008 t ____aeabi_uldivmod_from_thumb
+4002163c 00000008 t __relocate_and_chainload_from_thumb
+40021644 0000000c t __exception_handler_main_from_arm
+40021650 00000008 t ____aeabi_uidiv_from_thumb
+40021658 0000000c t ____aeabi_idiv0_from_arm
+40021664 0000000c t ____udivmoddi4_from_arm
+40021680 R rebootstub_bin
+40021928 R rebootstub_bin_end
+40021928 R rebootstub_bin_size
+40021b34 000004ee r _dram_cfg_lz
+40022150 00000010 r devicekey_4x_seed
+40022160 00000010 r devicekey_seed
+40022170 00000010 r keyblob_seed_00
+40022180 00000010 r masterkey_4x_seed
+40022190 00000010 r masterkey_seed
+400221a0 00000010 r new_master_kek_seed_7x
+400221b0 00000208 r _pmic_regulators
+40022410 00000010 r context_save_known_pattern.5420
+40022420 00003551 r s_splash
+40025974 0000001c r g_clk_reg_offsets
+40025990 0000001c r g_rst_reg_offsets
+400259e4 00000080 r _display_config_10
+40025a64 00000388 r _display_config_11
+40025dec 00000088 r _display_config_12
+40025e74 00000080 r _display_config_13
+40025ef4 000000b0 r _display_config_14
+40025fa4 000002f0 r _display_config_2
+40026294 000001e0 r _display_config_3
+40026474 00000158 r _display_config_4
+400265cc 000000a8 r _display_config_5
+40026674 00000050 r _display_config_7
+400266c4 00000030 r _display_config_8
+400266f4 00000100 r cfg_display_framebuffer
+400267f4 00000040 r cfg_display_one_color
+40026834 00000018 r CSWTCH.6
+400268f4 00000020 r exception_names
+40026914 00000044 r register_names
+40026e50 00000020 r taac_exp
+40026e70 00000040 r taac_mant
+40026eb0 00000020 r tran_exp
+40026ed0 00000010 r tran_mant
+40026f1c 0000003c r CSWTCH.4
+400273e0 00000010 r be.5399
+400273f0 00000010 r digits.5346
+40027400 00000011 R hex_asc
+40027414 00000010 r le.5400
+4002742c 00000080 r ExCvt
+400274ac 0000000d r LfnOfs
+40027508 000001f2 r cvt1.4429
+400276fc 000000bc r cvt2.4430
+400277b8 00000100 r uc850
+400278b8 00000100 r video_font_draw_table32
+400279b8 R exception_handler_table
+400279d8 00000101 R _ctype_
+40027ae0 t __frame_dummy_init_array_entry
+40027ae0 T __init_array_start
+40027ae0 T __preinit_array_end
+40027ae0 T __preinit_array_start
+40027ae4 t __do_global_dtors_aux_fini_array_entry
+40027ae4 T __fini_array_start
+40027ae4 T __init_array_end
+40027ae8 A __exidx_end
+40027ae8 A __exidx_start
+40027ae8 T __fini_array_end
+40027ae8 00000004 d nl.4782
+40027aec 00001000 d video_fontdata
+40028b00 D __TMC_END__
+40028b00 A __bss_start__
+40028b00 b completed.9044
+40028b04 b object.9049
+40028b1c 00000004 b g_panic_code
+40028b20 00000004 B __program_exit_callback
+40028b24 00000100 B g_stage2_path
+40028c24 00000004 b g_framebuffer
+40028c28 00000010 b g_tsec_key
+40028c38 00000010 b g_tsec_root_key
+40028c48 00000001 b g_has_uncompressed
+40028c49 00000001 b g_ahb_redirect_enabled
+40028c4a 00000001 b g_sd_initialized
+40028c4b 00000001 b g_sd_mounted
+40028c4c 00000004 b _display_ver
+40028c50 00000100 b conf.6159
+40028d50 00000020 b sdmmc_clk_sources
+40028d70 00000002 B g_screen_log_level
+40028d74 00000260 b DirBuf
+40028fd4 00000004 b FatFs
+40028fd8 00000002 b Fsid
+40028fdc 00000200 b LfnBuf
+400291dc 00000004 b bgx
+400291e0 00000004 b console_col
+400291e4 00000004 b console_row
+400291e8 00000004 b eorx
+400291ec 00000004 b video_console_address
+400291f0 00000004 b video_fb_address
+40029200 b _exception_handler_stack
+4002a200 b _regs
+4002a244 00000004 B fake_heap_end
+4002a248 00000004 B fake_heap_start
+4002a24c 00000048 B __syscalls
+4002a294 00000004 B __program_argv
+4002a298 00000004 B __program_argc
+4002a2a0 00000128 B g_sd_device
+4002a3c8 00000040 B g_sd_sdmmc
+4002a408 00000238 B sd_fs
+4002a640 A __bss_end__
+4002a640 A __end__

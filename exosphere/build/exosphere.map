@@ -1,0 +1,2179 @@
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 coldboot_init.o
+ .bss           0x0000000000000000        0x0 coldboot_init.o
+ .comment       0x0000000000000000       0x23 coldboot_init.o
+ .data          0x0000000000000000        0x0 package2.o
+ .bss           0x0000000000000000        0x0 package2.o
+ .comment       0x0000000000000000       0x23 package2.o
+ .data          0x0000000000000000        0x0 warmboot_init.o
+ .bss           0x0000000000000000        0x0 warmboot_init.o
+ .comment       0x0000000000000000       0x23 warmboot_init.o
+ .text          0x0000000000000000        0x0 sc7fw.bin.o
+ .data          0x0000000000000000        0x0 sc7fw.bin.o
+ .bss           0x0000000000000000        0x0 sc7fw.bin.o
+ .text          0x0000000000000000        0x0 lp0fw.bin.o
+ .data          0x0000000000000000        0x0 lp0fw.bin.o
+ .bss           0x0000000000000000        0x0 lp0fw.bin.o
+ .rodata        0x0000000000000000      0xfbc lp0fw.bin.o
+ .text          0x0000000000000000        0x0 rebootstub.bin.o
+ .data          0x0000000000000000        0x0 rebootstub.bin.o
+ .bss           0x0000000000000000        0x0 rebootstub.bin.o
+ .text          0x0000000000000000        0x0 sealedkeys.o
+ .data          0x0000000000000000        0x0 sealedkeys.o
+ .bss           0x0000000000000000        0x0 sealedkeys.o
+ .text.usecase_is_invalid
+                0x0000000000000000       0x34 sealedkeys.o
+ .comment       0x0000000000000000       0x23 sealedkeys.o
+ .text          0x0000000000000000        0x0 my_libc.o
+ .data          0x0000000000000000        0x0 my_libc.o
+ .bss           0x0000000000000000        0x0 my_libc.o
+ .text.memmove  0x0000000000000000      0x118 my_libc.o
+ .text.memchr   0x0000000000000000       0xd4 my_libc.o
+ .text.strchr   0x0000000000000000      0x13c my_libc.o
+ .text.strcmp   0x0000000000000000       0xa0 my_libc.o
+ .text.strcpy   0x0000000000000000       0x64 my_libc.o
+ .text.strlen   0x0000000000000000       0x88 my_libc.o
+ .text.strncmp  0x0000000000000000       0xe8 my_libc.o
+ .text.strncpy  0x0000000000000000       0xa8 my_libc.o
+ .text.strnlen  0x0000000000000000       0x48 my_libc.o
+ .comment       0x0000000000000000       0x23 my_libc.o
+ .text          0x0000000000000000        0x0 coldboot_main.o
+ .data          0x0000000000000000        0x0 coldboot_main.o
+ .bss           0x0000000000000000        0x0 coldboot_main.o
+ .comment       0x0000000000000000       0x23 coldboot_main.o
+ .text          0x0000000000000000        0x0 sc7.o
+ .data          0x0000000000000000        0x0 sc7.o
+ .bss           0x0000000000000000        0x0 sc7.o
+ .comment       0x0000000000000000       0x23 sc7.o
+ .text          0x0000000000000000        0x0 bootconfig.o
+ .data          0x0000000000000000        0x0 bootconfig.o
+ .bss           0x0000000000000000        0x0 bootconfig.o
+ .text.bootconfig_is_package2_unsigned
+                0x0000000000000000       0x18 bootconfig.o
+ .comment       0x0000000000000000       0x23 bootconfig.o
+ .text          0x0000000000000000        0x0 smc_ams.o
+ .data          0x0000000000000000        0x0 smc_ams.o
+ .bss           0x0000000000000000        0x0 smc_ams.o
+ .comment       0x0000000000000000       0x23 smc_ams.o
+ .text          0x0000000000000000        0x0 titlekey.o
+ .data          0x0000000000000000        0x0 titlekey.o
+ .bss           0x0000000000000000        0x0 titlekey.o
+ .comment       0x0000000000000000       0x23 titlekey.o
+ .text          0x0000000000000000        0x0 smc_api.o
+ .data          0x0000000000000000        0x0 smc_api.o
+ .bss           0x0000000000000000        0x0 smc_api.o
+ .text.try_set_user_smc_in_progress
+                0x0000000000000000       0x24 smc_api.o
+ .text.set_user_smc_in_progress
+                0x0000000000000000       0x28 smc_api.o
+ .text.try_set_smc_callback
+                0x0000000000000000       0x54 smc_api.o
+ .text.clear_smc_callback
+                0x0000000000000000       0x1c smc_api.o
+ .bss.num_smcs_called
+                0x0000000000000000        0x8 smc_api.o
+ .comment       0x0000000000000000       0x23 smc_api.o
+ .text          0x0000000000000000        0x0 configitem.o
+ .data          0x0000000000000000        0x0 configitem.o
+ .bss           0x0000000000000000        0x0 configitem.o
+ .text.configitem_is_debugmode_priv
+                0x0000000000000000       0x34 configitem.o
+ .comment       0x0000000000000000       0x23 configitem.o
+ .text          0x0000000000000000        0x0 actmon.o
+ .data          0x0000000000000000        0x0 actmon.o
+ .bss           0x0000000000000000        0x0 actmon.o
+ .comment       0x0000000000000000       0x23 actmon.o
+ .text          0x0000000000000000        0x0 fuse.o
+ .data          0x0000000000000000        0x0 fuse.o
+ .bss           0x0000000000000000        0x0 fuse.o
+ .text.fuse_make_regs_visible
+                0x0000000000000000       0x1c fuse.o
+ .text.fuse_enable_power
+                0x0000000000000000       0x1c fuse.o
+ .text.fuse_disable_power
+                0x0000000000000000       0x18 fuse.o
+ .text.fuse_wait_idle
+                0x0000000000000000       0x30 fuse.o
+ .text.fuse_hw_write
+                0x0000000000000000       0x84 fuse.o
+ .text.fuse_hw_sense
+                0x0000000000000000       0x6c fuse.o
+ .text.fuse_secondary_private_key_disable
+                0x0000000000000000       0x18 fuse.o
+ .text.fuse_get_sku_info
+                0x0000000000000000       0x14 fuse.o
+ .text.fuse_get_spare_bit
+                0x0000000000000000       0x2c fuse.o
+ .comment       0x0000000000000000       0x23 fuse.o
+ .text          0x0000000000000000        0x0 randomcache.o
+ .data          0x0000000000000000        0x0 randomcache.o
+ .bss           0x0000000000000000        0x0 randomcache.o
+ .comment       0x0000000000000000       0x23 randomcache.o
+ .text          0x0000000000000000        0x0 interrupt.o
+ .data          0x0000000000000000        0x0 interrupt.o
+ .bss           0x0000000000000000        0x0 interrupt.o
+ .comment       0x0000000000000000       0x23 interrupt.o
+ .text          0x0000000000000000        0x0 warmboot_main.o
+ .data          0x0000000000000000        0x0 warmboot_main.o
+ .bss           0x0000000000000000        0x0 warmboot_main.o
+ .comment       0x0000000000000000       0x23 warmboot_main.o
+ .text          0x0000000000000000        0x0 uart.o
+ .data          0x0000000000000000        0x0 uart.o
+ .bss           0x0000000000000000        0x0 uart.o
+ .text.uart_recv
+                0x0000000000000000       0x44 uart.o
+ .comment       0x0000000000000000       0x23 uart.o
+ .text          0x0000000000000000        0x0 masterkey.o
+ .data          0x0000000000000000        0x0 masterkey.o
+ .bss           0x0000000000000000        0x0 masterkey.o
+ .comment       0x0000000000000000       0x23 masterkey.o
+ .text          0x0000000000000000        0x0 mc.o
+ .data          0x0000000000000000        0x0 mc.o
+ .bss           0x0000000000000000        0x0 mc.o
+ .text.get_carveout_by_id
+                0x0000000000000000       0x34 mc.o
+ .comment       0x0000000000000000       0x23 mc.o
+ .text          0x0000000000000000        0x0 bootup.o
+ .data          0x0000000000000000        0x0 bootup.o
+ .bss           0x0000000000000000        0x0 bootup.o
+ .comment       0x0000000000000000       0x23 bootup.o
+ .text          0x0000000000000000        0x0 smc_user.o
+ .data          0x0000000000000000        0x0 smc_user.o
+ .bss           0x0000000000000000        0x0 smc_user.o
+ .text.set_exp_mod_done
+                0x0000000000000000        0xc smc_user.o
+ .text.set_crypt_aes_done
+                0x0000000000000000        0xc smc_user.o
+ .comment       0x0000000000000000       0x23 smc_user.o
+ .text          0x0000000000000000        0x0 se.o
+ .data          0x0000000000000000        0x0 se.o
+ .bss           0x0000000000000000        0x0 se.o
+ .text.set_security_engine_callback
+                0x0000000000000000       0x20 se.o
+ .text.se_generate_test_vector
+                0x0000000000000000        0x8 se.o
+ .text.clear_aes_keyslot_iv
+                0x0000000000000000       0x14 se.o
+ .text.set_se_ctr
+                0x0000000000000000       0x2c se.o
+ .text.se_aes_256_ecb_encrypt_block
+                0x0000000000000000        0x8 se.o
+ .text.shift_left_xor_rb
+                0x0000000000000000       0x34 se.o
+ .comment       0x0000000000000000       0x23 se.o
+ .text          0x0000000000000000        0x0 userpage.o
+ .data          0x0000000000000000        0x0 userpage.o
+ .bss           0x0000000000000000        0x0 userpage.o
+ .comment       0x0000000000000000       0x23 userpage.o
+ .text          0x0000000000000000        0x0 car.o
+ .data          0x0000000000000000        0x0 car.o
+ .bss           0x0000000000000000        0x0 car.o
+ .text.clk_disable
+                0x0000000000000000       0x34 car.o
+ .text.rst_enable
+                0x0000000000000000       0x34 car.o
+ .text.rst_disable
+                0x0000000000000000       0x34 car.o
+ .comment       0x0000000000000000       0x23 car.o
+ .text          0x0000000000000000        0x0 timers.o
+ .data          0x0000000000000000        0x0 timers.o
+ .bss           0x0000000000000000        0x0 timers.o
+ .comment       0x0000000000000000       0x23 timers.o
+ .text          0x0000000000000000        0x0 cpu_context.o
+ .data          0x0000000000000000        0x0 cpu_context.o
+ .bss           0x0000000000000000        0x0 cpu_context.o
+ .text.set_current_core_active
+                0x0000000000000000       0x2c cpu_context.o
+ .comment       0x0000000000000000       0x23 cpu_context.o
+ .text          0x0000000000000000        0x0 gcm.o
+ .data          0x0000000000000000        0x0 gcm.o
+ .bss           0x0000000000000000        0x0 gcm.o
+ .comment       0x0000000000000000       0x23 gcm.o
+ .text          0x0000000000000000        0x0 exocfg.o
+ .data          0x0000000000000000        0x0 exocfg.o
+ .bss           0x0000000000000000        0x0 exocfg.o
+ .comment       0x0000000000000000       0x23 exocfg.o
+ .text          0x0000000000000000        0x0 i2c.o
+ .data          0x0000000000000000        0x0 i2c.o
+ .bss           0x0000000000000000        0x0 i2c.o
+ .text.i2c_get_registers_from_id
+                0x0000000000000000       0x20 i2c.o
+ .text.i2c_load_config
+                0x0000000000000000       0x40 i2c.o
+ .comment       0x0000000000000000       0x23 i2c.o
+ .text          0x0000000000000000        0x0 utils.o
+ .data          0x0000000000000000        0x0 utils.o
+ .bss           0x0000000000000000        0x0 utils.o
+ .text.get_iram_address_for_debug
+                0x0000000000000000       0x10 utils.o
+ .comment       0x0000000000000000       0x23 utils.o
+ .text          0x0000000000000000        0x0 exceptions.o
+ .data          0x0000000000000000        0x0 exceptions.o
+ .bss           0x0000000000000000        0x0 exceptions.o
+ .text          0x0000000000000000        0x0 arm.o
+ .data          0x0000000000000000        0x0 arm.o
+ .bss           0x0000000000000000        0x0 arm.o
+ .text.tlb_invalidate_all
+                0x0000000000000000       0x14 arm.o
+ .text.tlb_invalidate_page
+                0x0000000000000000       0x18 arm.o
+ .text          0x0000000000000000        0x0 start.o
+ .data          0x0000000000000000        0x0 start.o
+ .bss           0x0000000000000000        0x0 start.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+NULL             0x0000000000000000 0x0000000000001000
+ccrt0            0x0000000040006000 0x0000000000001000
+glob             0x0000000040020000 0x0000000000020000
+tzram            0x000000007c010000 0x0000000000010000
+warmboot_crt0    0x000000007c013000 0x0000000000000800
+main             0x00000001f01e0800 0x000000000000d002
+pk2ldr           0x00000001f01f0000 0x0000000000002000
+evt              0x00000001f01fa800 0x0000000000000800
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000040006000                PROVIDE (__start__ = 0x40006000)
+                0x0000000040006000                . = __start__
+
+.cold_crt0      0x0000000040006000      0xdc0 load address 0x0000000040020000
+                0x0000000040006000                . = ALIGN (0x40)
+                0x0000000040006000                __cold_crt0_start__ = ABSOLUTE (.)
+                0x0000000040020000                __glob_origin__ = ORIGIN (glob)
+ *(.cold_crt0.text.start)
+ .cold_crt0.text.start
+                0x0000000040006000      0x268 start.o
+                0x0000000040006000                __start_cold
+ .cold_crt0.text.start.stub
+                0x0000000040006268       0x58 linker stubs
+ *(.cold_crt0.text*)
+ coldboot_init.o(.text*)
+ .text          0x00000000400062e8        0x0 coldboot_init.o
+ *fill*         0x00000000400062e8        0x8 
+ .text.get_coldboot_crt0_temp_stack_address
+                0x00000000400062f0        0xc coldboot_init.o
+                0x00000000400062f0                get_coldboot_crt0_temp_stack_address
+ *fill*         0x00000000400062fc        0x4 
+ .text.get_coldboot_crt0_stack_address
+                0x0000000040006300       0x48 coldboot_init.o
+                0x0000000040006300                get_coldboot_crt0_stack_address
+ *fill*         0x0000000040006348        0x8 
+ .text.coldboot_init
+                0x0000000040006350      0x5a4 coldboot_init.o
+                0x0000000040006350                coldboot_init
+ *(.cold_crt0.rodata*)
+ coldboot_init.o(.rodata*)
+ *fill*         0x00000000400068f4        0x4 
+ .rodata.addrs.2449
+                0x00000000400068f8       0x20 coldboot_init.o
+ .rodata.attribs.2451
+                0x0000000040006918       0x20 coldboot_init.o
+ .rodata.attribs.2476
+                0x0000000040006938       0x18 coldboot_init.o
+ .rodata.increments.2499
+                0x0000000040006950       0x40 coldboot_init.o
+ .rodata.is_block.2452
+                0x0000000040006990       0x20 coldboot_init.o
+ .rodata.is_executable.2500
+                0x00000000400069b0        0x8 coldboot_init.o
+ .rodata.is_secure.2463
+                0x00000000400069b8       0x15 coldboot_init.o
+ *fill*         0x00000000400069cd        0x3 
+ .rodata.offs.2497
+                0x00000000400069d0       0x40 coldboot_init.o
+ .rodata.offs_5x.2501
+                0x0000000040006a10       0x40 coldboot_init.o
+ .rodata.pas.2461
+                0x0000000040006a50       0xa8 coldboot_init.o
+ .rodata.pas.2474
+                0x0000000040006af8       0x18 coldboot_init.o
+ .rodata.pas_7x.2464
+                0x0000000040006b10       0xa8 coldboot_init.o
+ .rodata.sizes.2450
+                0x0000000040006bb8       0x20 coldboot_init.o
+ .rodata.sizes.2462
+                0x0000000040006bd8       0xa8 coldboot_init.o
+ .rodata.sizes.2475
+                0x0000000040006c80       0x18 coldboot_init.o
+ .rodata.sizes.2498
+                0x0000000040006c98       0x40 coldboot_init.o
+ *(.cold_crt0.data*)
+ .cold_crt0.data.g_coldboot_crt0_relocation_list
+                0x0000000040006cd8       0xb0 start.o
+                0x0000000040006cd8                g_coldboot_crt0_relocation_list
+ coldboot_init.o(.data*)
+                0x0000000040006d88                . = ALIGN (0x8)
+ *(.cold_crt0.bss*)
+ coldboot_init.o(.bss* COMMON)
+                0x0000000040006dc0                . = ALIGN (0x40)
+ *fill*         0x0000000040006d88       0x38 
+                0x0000000040006dc0                __cold_crt0_end__ = ABSOLUTE (.)
+
+.pk2ldr         0x00000001f01f0000      0xe10 load address 0x0000000040020dc0
+                0x00000001f01f0000                . = ALIGN (0x1000)
+                0x0000000040020dc0                __pk2ldr_lma__ = LOADADDR (.pk2ldr)
+                0x00000001f01f0000                __pk2ldr_start__ = ABSOLUTE (.)
+ package2.o(.text*)
+ .text          0x00000001f01f0000        0x0 package2.o
+ .text.stub     0x00000001f01f0000       0x50 linker stubs
+ .text.sync_with_nx_bootloader
+                0x00000001f01f0050       0x54 package2.o
+ *fill*         0x00000001f01f00a4        0xc 
+ .text.derive_new_device_keys
+                0x00000001f01f00b0       0xec package2.o
+ *fill*         0x00000001f01f019c        0x4 
+ .text.validate_package2_metadata
+                0x00000001f01f01a0      0x1d8 package2.o
+ *fill*         0x00000001f01f0378        0x8 
+ .text.package2_crypt_ctr.constprop.2
+                0x00000001f01f0380       0x90 package2.o
+ .text.get_pk2ldr_stack_address
+                0x00000001f01f0410       0x10 package2.o
+                0x00000001f01f0410                get_pk2ldr_stack_address
+ .text.load_package2
+                0x00000001f01f0420      0x858 package2.o
+                0x00000001f01f0420                load_package2
+ package2.o(.rodata*)
+ .rodata.CSWTCH.7
+                0x00000001f01f0c78       0x28 package2.o
+ .rodata.devicekek_4x_seed
+                0x00000001f01f0ca0       0x10 package2.o
+ .rodata.devicekey_4x_seed
+                0x00000001f01f0cb0       0x10 package2.o
+ .rodata.devicekey_seed
+                0x00000001f01f0cc0       0x10 package2.o
+ .rodata.keyblob_key_seed_00
+                0x00000001f01f0cd0       0x10 package2.o
+ .rodata.masterkey_seed
+                0x00000001f01f0ce0       0x10 package2.o
+ .rodata.new_device_key_sources
+                0x00000001f01f0cf0       0x50 package2.o
+ .rodata.new_device_keygen_sources
+                0x00000001f01f0d40       0x50 package2.o
+ .rodata.new_device_keygen_sources_dev
+                0x00000001f01f0d90       0x50 package2.o
+ .rodata.new_master_kek_sources
+                0x00000001f01f0de0       0x20 package2.o
+ .rodata.package2_key_source.3137
+                0x00000001f01f0e00       0x10 package2.o
+ package2.o(.data*)
+                0x00000001f01f0e10                . = ALIGN (0x8)
+
+.pk2ldr.bss     0x00000001f01f0e10        0x0 load address 0x0000000040021bd0
+                0x00000001f01f0e10                . = ALIGN (0x8)
+                0x00000001f01f0e10                __pk2ldr_bss_start__ = ABSOLUTE (.)
+ package2.o(.bss* COMMON)
+                0x00000001f01f0e10                . = ALIGN (0x8)
+                0x00000001f01f0e10                __pk2ldr_end__ = ABSOLUTE (.)
+
+.vectors        0x00000001f01fa800      0x7f0 load address 0x0000000040021bd0
+                0x00000001f01fa800                . = ALIGN (0x800)
+                0x0000000040021bd0                __vectors_lma__ = LOADADDR (.vectors)
+                0x00000001f01fa800                __vectors_start__ = ABSOLUTE (.)
+ *(.vectors*)
+ .vectors       0x00000001f01fa800      0x7f0 exceptions.o
+                0x00000001f01fa800                exosphere_vectors
+                0x00000001f01fa800                unknown_exception
+                0x00000001f01fad84                handle_core012_smc_exception
+                0x00000001f01faf04                handle_fiq_exception
+                0x00000001f01faf84                handle_core3_smc_exception
+                0x00000001f01faff0                . = ALIGN (0x8)
+                0x00000001f01faff0                __vectors_end__ = ABSOLUTE (.)
+
+.warm_crt0      0x000000007c013000      0x780 load address 0x00000000400223c0
+                0x000000007c013000                . = ALIGN (0x40)
+                0x00000000400223c0                __warmboot_crt0_lma__ = LOADADDR (.warm_crt0)
+                0x000000007c013000                __warmboot_crt0_start__ = ABSOLUTE (.)
+ *(.warm_crt0.text.start)
+ .warm_crt0.text.start
+                0x000000007c013000      0x1d0 start.o
+                0x000000007c013000                __start_warm
+ *(.warm_crt0.text*)
+ .warm_crt0.text.__asm_dcache_level
+                0x000000007c0131d0       0x64 arm.o
+ .warm_crt0.text.__asm_dcache_all
+                0x000000007c013234       0x60 arm.o
+ .warm_crt0.text.flush_dcache_all
+                0x000000007c013294        0x8 arm.o
+                0x000000007c013294                flush_dcache_all
+ .warm_crt0.text.invalidate_dcache_all
+                0x000000007c01329c        0x8 arm.o
+                0x000000007c01329c                invalidate_dcache_all
+ .warm_crt0.text.flush_dcache_range
+                0x000000007c0132a4       0x34 arm.o
+                0x000000007c0132a4                flush_dcache_range
+ .warm_crt0.text.invalidate_dcache_range
+                0x000000007c0132d8       0x30 arm.o
+                0x000000007c0132d8                invalidate_dcache_range
+ .warm_crt0.text.invalidate_icache_all_inner_shareable
+                0x000000007c013308       0x18 arm.o
+                0x000000007c013308                invalidate_icache_all_inner_shareable
+ .warm_crt0.text.invalidate_icache_all
+                0x000000007c013320       0x18 arm.o
+                0x000000007c013320                invalidate_icache_all
+ *fill*         0x000000007c013338        0x8 
+ .warm_crt0.text.__set_memory_registers
+                0x000000007c013340       0x40 start.o
+                0x000000007c013340                __set_memory_registers
+ warmboot_init.o(.text*)
+ .text          0x000000007c013380        0x0 warmboot_init.o
+ .text.get_warmboot_crt0_stack_address
+                0x000000007c013380       0x24 warmboot_init.o
+                0x000000007c013380                get_warmboot_crt0_stack_address
+ *fill*         0x000000007c0133a4        0xc 
+ .text.get_warmboot_crt0_stack_address_critsec_enter
+                0x000000007c0133b0       0x54 warmboot_init.o
+                0x000000007c0133b0                get_warmboot_crt0_stack_address_critsec_enter
+ *fill*         0x000000007c013404        0xc 
+ .text.warmboot_crt0_critical_section_enter
+                0x000000007c013410       0xe4 warmboot_init.o
+                0x000000007c013410                warmboot_crt0_critical_section_enter
+ *fill*         0x000000007c0134f4        0xc 
+ .text.init_dma_controllers
+                0x000000007c013500      0x134 warmboot_init.o
+                0x000000007c013500                init_dma_controllers
+ *fill*         0x000000007c013634        0xc 
+ .text._set_memory_registers_enable_mmu
+                0x000000007c013640       0x34 warmboot_init.o
+                0x000000007c013640                _set_memory_registers_enable_mmu
+ *fill*         0x000000007c013674        0xc 
+ .text.set_memory_registers_enable_mmu_1x_ttbr0
+                0x000000007c013680       0x3c warmboot_init.o
+                0x000000007c013680                set_memory_registers_enable_mmu_1x_ttbr0
+ *fill*         0x000000007c0136bc        0x4 
+ .text.set_memory_registers_enable_mmu_5x_ttbr0
+                0x000000007c0136c0       0x3c warmboot_init.o
+                0x000000007c0136c0                set_memory_registers_enable_mmu_5x_ttbr0
+ *fill*         0x000000007c0136fc        0x4 
+ .text.warmboot_init
+                0x000000007c013700       0x48 warmboot_init.o
+                0x000000007c013700                warmboot_init
+ *(.warm_crt0.rodata*)
+ warmboot_init.o(.rodata*)
+ *(.warm_crt0.data*)
+ .warm_crt0.data.g_boot_critical_section
+                0x000000007c013748        0x4 start.o
+                0x000000007c013748                g_boot_critical_section
+ warmboot_init.o(.data*)
+                0x000000007c013750                . = ALIGN (0x8)
+ *fill*         0x000000007c01374c        0x4 
+ *(.warm_crt0.bss*)
+ warmboot_init.o(.bss*)
+ .bss.g_exosphere_target_firmware_for_init
+                0x000000007c013750        0x4 warmboot_init.o
+                0x000000007c013750                g_exosphere_target_firmware_for_init
+                0x000000007c013780                . = ALIGN (0x40)
+ *fill*         0x000000007c013754       0x2c 
+                0x000000007c013780                __warmboot_crt0_end__ = ABSOLUTE (.)
+
+.text           0x00000001f01e0800     0x8870 load address 0x0000000040022b40
+                0x00000001f01e0800                . = ALIGN (0x100)
+                0x0000000040022b40                __main_lma__ = LOADADDR (.text)
+                0x00000001f01e0800                __main_start__ = ABSOLUTE (.)
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text.seal_key_internal
+                0x00000001f01e0800       0x40 sealedkeys.o
+                0x00000001f01e0800                seal_key_internal
+ .text.seal_key_internal.stub
+                0x00000001f01e0840       0x38 linker stubs
+ *fill*         0x00000001f01e0878        0x8 
+ .text.unseal_key_internal
+                0x00000001f01e0880       0x3c sealedkeys.o
+                0x00000001f01e0880                unseal_key_internal
+ *fill*         0x00000001f01e08bc        0x4 
+ .text.seal_titlekey
+                0x00000001f01e08c0       0x24 sealedkeys.o
+                0x00000001f01e08c0                seal_titlekey
+ *fill*         0x00000001f01e08e4        0xc 
+ .text.unseal_titlekey
+                0x00000001f01e08f0       0x1c sealedkeys.o
+                0x00000001f01e08f0                unseal_titlekey
+ *fill*         0x00000001f01e090c        0x4 
+ .text.seal_key
+                0x00000001f01e0910       0x7c sealedkeys.o
+                0x00000001f01e0910                seal_key
+ *fill*         0x00000001f01e098c        0x4 
+ .text.unseal_key
+                0x00000001f01e0990       0x74 sealedkeys.o
+                0x00000001f01e0990                unseal_key
+ *fill*         0x00000001f01e0a04        0xc 
+ .text.__libc_init_array
+                0x00000001f01e0a10       0x80 my_libc.o
+                0x00000001f01e0a10                __libc_init_array
+ .text.__libc_fini_array
+                0x00000001f01e0a90       0x44 my_libc.o
+                0x00000001f01e0a90                __libc_fini_array
+ *fill*         0x00000001f01e0ad4        0xc 
+ .text.memcpy   0x00000001f01e0ae0       0xf0 my_libc.o
+                0x00000001f01e0ae0                memcpy
+ .text.memset   0x00000001f01e0bd0       0xe4 my_libc.o
+                0x00000001f01e0bd0                memset
+ *fill*         0x00000001f01e0cb4        0xc 
+ .text.memcmp   0x00000001f01e0cc0       0x98 my_libc.o
+                0x00000001f01e0cc0                memcmp
+ *fill*         0x00000001f01e0d58        0x8 
+ .text.coldboot_main
+                0x00000001f01e0d60       0x74 coldboot_main.o
+                0x00000001f01e0d60                coldboot_main
+ *fill*         0x00000001f01e0dd4        0xc 
+ .text.save_se_and_power_down_cpu
+                0x00000001f01e0de0      0x2cc sc7.o
+                0x00000001f01e0de0                save_se_and_power_down_cpu
+ *fill*         0x00000001f01e10ac        0x4 
+ .text.cpu_suspend
+                0x00000001f01e10b0      0x424 sc7.o
+                0x00000001f01e10b0                cpu_suspend
+ *fill*         0x00000001f01e14d4        0xc 
+ .text.bootconfig_matches_hardware_info
+                0x00000001f01e14e0       0x58 bootconfig.o
+                0x00000001f01e14e0                bootconfig_matches_hardware_info
+ *fill*         0x00000001f01e1538        0x8 
+ .text.bootconfig_load_and_verify
+                0x00000001f01e1540       0x90 bootconfig.o
+                0x00000001f01e1540                bootconfig_load_and_verify
+ .text.bootconfig_clear
+                0x00000001f01e15d0       0x18 bootconfig.o
+                0x00000001f01e15d0                bootconfig_clear
+ *fill*         0x00000001f01e15e8        0x8 
+ .text.bootconfig_is_package2_plaintext
+                0x00000001f01e15f0       0x18 bootconfig.o
+                0x00000001f01e15f0                bootconfig_is_package2_plaintext
+ *fill*         0x00000001f01e1608        0x8 
+ .text.bootconfig_set_package2_plaintext_and_unsigned
+                0x00000001f01e1610       0x1c bootconfig.o
+                0x00000001f01e1610                bootconfig_set_package2_plaintext_and_unsigned
+ *fill*         0x00000001f01e162c        0x4 
+ .text.bootconfig_disable_program_verification
+                0x00000001f01e1630       0x1c bootconfig.o
+                0x00000001f01e1630                bootconfig_disable_program_verification
+ *fill*         0x00000001f01e164c        0x4 
+ .text.bootconfig_is_debug_mode
+                0x00000001f01e1650       0x18 bootconfig.o
+                0x00000001f01e1650                bootconfig_is_debug_mode
+ *fill*         0x00000001f01e1668        0x8 
+ .text.bootconfig_take_extabt_serror_to_el3
+                0x00000001f01e1670       0x20 bootconfig.o
+                0x00000001f01e1670                bootconfig_take_extabt_serror_to_el3
+ .text.bootconfig_get_value_for_sysctr0
+                0x00000001f01e1690       0x20 bootconfig.o
+                0x00000001f01e1690                bootconfig_get_value_for_sysctr0
+ .text.bootconfig_get_memory_arrangement
+                0x00000001f01e16b0       0x64 bootconfig.o
+                0x00000001f01e16b0                bootconfig_get_memory_arrangement
+ *fill*         0x00000001f01e1714        0xc 
+ .text.bootconfig_get_kernel_memory_configuration
+                0x00000001f01e1720       0x70 bootconfig.o
+                0x00000001f01e1720                bootconfig_get_kernel_memory_configuration
+ .text.bootconfig_load_boot_reason
+                0x00000001f01e1790       0x1c bootconfig.o
+                0x00000001f01e1790                bootconfig_load_boot_reason
+ *fill*         0x00000001f01e17ac        0x4 
+ .text.bootconfig_set_package2_hash_for_recovery
+                0x00000001f01e17b0       0x14 bootconfig.o
+                0x00000001f01e17b0                bootconfig_set_package2_hash_for_recovery
+ *fill*         0x00000001f01e17c4        0xc 
+ .text.bootconfig_get_package2_hash_for_recovery
+                0x00000001f01e17d0       0x2c bootconfig.o
+                0x00000001f01e17d0                bootconfig_get_package2_hash_for_recovery
+ *fill*         0x00000001f01e17fc        0x4 
+ .text.bootconfig_is_recovery_boot
+                0x00000001f01e1800       0x10 bootconfig.o
+                0x00000001f01e1800                bootconfig_is_recovery_boot
+ .text.bootconfig_get_boot_reason
+                0x00000001f01e1810       0x18 bootconfig.o
+                0x00000001f01e1810                bootconfig_get_boot_reason
+ *fill*         0x00000001f01e1828        0x8 
+ .text.ams_map_irampage
+                0x00000001f01e1830       0x54 smc_ams.o
+                0x00000001f01e1830                ams_map_irampage
+ *fill*         0x00000001f01e1884        0xc 
+ .text.ams_unmap_irampage
+                0x00000001f01e1890       0x38 smc_ams.o
+                0x00000001f01e1890                ams_unmap_irampage
+ *fill*         0x00000001f01e18c8        0x8 
+ .text.ams_iram_copy
+                0x00000001f01e18d0      0x198 smc_ams.o
+                0x00000001f01e18d0                ams_iram_copy
+ *fill*         0x00000001f01e1a68        0x8 
+ .text.tkey_set_expected_label_hash
+                0x00000001f01e1a70       0x2c titlekey.o
+                0x00000001f01e1a70                tkey_set_expected_label_hash
+ *fill*         0x00000001f01e1a9c        0x4 
+ .text.tkey_set_master_key_rev
+                0x00000001f01e1aa0       0x1c titlekey.o
+                0x00000001f01e1aa0                tkey_set_master_key_rev
+ *fill*         0x00000001f01e1abc        0x4 
+ .text.tkey_set_type
+                0x00000001f01e1ac0       0x34 titlekey.o
+                0x00000001f01e1ac0                tkey_set_type
+ *fill*         0x00000001f01e1af4        0xc 
+ .text.calculate_mgf1_and_xor
+                0x00000001f01e1b00       0xe4 titlekey.o
+                0x00000001f01e1b00                calculate_mgf1_and_xor
+ *fill*         0x00000001f01e1be4        0xc 
+ .text.tkey_rsa_oaep_unwrap
+                0x00000001f01e1bf0      0x114 titlekey.o
+                0x00000001f01e1bf0                tkey_rsa_oaep_unwrap
+ *fill*         0x00000001f01e1d04        0xc 
+ .text.tkey_aes_unwrap
+                0x00000001f01e1d10       0x78 titlekey.o
+                0x00000001f01e1d10                tkey_aes_unwrap
+ *fill*         0x00000001f01e1d88        0x8 
+ .text.smc_read_write_register
+                0x00000001f01e1d90      0x1a8 smc_api.o
+                0x00000001f01e1d90                smc_read_write_register
+ *fill*         0x00000001f01e1f38        0x8 
+ .text.smc_set_config_user
+                0x00000001f01e1f40       0x14 smc_api.o
+                0x00000001f01e1f40                smc_set_config_user
+ *fill*         0x00000001f01e1f54        0xc 
+ .text.smc_get_config_user
+                0x00000001f01e1f60       0x2c smc_api.o
+                0x00000001f01e1f60                smc_get_config_user
+ *fill*         0x00000001f01e1f8c        0x4 
+ .text.smc_get_config_priv
+                0x00000001f01e1f90       0x2c smc_api.o
+                0x00000001f01e1f90                smc_get_config_priv
+ *fill*         0x00000001f01e1fbc        0x4 
+ .text.smc_get_result
+                0x00000001f01e1fc0       0xc8 smc_api.o
+                0x00000001f01e1fc0                smc_get_result
+ *fill*         0x00000001f01e2088        0x8 
+ .text.smc_cpu_on
+                0x00000001f01e2090       0x10 smc_api.o
+                0x00000001f01e2090                smc_cpu_on
+ .text.smc_cpu_off
+                0x00000001f01e20a0        0x4 smc_api.o
+                0x00000001f01e20a0                smc_cpu_off
+ *fill*         0x00000001f01e20a4        0xc 
+ .text.cpu_suspend_wrapper
+                0x00000001f01e20b0       0x10 smc_api.o
+                0x00000001f01e20b0                cpu_suspend_wrapper
+ .text.smc_configure_carveout
+                0x00000001f01e20c0       0x98 smc_api.o
+                0x00000001f01e20c0                smc_configure_carveout
+ *fill*         0x00000001f01e2158        0x8 
+ .text.smc_panic
+                0x00000001f01e2160       0x28 smc_api.o
+                0x00000001f01e2160                smc_panic
+ *fill*         0x00000001f01e2188        0x8 
+ .text.smc_check_status
+                0x00000001f01e2190       0x60 smc_api.o
+                0x00000001f01e2190                smc_check_status
+ .text.smc_exp_mod_get_result
+                0x00000001f01e21f0       0x6c smc_api.o
+                0x00000001f01e21f0                smc_exp_mod_get_result
+ *fill*         0x00000001f01e225c        0x4 
+ .text.smc_crypt_aes_status_check
+                0x00000001f01e2260       0x34 smc_api.o
+                0x00000001f01e2260                smc_crypt_aes_status_check
+ *fill*         0x00000001f01e2294        0xc 
+ .text.smc_unwrap_rsa_oaep_wrapped_titlekey_get_result
+                0x00000001f01e22a0       0xd4 smc_api.o
+                0x00000001f01e22a0                smc_unwrap_rsa_oaep_wrapped_titlekey_get_result
+ *fill*         0x00000001f01e2374        0xc 
+ .text.smc_get_random_bytes_for_priv
+                0x00000001f01e2380       0x68 smc_api.o
+                0x00000001f01e2380                smc_get_random_bytes_for_priv
+ *fill*         0x00000001f01e23e8        0x8 
+ .text.set_suspend_for_debug
+                0x00000001f01e23f0        0x4 smc_api.o
+                0x00000001f01e23f0                set_suspend_for_debug
+ *fill*         0x00000001f01e23f4        0xc 
+ .text.set_version_specific_smcs
+                0x00000001f01e2400       0x88 smc_api.o
+                0x00000001f01e2400                set_version_specific_smcs
+ *fill*         0x00000001f01e2488        0x8 
+ .text.get_smc_core012_stack_address
+                0x00000001f01e2490       0x10 smc_api.o
+                0x00000001f01e2490                get_smc_core012_stack_address
+ .text.get_exception_entry_stack_address
+                0x00000001f01e24a0       0x34 smc_api.o
+                0x00000001f01e24a0                get_exception_entry_stack_address
+ *fill*         0x00000001f01e24d4        0xc 
+ .text.clear_user_smc_in_progress
+                0x00000001f01e24e0       0x10 smc_api.o
+                0x00000001f01e24e0                clear_user_smc_in_progress
+ .text.set_priv_smc_in_progress
+                0x00000001f01e24f0       0x28 smc_api.o
+                0x00000001f01e24f0                set_priv_smc_in_progress
+ *fill*         0x00000001f01e2518        0x8 
+ .text.clear_priv_smc_in_progress
+                0x00000001f01e2520       0x10 smc_api.o
+                0x00000001f01e2520                clear_priv_smc_in_progress
+ .text.call_smc_handler
+                0x00000001f01e2530       0xa0 smc_api.o
+                0x00000001f01e2530                call_smc_handler
+ .text.smc_wrapper_sync
+                0x00000001f01e25d0       0x40 smc_api.o
+                0x00000001f01e25d0                smc_wrapper_sync
+ .text.smc_get_random_bytes_for_user
+                0x00000001f01e2610        0xc smc_api.o
+                0x00000001f01e2610                smc_get_random_bytes_for_user
+ *fill*         0x00000001f01e261c        0x4 
+ .text.smc_generate_aes_kek
+                0x00000001f01e2620        0xc smc_api.o
+                0x00000001f01e2620                smc_generate_aes_kek
+ *fill*         0x00000001f01e262c        0x4 
+ .text.smc_load_aes_key
+                0x00000001f01e2630        0xc smc_api.o
+                0x00000001f01e2630                smc_load_aes_key
+ *fill*         0x00000001f01e263c        0x4 
+ .text.smc_generate_specific_aes_key
+                0x00000001f01e2640        0xc smc_api.o
+                0x00000001f01e2640                smc_generate_specific_aes_key
+ *fill*         0x00000001f01e264c        0x4 
+ .text.smc_compute_cmac
+                0x00000001f01e2650        0xc smc_api.o
+                0x00000001f01e2650                smc_compute_cmac
+ *fill*         0x00000001f01e265c        0x4 
+ .text.smc_load_rsa_oaep_key
+                0x00000001f01e2660        0xc smc_api.o
+                0x00000001f01e2660                smc_load_rsa_oaep_key
+ *fill*         0x00000001f01e266c        0x4 
+ .text.smc_decrypt_rsa_private_key
+                0x00000001f01e2670        0xc smc_api.o
+                0x00000001f01e2670                smc_decrypt_rsa_private_key
+ *fill*         0x00000001f01e267c        0x4 
+ .text.smc_load_secure_exp_mod_key
+                0x00000001f01e2680        0xc smc_api.o
+                0x00000001f01e2680                smc_load_secure_exp_mod_key
+ *fill*         0x00000001f01e268c        0x4 
+ .text.smc_load_titlekey
+                0x00000001f01e2690        0xc smc_api.o
+                0x00000001f01e2690                smc_load_titlekey
+ *fill*         0x00000001f01e269c        0x4 
+ .text.smc_unwrap_aes_wrapped_titlekey
+                0x00000001f01e26a0        0xc smc_api.o
+                0x00000001f01e26a0                smc_unwrap_aes_wrapped_titlekey
+ *fill*         0x00000001f01e26ac        0x4 
+ .text.smc_encrypt_rsa_key_for_import
+                0x00000001f01e26b0        0xc smc_api.o
+                0x00000001f01e26b0                smc_encrypt_rsa_key_for_import
+ *fill*         0x00000001f01e26bc        0x4 
+ .text.smc_decrypt_or_import_rsa_key
+                0x00000001f01e26c0        0xc smc_api.o
+                0x00000001f01e26c0                smc_decrypt_or_import_rsa_key
+ *fill*         0x00000001f01e26cc        0x4 
+ .text.smc_cpu_suspend
+                0x00000001f01e26d0        0xc smc_api.o
+                0x00000001f01e26d0                smc_cpu_suspend
+ *fill*         0x00000001f01e26dc        0x4 
+ .text.smc_ams_iram_copy
+                0x00000001f01e26e0        0xc smc_api.o
+                0x00000001f01e26e0                smc_ams_iram_copy
+ *fill*         0x00000001f01e26ec        0x4 
+ .text.smc_wrapper_async
+                0x00000001f01e26f0       0xd8 smc_api.o
+                0x00000001f01e26f0                smc_wrapper_async
+ *fill*         0x00000001f01e27c8        0x8 
+ .text.smc_exp_mod
+                0x00000001f01e27d0       0x14 smc_api.o
+                0x00000001f01e27d0                smc_exp_mod
+ *fill*         0x00000001f01e27e4        0xc 
+ .text.smc_crypt_aes
+                0x00000001f01e27f0       0x14 smc_api.o
+                0x00000001f01e27f0                smc_crypt_aes
+ *fill*         0x00000001f01e2804        0xc 
+ .text.smc_secure_exp_mod
+                0x00000001f01e2810       0x14 smc_api.o
+                0x00000001f01e2810                smc_secure_exp_mod
+ *fill*         0x00000001f01e2824        0xc 
+ .text.smc_unwrap_rsa_oaep_wrapped_titlekey
+                0x00000001f01e2830       0x14 smc_api.o
+                0x00000001f01e2830                smc_unwrap_rsa_oaep_wrapped_titlekey
+ *fill*         0x00000001f01e2844        0xc 
+ .text.configitem_set
+                0x00000001f01e2850      0x218 configitem.o
+                0x00000001f01e2850                configitem_set
+ *fill*         0x00000001f01e2a68        0x8 
+ .text.configitem_is_recovery_boot
+                0x00000001f01e2a70        0x4 configitem.o
+                0x00000001f01e2a70                configitem_is_recovery_boot
+ *fill*         0x00000001f01e2a74        0xc 
+ .text.configitem_is_retail
+                0x00000001f01e2a80       0x18 configitem.o
+                0x00000001f01e2a80                configitem_is_retail
+ *fill*         0x00000001f01e2a98        0x8 
+ .text.configitem_should_profile_battery
+                0x00000001f01e2aa0        0xc configitem.o
+                0x00000001f01e2aa0                configitem_should_profile_battery
+ *fill*         0x00000001f01e2aac        0x4 
+ .text.configitem_get_hardware_type
+                0x00000001f01e2ab0       0x14 configitem.o
+                0x00000001f01e2ab0                configitem_get_hardware_type
+ *fill*         0x00000001f01e2ac4        0xc 
+ .text.configitem_set_debugmode_override
+                0x00000001f01e2ad0       0x14 configitem.o
+                0x00000001f01e2ad0                configitem_set_debugmode_override
+ *fill*         0x00000001f01e2ae4        0xc 
+ .text.configitem_get
+                0x00000001f01e2af0      0x314 configitem.o
+                0x00000001f01e2af0                configitem_get
+ *fill*         0x00000001f01e2e04        0xc 
+ .text.actmon_set_callback
+                0x00000001f01e2e10        0xc actmon.o
+                0x00000001f01e2e10                actmon_set_callback
+ *fill*         0x00000001f01e2e1c        0x4 
+ .text.actmon_on_bpmp_wakeup
+                0x00000001f01e2e20       0x10 actmon.o
+                0x00000001f01e2e20                actmon_on_bpmp_wakeup
+ .text.actmon_interrupt_handler
+                0x00000001f01e2e30       0x44 actmon.o
+                0x00000001f01e2e30                actmon_interrupt_handler
+ *fill*         0x00000001f01e2e74        0xc 
+ .text.fuse_hw_read
+                0x00000001f01e2e80       0x78 fuse.o
+                0x00000001f01e2e80                fuse_hw_read
+ *fill*         0x00000001f01e2ef8        0x8 
+ .text.fuse_disable_programming
+                0x00000001f01e2f00       0x18 fuse.o
+                0x00000001f01e2f00                fuse_disable_programming
+ *fill*         0x00000001f01e2f18        0x8 
+ .text.fuse_get_bootrom_patch_version
+                0x00000001f01e2f20       0x14 fuse.o
+                0x00000001f01e2f20                fuse_get_bootrom_patch_version
+ *fill*         0x00000001f01e2f34        0xc 
+ .text.fuse_get_reserved_odm
+                0x00000001f01e2f40       0x28 fuse.o
+                0x00000001f01e2f40                fuse_get_reserved_odm
+ *fill*         0x00000001f01e2f68        0x8 
+ .text.fuse_get_5x_key_generation
+                0x00000001f01e2f70       0x54 fuse.o
+                0x00000001f01e2f70                fuse_get_5x_key_generation
+ *fill*         0x00000001f01e2fc4        0xc 
+ .text.fuse_get_device_id
+                0x00000001f01e2fd0       0x70 fuse.o
+                0x00000001f01e2fd0                fuse_get_device_id
+ .text.fuse_get_dram_id
+                0x00000001f01e3040       0x18 fuse.o
+                0x00000001f01e3040                fuse_get_dram_id
+ *fill*         0x00000001f01e3058        0x8 
+ .text.fuse_get_hardware_type
+                0x00000001f01e3060       0xb4 fuse.o
+                0x00000001f01e3060                fuse_get_hardware_type
+ *fill*         0x00000001f01e3114        0xc 
+ .text.fuse_get_retail_type
+                0x00000001f01e3120       0x40 fuse.o
+                0x00000001f01e3120                fuse_get_retail_type
+ .text.fuse_get_hardware_info
+                0x00000001f01e3160       0x80 fuse.o
+                0x00000001f01e3160                fuse_get_hardware_info
+ .text.fuse_has_rcm_bug_patch
+                0x00000001f01e31e0       0xf4 fuse.o
+                0x00000001f01e31e0                fuse_has_rcm_bug_patch
+ *fill*         0x00000001f01e32d4        0xc 
+ .text.fuse_init
+                0x00000001f01e32e0       0x48 fuse.o
+                0x00000001f01e32e0                fuse_init
+ *fill*         0x00000001f01e3328        0x8 
+ .text.randomcache_refill_segment
+                0x00000001f01e3330       0x6c randomcache.o
+                0x00000001f01e3330                randomcache_refill_segment
+ *fill*         0x00000001f01e339c        0x4 
+ .text.randomcache_init
+                0x00000001f01e33a0       0x2c randomcache.o
+                0x00000001f01e33a0                randomcache_init
+ *fill*         0x00000001f01e33cc        0x4 
+ .text.randomcache_refill
+                0x00000001f01e33d0       0xb4 randomcache.o
+                0x00000001f01e33d0                randomcache_refill
+ *fill*         0x00000001f01e3484        0xc 
+ .text.randomcache_getbytes
+                0x00000001f01e3490       0x50 randomcache.o
+                0x00000001f01e3490                randomcache_getbytes
+ .text.intr_initialize_gic
+                0x00000001f01e34e0       0x7c interrupt.o
+                0x00000001f01e34e0                intr_initialize_gic
+ *fill*         0x00000001f01e355c        0x4 
+ .text.intr_initialize_gic_nonsecure
+                0x00000001f01e3560       0x98 interrupt.o
+                0x00000001f01e3560                intr_initialize_gic_nonsecure
+ *fill*         0x00000001f01e35f8        0x8 
+ .text.intr_prepare_gicc_for_sleep
+                0x00000001f01e3600       0x18 interrupt.o
+                0x00000001f01e3600                intr_prepare_gicc_for_sleep
+ *fill*         0x00000001f01e3618        0x8 
+ .text.intr_set_group
+                0x00000001f01e3620       0x38 interrupt.o
+                0x00000001f01e3620                intr_set_group
+ *fill*         0x00000001f01e3658        0x8 
+ .text.intr_set_pending
+                0x00000001f01e3660       0x20 interrupt.o
+                0x00000001f01e3660                intr_set_pending
+ .text.intr_set_priority
+                0x00000001f01e3680       0x18 interrupt.o
+                0x00000001f01e3680                intr_set_priority
+ *fill*         0x00000001f01e3698        0x8 
+ .text.intr_set_cpu_mask
+                0x00000001f01e36a0       0x18 interrupt.o
+                0x00000001f01e36a0                intr_set_cpu_mask
+ *fill*         0x00000001f01e36b8        0x8 
+ .text.intr_set_edge_level
+                0x00000001f01e36c0       0x38 interrupt.o
+                0x00000001f01e36c0                intr_set_edge_level
+ *fill*         0x00000001f01e36f8        0x8 
+ .text.intr_set_enabled
+                0x00000001f01e3700       0x20 interrupt.o
+                0x00000001f01e3700                intr_set_enabled
+ .text.handle_registered_interrupt
+                0x00000001f01e3720       0x74 interrupt.o
+                0x00000001f01e3720                handle_registered_interrupt
+ *fill*         0x00000001f01e3794        0xc 
+ .text.intr_register_handler
+                0x00000001f01e37a0       0x44 interrupt.o
+                0x00000001f01e37a0                intr_register_handler
+ *fill*         0x00000001f01e37e4        0xc 
+ .text.get_warmboot_main_stack_address
+                0x00000001f01e37f0       0x10 warmboot_main.o
+                0x00000001f01e37f0                get_warmboot_main_stack_address
+ .text.warmboot_main
+                0x00000001f01e3800      0x118 warmboot_main.o
+                0x00000001f01e3800                warmboot_main
+ *fill*         0x00000001f01e3918        0x8 
+ .text.uart_select
+                0x00000001f01e3920       0x48 uart.o
+                0x00000001f01e3920                uart_select
+ *fill*         0x00000001f01e3968        0x8 
+ .text.uart_init
+                0x00000001f01e3970       0xa4 uart.o
+                0x00000001f01e3970                uart_init
+ *fill*         0x00000001f01e3a14        0xc 
+ .text.uart_wait_idle
+                0x00000001f01e3a20       0x30 uart.o
+                0x00000001f01e3a20                uart_wait_idle
+ .text.uart_send
+                0x00000001f01e3a50       0x44 uart.o
+                0x00000001f01e3a50                uart_send
+ *fill*         0x00000001f01e3a94        0xc 
+ .text.check_mkey_revision
+                0x00000001f01e3aa0      0x104 masterkey.o
+                0x00000001f01e3aa0                check_mkey_revision
+ *fill*         0x00000001f01e3ba4        0xc 
+ .text.mkey_detect_revision
+                0x00000001f01e3bb0       0x7c masterkey.o
+                0x00000001f01e3bb0                mkey_detect_revision
+ *fill*         0x00000001f01e3c2c        0x4 
+ .text.mkey_get_revision
+                0x00000001f01e3c30       0x20 masterkey.o
+                0x00000001f01e3c30                mkey_get_revision
+ .text.mkey_get_keyslot
+                0x00000001f01e3c50       0x6c masterkey.o
+                0x00000001f01e3c50                mkey_get_keyslot
+ *fill*         0x00000001f01e3cbc        0x4 
+ .text.set_old_devkey
+                0x00000001f01e3cc0       0x30 masterkey.o
+                0x00000001f01e3cc0                set_old_devkey
+ .text.devkey_get_keyslot
+                0x00000001f01e3cf0       0x6c masterkey.o
+                0x00000001f01e3cf0                devkey_get_keyslot
+ *fill*         0x00000001f01e3d5c        0x4 
+ .text.configure_gpu_ucode_carveout
+                0x00000001f01e3d60       0x78 mc.o
+                0x00000001f01e3d60                configure_gpu_ucode_carveout
+ *fill*         0x00000001f01e3dd8        0x8 
+ .text.configure_kernel_carveout
+                0x00000001f01e3de0       0xfc mc.o
+                0x00000001f01e3de0                configure_kernel_carveout
+ *fill*         0x00000001f01e3edc        0x4 
+ .text.configure_default_carveouts
+                0x00000001f01e3ee0      0x184 mc.o
+                0x00000001f01e3ee0                configure_default_carveouts
+ *fill*         0x00000001f01e4064        0xc 
+ .text.setup_dram_magic_numbers
+                0x00000001f01e4070       0x88 bootup.o
+                0x00000001f01e4070                setup_dram_magic_numbers
+ *fill*         0x00000001f01e40f8        0x8 
+ .text.bootup_misc_mmio
+                0x00000001f01e4100      0x5b4 bootup.o
+                0x00000001f01e4100                bootup_misc_mmio
+ *fill*         0x00000001f01e46b4        0xc 
+ .text.setup_4x_mmio
+                0x00000001f01e46c0      0x348 bootup.o
+                0x00000001f01e46c0                setup_4x_mmio
+ *fill*         0x00000001f01e4a08        0x8 
+ .text.setup_current_core_state
+                0x00000001f01e4a10       0xd0 bootup.o
+                0x00000001f01e4a10                setup_current_core_state
+ .text.identity_unmap_iram_cd_tzram
+                0x00000001f01e4ae0       0x3c bootup.o
+                0x00000001f01e4ae0                identity_unmap_iram_cd_tzram
+ *fill*         0x00000001f01e4b1c        0x4 
+ .text.secure_additional_devices
+                0x00000001f01e4b20       0x60 bootup.o
+                0x00000001f01e4b20                secure_additional_devices
+ .text.set_extabt_serror_taken_to_el3
+                0x00000001f01e4b80       0x24 bootup.o
+                0x00000001f01e4b80                set_extabt_serror_taken_to_el3
+ *fill*         0x00000001f01e4ba4        0xc 
+ .text.exp_mod_done_handler
+                0x00000001f01e4bb0       0x20 smc_user.o
+                0x00000001f01e4bb0                exp_mod_done_handler
+ .text.crypt_aes_done_handler
+                0x00000001f01e4bd0       0x24 smc_user.o
+                0x00000001f01e4bd0                crypt_aes_done_handler
+ *fill*         0x00000001f01e4bf4        0xc 
+ .text.get_exp_mod_done
+                0x00000001f01e4c00        0xc smc_user.o
+                0x00000001f01e4c00                get_exp_mod_done
+ *fill*         0x00000001f01e4c0c        0x4 
+ .text.user_exp_mod
+                0x00000001f01e4c10       0xf8 smc_user.o
+                0x00000001f01e4c10                user_exp_mod
+ *fill*         0x00000001f01e4d08        0x8 
+ .text.user_get_random_bytes
+                0x00000001f01e4d10       0x8c smc_user.o
+                0x00000001f01e4d10                user_get_random_bytes
+ *fill*         0x00000001f01e4d9c        0x4 
+ .text.user_generate_aes_kek
+                0x00000001f01e4da0      0x230 smc_user.o
+                0x00000001f01e4da0                user_generate_aes_kek
+ .text.user_load_aes_key
+                0x00000001f01e4fd0       0x8c smc_user.o
+                0x00000001f01e4fd0                user_load_aes_key
+ *fill*         0x00000001f01e505c        0x4 
+ .text.get_crypt_aes_done
+                0x00000001f01e5060        0xc smc_user.o
+                0x00000001f01e5060                get_crypt_aes_done
+ *fill*         0x00000001f01e506c        0x4 
+ .text.user_crypt_aes
+                0x00000001f01e5070      0x1bc smc_user.o
+                0x00000001f01e5070                user_crypt_aes
+ *fill*         0x00000001f01e522c        0x4 
+ .text.user_generate_specific_aes_key
+                0x00000001f01e5230      0x1f4 smc_user.o
+                0x00000001f01e5230                user_generate_specific_aes_key
+ *fill*         0x00000001f01e5424        0xc 
+ .text.user_compute_cmac
+                0x00000001f01e5430       0xdc smc_user.o
+                0x00000001f01e5430                user_compute_cmac
+ *fill*         0x00000001f01e550c        0x4 
+ .text.user_load_rsa_oaep_key
+                0x00000001f01e5510      0x130 smc_user.o
+                0x00000001f01e5510                user_load_rsa_oaep_key
+ .text.user_decrypt_rsa_private_key
+                0x00000001f01e5640      0x134 smc_user.o
+                0x00000001f01e5640                user_decrypt_rsa_private_key
+ *fill*         0x00000001f01e5774        0xc 
+ .text.user_load_secure_exp_mod_key
+                0x00000001f01e5780      0x150 smc_user.o
+                0x00000001f01e5780                user_load_secure_exp_mod_key
+ .text.user_secure_exp_mod
+                0x00000001f01e58d0       0xf8 smc_user.o
+                0x00000001f01e58d0                user_secure_exp_mod
+ *fill*         0x00000001f01e59c8        0x8 
+ .text.user_unwrap_rsa_oaep_wrapped_titlekey
+                0x00000001f01e59d0      0x140 smc_user.o
+                0x00000001f01e59d0                user_unwrap_rsa_oaep_wrapped_titlekey
+ .text.user_load_titlekey
+                0x00000001f01e5b10       0x64 smc_user.o
+                0x00000001f01e5b10                user_load_titlekey
+ *fill*         0x00000001f01e5b74        0xc 
+ .text.user_unwrap_aes_wrapped_titlekey
+                0x00000001f01e5b80       0xa4 smc_user.o
+                0x00000001f01e5b80                user_unwrap_aes_wrapped_titlekey
+ *fill*         0x00000001f01e5c24        0xc 
+ .text.user_encrypt_rsa_key_for_import
+                0x00000001f01e5c30      0x1dc smc_user.o
+                0x00000001f01e5c30                user_encrypt_rsa_key_for_import
+ *fill*         0x00000001f01e5e0c        0x4 
+ .text.user_decrypt_or_import_rsa_key
+                0x00000001f01e5e10      0x1a0 smc_user.o
+                0x00000001f01e5e10                user_decrypt_or_import_rsa_key
+ .text.clear_aes_keyslot_iv.part.2
+                0x00000001f01e5fb0       0x30 se.o
+ .text.ll_init  0x00000001f01e5fe0       0x44 se.o
+                0x00000001f01e5fe0                ll_init
+ *fill*         0x00000001f01e6024        0xc 
+ .text.se_operation_completed
+                0x00000001f01e6030       0x2c se.o
+                0x00000001f01e6030                se_operation_completed
+ *fill*         0x00000001f01e605c        0x4 
+ .text.se_check_error_status_reg
+                0x00000001f01e6060       0x1c se.o
+                0x00000001f01e6060                se_check_error_status_reg
+ *fill*         0x00000001f01e607c        0x4 
+ .text.se_check_for_error
+                0x00000001f01e6080       0x30 se.o
+                0x00000001f01e6080                se_check_for_error
+ .text.se_trigger_interrupt
+                0x00000001f01e60b0        0x8 se.o
+                0x00000001f01e60b0                se_trigger_interrupt
+ *fill*         0x00000001f01e60b8        0x8 
+ .text.se_verify_flags_cleared
+                0x00000001f01e60c0       0x20 se.o
+                0x00000001f01e60c0                se_verify_flags_cleared
+ .text.se_validate_stored_vector
+                0x00000001f01e60e0       0x40 se.o
+                0x00000001f01e60e0                se_validate_stored_vector
+ .text.se_generate_stored_vector
+                0x00000001f01e6120       0x2c se.o
+                0x00000001f01e6120                se_generate_stored_vector
+ *fill*         0x00000001f01e614c        0x4 
+ .text.set_aes_keyslot_flags
+                0x00000001f01e6150       0x54 se.o
+                0x00000001f01e6150                set_aes_keyslot_flags
+ *fill*         0x00000001f01e61a4        0xc 
+ .text.set_rsa_keyslot_flags
+                0x00000001f01e61b0       0x64 se.o
+                0x00000001f01e61b0                set_rsa_keyslot_flags
+ *fill*         0x00000001f01e6214        0xc 
+ .text.clear_aes_keyslot
+                0x00000001f01e6220       0x3c se.o
+                0x00000001f01e6220                clear_aes_keyslot
+ *fill*         0x00000001f01e625c        0x4 
+ .text.clear_rsa_keyslot
+                0x00000001f01e6260       0x64 se.o
+                0x00000001f01e6260                clear_rsa_keyslot
+ *fill*         0x00000001f01e62c4        0xc 
+ .text.set_aes_keyslot
+                0x00000001f01e62d0       0x54 se.o
+                0x00000001f01e62d0                set_aes_keyslot
+ *fill*         0x00000001f01e6324        0xc 
+ .text.set_rsa_keyslot
+                0x00000001f01e6330       0xc8 se.o
+                0x00000001f01e6330                set_rsa_keyslot
+ *fill*         0x00000001f01e63f8        0x8 
+ .text.set_aes_keyslot_iv
+                0x00000001f01e6400       0x58 se.o
+                0x00000001f01e6400                set_aes_keyslot_iv
+ *fill*         0x00000001f01e6458        0x8 
+ .text.se_aes_crypt_insecure_internal
+                0x00000001f01e6460       0xb0 se.o
+                0x00000001f01e6460                se_aes_crypt_insecure_internal
+ .text.se_aes_ctr_crypt_insecure
+                0x00000001f01e6510       0x44 se.o
+                0x00000001f01e6510                se_aes_ctr_crypt_insecure
+ *fill*         0x00000001f01e6554        0xc 
+ .text.se_aes_cbc_encrypt_insecure
+                0x00000001f01e6560       0x58 se.o
+                0x00000001f01e6560                se_aes_cbc_encrypt_insecure
+ *fill*         0x00000001f01e65b8        0x8 
+ .text.se_aes_cbc_decrypt_insecure
+                0x00000001f01e65c0       0x58 se.o
+                0x00000001f01e65c0                se_aes_cbc_decrypt_insecure
+ *fill*         0x00000001f01e6618        0x8 
+ .text.se_get_exp_mod_output
+                0x00000001f01e6620       0x44 se.o
+                0x00000001f01e6620                se_get_exp_mod_output
+ *fill*         0x00000001f01e6664        0xc 
+ .text.trigger_se_rsa_op
+                0x00000001f01e6670       0x68 se.o
+                0x00000001f01e6670                trigger_se_rsa_op
+ *fill*         0x00000001f01e66d8        0x8 
+ .text.se_exp_mod
+                0x00000001f01e66e0       0xd0 se.o
+                0x00000001f01e66e0                se_exp_mod
+ .text.trigger_se_blocking_op
+                0x00000001f01e67b0       0xc4 se.o
+                0x00000001f01e67b0                trigger_se_blocking_op
+ *fill*         0x00000001f01e6874        0xc 
+ .text.decrypt_data_into_keyslot
+                0x00000001f01e6880       0x74 se.o
+                0x00000001f01e6880                decrypt_data_into_keyslot
+ *fill*         0x00000001f01e68f4        0xc 
+ .text.se_synchronous_exp_mod
+                0x00000001f01e6900      0x114 se.o
+                0x00000001f01e6900                se_synchronous_exp_mod
+ *fill*         0x00000001f01e6a14        0xc 
+ .text.se_perform_aes_block_operation
+                0x00000001f01e6a20       0xa4 se.o
+                0x00000001f01e6a20                se_perform_aes_block_operation
+ *fill*         0x00000001f01e6ac4        0xc 
+ .text.se_aes_ctr_crypt
+                0x00000001f01e6ad0      0x134 se.o
+                0x00000001f01e6ad0                se_aes_ctr_crypt
+ *fill*         0x00000001f01e6c04        0xc 
+ .text.se_aes_ecb_encrypt_block
+                0x00000001f01e6c10       0x78 se.o
+                0x00000001f01e6c10                se_aes_ecb_encrypt_block
+ *fill*         0x00000001f01e6c88        0x8 
+ .text.se_aes_128_ecb_encrypt_block
+                0x00000001f01e6c90        0x8 se.o
+                0x00000001f01e6c90                se_aes_128_ecb_encrypt_block
+ *fill*         0x00000001f01e6c98        0x8 
+ .text.se_aes_ecb_decrypt_block
+                0x00000001f01e6ca0       0x70 se.o
+                0x00000001f01e6ca0                se_aes_ecb_decrypt_block
+ .text.se_compute_aes_cmac
+                0x00000001f01e6d10      0x250 se.o
+                0x00000001f01e6d10                se_compute_aes_cmac
+ .text.se_compute_aes_128_cmac
+                0x00000001f01e6f60        0x8 se.o
+                0x00000001f01e6f60                se_compute_aes_128_cmac
+ *fill*         0x00000001f01e6f68        0x8 
+ .text.se_compute_aes_256_cmac
+                0x00000001f01e6f70        0x8 se.o
+                0x00000001f01e6f70                se_compute_aes_256_cmac
+ *fill*         0x00000001f01e6f78        0x8 
+ .text.se_aes_256_cbc_encrypt
+                0x00000001f01e6f80       0x88 se.o
+                0x00000001f01e6f80                se_aes_256_cbc_encrypt
+ *fill*         0x00000001f01e7008        0x8 
+ .text.se_calculate_sha256
+                0x00000001f01e7010       0xa0 se.o
+                0x00000001f01e7010                se_calculate_sha256
+ .text.se_rsa2048_pss_verify
+                0x00000001f01e70b0      0x21c se.o
+                0x00000001f01e70b0                se_rsa2048_pss_verify
+ *fill*         0x00000001f01e72cc        0x4 
+ .text.se_initialize_rng
+                0x00000001f01e72d0       0x6c se.o
+                0x00000001f01e72d0                se_initialize_rng
+ *fill*         0x00000001f01e733c        0x4 
+ .text.se_generate_random
+                0x00000001f01e7340       0xa0 se.o
+                0x00000001f01e7340                se_generate_random
+ .text.se_set_in_context_save_mode
+                0x00000001f01e73e0       0x28 se.o
+                0x00000001f01e73e0                se_set_in_context_save_mode
+ *fill*         0x00000001f01e7408        0x8 
+ .text.se_generate_random_key
+                0x00000001f01e7410       0x88 se.o
+                0x00000001f01e7410                se_generate_random_key
+ *fill*         0x00000001f01e7498        0x8 
+ .text.se_generate_srk
+                0x00000001f01e74a0       0x40 se.o
+                0x00000001f01e74a0                se_generate_srk
+ .text.se_encrypt_with_srk
+                0x00000001f01e74e0       0xd4 se.o
+                0x00000001f01e74e0                se_encrypt_with_srk
+ *fill*         0x00000001f01e75b4        0xc 
+ .text.se_save_context
+                0x00000001f01e75c0      0x2b8 se.o
+                0x00000001f01e75c0                se_save_context
+ *fill*         0x00000001f01e7878        0x8 
+ .text.upage_init
+                0x00000001f01e7880       0xb4 userpage.o
+                0x00000001f01e7880                upage_init
+ *fill*         0x00000001f01e7934        0xc 
+ .text.user_copy_to_secure
+                0x00000001f01e7940       0x68 userpage.o
+                0x00000001f01e7940                user_copy_to_secure
+ *fill*         0x00000001f01e79a8        0x8 
+ .text.secure_copy_to_user
+                0x00000001f01e79b0       0x6c userpage.o
+                0x00000001f01e79b0                secure_copy_to_user
+ *fill*         0x00000001f01e7a1c        0x4 
+ .text.clk_enable
+                0x00000001f01e7a20       0xe0 car.o
+                0x00000001f01e7a20                clk_enable
+ .text.clkrst_enable
+                0x00000001f01e7b00       0x44 car.o
+                0x00000001f01e7b00                clkrst_enable
+ *fill*         0x00000001f01e7b44        0xc 
+ .text.clkrst_disable
+                0x00000001f01e7b50       0x4c car.o
+                0x00000001f01e7b50                clkrst_disable
+ *fill*         0x00000001f01e7b9c        0x4 
+ .text.clkrst_reboot
+                0x00000001f01e7ba0       0x4c car.o
+                0x00000001f01e7ba0                clkrst_reboot
+ *fill*         0x00000001f01e7bec        0x4 
+ .text.wait     0x00000001f01e7bf0       0x24 timers.o
+                0x00000001f01e7bf0                wait
+ *fill*         0x00000001f01e7c14        0xc 
+ .text.watchdog_reboot
+                0x00000001f01e7c20       0x5c timers.o
+                0x00000001f01e7c20                watchdog_reboot
+ *fill*         0x00000001f01e7c7c        0x4 
+ .text.get_boot_critical_section
+                0x00000001f01e7c80       0x18 cpu_context.o
+ *fill*         0x00000001f01e7c98        0x8 
+ .text.use_core_entrypoint_and_argument
+                0x00000001f01e7ca0       0x60 cpu_context.o
+                0x00000001f01e7ca0                use_core_entrypoint_and_argument
+ .text.set_core_entrypoint_and_argument
+                0x00000001f01e7d00       0x2c cpu_context.o
+                0x00000001f01e7d00                set_core_entrypoint_and_argument
+ *fill*         0x00000001f01e7d2c        0x4 
+ .text.core_jump_to_lower_el
+                0x00000001f01e7d30       0x68 cpu_context.o
+                0x00000001f01e7d30                core_jump_to_lower_el
+ *fill*         0x00000001f01e7d98        0x8 
+ .text.cpu_on   0x00000001f01e7da0      0x180 cpu_context.o
+                0x00000001f01e7da0                cpu_on
+ .text.save_current_core_context
+                0x00000001f01e7f20      0x128 cpu_context.o
+                0x00000001f01e7f20                save_current_core_context
+ *fill*         0x00000001f01e8048        0x8 
+ .text.power_down_current_core
+                0x00000001f01e8050       0x80 cpu_context.o
+                0x00000001f01e8050                power_down_current_core
+ .text.cpu_off  0x00000001f01e80d0       0x38 cpu_context.o
+                0x00000001f01e80d0                cpu_off
+ *fill*         0x00000001f01e8108        0x8 
+ .text.restore_current_core_context
+                0x00000001f01e8110      0x128 cpu_context.o
+                0x00000001f01e8110                restore_current_core_context
+ *fill*         0x00000001f01e8238        0x8 
+ .text.is_core_active
+                0x00000001f01e8240       0x2c cpu_context.o
+                0x00000001f01e8240                is_core_active
+ *fill*         0x00000001f01e826c        0x4 
+ .text.set_core_is_active
+                0x00000001f01e8270       0x28 cpu_context.o
+                0x00000001f01e8270                set_core_is_active
+ *fill*         0x00000001f01e8298        0x8 
+ .text.set_current_core_inactive
+                0x00000001f01e82a0       0x28 cpu_context.o
+                0x00000001f01e82a0                set_current_core_inactive
+ *fill*         0x00000001f01e82c8        0x8 
+ .text.gf128_mul
+                0x00000001f01e82d0       0xd0 gcm.o
+ .text.ghash    0x00000001f01e83a0      0x16c gcm.o
+ *fill*         0x00000001f01e850c        0x4 
+ .text.gcm_decrypt_key
+                0x00000001f01e8510      0x25c gcm.o
+                0x00000001f01e8510                gcm_decrypt_key
+ *fill*         0x00000001f01e876c        0x4 
+ .text.gcm_encrypt_key
+                0x00000001f01e8770      0x148 gcm.o
+                0x00000001f01e8770                gcm_encrypt_key
+ *fill*         0x00000001f01e88b8        0x8 
+ .text.exosphere_load_config
+                0x00000001f01e88c0       0x50 exocfg.o
+                0x00000001f01e88c0                exosphere_load_config
+ .text.exosphere_get_target_firmware
+                0x00000001f01e8910       0x20 exocfg.o
+                0x00000001f01e8910                exosphere_get_target_firmware
+ .text.exosphere_should_perform_620_keygen
+                0x00000001f01e8930       0x38 exocfg.o
+                0x00000001f01e8930                exosphere_should_perform_620_keygen
+ *fill*         0x00000001f01e8968        0x8 
+ .text.exosphere_should_override_debugmode_priv
+                0x00000001f01e8970       0x24 exocfg.o
+                0x00000001f01e8970                exosphere_should_override_debugmode_priv
+ *fill*         0x00000001f01e8994        0xc 
+ .text.exosphere_should_override_debugmode_user
+                0x00000001f01e89a0       0x24 exocfg.o
+                0x00000001f01e89a0                exosphere_should_override_debugmode_user
+ *fill*         0x00000001f01e89c4        0xc 
+ .text.i2c_init
+                0x00000001f01e89d0       0x94 i2c.o
+                0x00000001f01e89d0                i2c_init
+ *fill*         0x00000001f01e8a64        0xc 
+ .text.i2c_write
+                0x00000001f01e8a70       0xa8 i2c.o
+                0x00000001f01e8a70                i2c_write
+ *fill*         0x00000001f01e8b18        0x8 
+ .text.i2c_send
+                0x00000001f01e8b20       0xa4 i2c.o
+                0x00000001f01e8b20                i2c_send
+ *fill*         0x00000001f01e8bc4        0xc 
+ .text.i2c_read
+                0x00000001f01e8bd0       0xd4 i2c.o
+                0x00000001f01e8bd0                i2c_read
+ *fill*         0x00000001f01e8ca4        0xc 
+ .text.i2c_query
+                0x00000001f01e8cb0       0xa0 i2c.o
+                0x00000001f01e8cb0                i2c_query
+ .text.i2c_send_pmic_cpu_shutdown_cmd
+                0x00000001f01e8d50       0x4c i2c.o
+                0x00000001f01e8d50                i2c_send_pmic_cpu_shutdown_cmd
+ *fill*         0x00000001f01e8d9c        0x4 
+ .text.i2c_query_ti_charger_bit_7
+                0x00000001f01e8da0       0x30 i2c.o
+                0x00000001f01e8da0                i2c_query_ti_charger_bit_7
+ .text.i2c_clear_ti_charger_bit_7
+                0x00000001f01e8dd0       0x4c i2c.o
+                0x00000001f01e8dd0                i2c_clear_ti_charger_bit_7
+ *fill*         0x00000001f01e8e1c        0x4 
+ .text.i2c_set_ti_charger_bit_7
+                0x00000001f01e8e20       0x4c i2c.o
+                0x00000001f01e8e20                i2c_set_ti_charger_bit_7
+ *fill*         0x00000001f01e8e6c        0x4 
+ .text.panic    0x00000001f01e8e70       0x38 utils.o
+                0x00000001f01e8e70                panic
+ *fill*         0x00000001f01e8ea8        0x8 
+ .text.generic_panic
+                0x00000001f01e8eb0       0x10 utils.o
+                0x00000001f01e8eb0                generic_panic
+ .text.panic_predefined
+                0x00000001f01e8ec0       0x18 utils.o
+                0x00000001f01e8ec0                panic_predefined
+ *fill*         0x00000001f01e8ed8        0x8 
+ .text.overlaps
+                0x00000001f01e8ee0       0x34 utils.o
+                0x00000001f01e8ee0                overlaps
+ .text.tlb_invalidate_all_inner_shareable
+                0x00000001f01e8f14       0x14 arm.o
+                0x00000001f01e8f14                tlb_invalidate_all_inner_shareable
+ .text.tlb_invalidate_page_inner_shareable
+                0x00000001f01e8f28       0x18 arm.o
+                0x00000001f01e8f28                tlb_invalidate_page_inner_shareable
+ .text.finalize_powerdown
+                0x00000001f01e8f40       0x6c arm.o
+                0x00000001f01e8f40                finalize_powerdown
+ .text.call_with_stack_pointer
+                0x00000001f01e8fac        0x8 arm.o
+                0x00000001f01e8fac                call_with_stack_pointer
+ *fill*         0x00000001f01e8fb4        0xc 
+ .text.__jump_to_main_cold
+                0x00000001f01e8fc0       0x50 start.o
+ .text.__jump_to_main_warm
+                0x00000001f01e9010       0x14 start.o
+ .text.__set_exception_entry_stack
+                0x00000001f01e9024       0x28 start.o
+ .text.__jump_to_lower_el
+                0x00000001f01e904c       0x20 start.o
+                0x00000001f01e904c                __jump_to_lower_el
+                0x00000001f01e9070                . = ALIGN (0x8)
+ *fill*         0x00000001f01e906c        0x4 
+
+.init           0x00000001f01e9070        0x0 load address 0x000000004002b3b0
+ *(.init)
+                0x00000001f01e9070                . = ALIGN (0x8)
+
+.plt            0x00000001f01e9070        0x0 load address 0x000000004002b3b0
+ *(.plt)
+ *(.iplt)
+ .iplt          0x00000001f01e9070        0x0 coldboot_init.o
+                0x00000001f01e9070                . = ALIGN (0x8)
+
+.fini           0x00000001f01e9070        0x0 load address 0x000000004002b3b0
+ *(.fini)
+                0x00000001f01e9070                . = ALIGN (0x8)
+
+.rodata         0x00000001f01e9070      0xd10 load address 0x000000004002b3b0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000001f01e9070      0x454 sc7fw.bin.o
+                0x00000001f01e9070                sc7fw_bin
+                0x00000001f01e94c0                sc7fw_bin_size
+                0x00000001f01e94c0                sc7fw_bin_end
+ .rodata        0x00000001f01e94c4      0x2ac rebootstub.bin.o
+                0x00000001f01e94c4                rebootstub_bin
+                0x00000001f01e976c                rebootstub_bin_size
+                0x00000001f01e976c                rebootstub_bin_end
+ .rodata.g_seal_key_sources
+                0x00000001f01e9770       0x70 sealedkeys.o
+ .rodata.g_titlekey_seal_key_source
+                0x00000001f01e97e0       0x10 sealedkeys.o
+ .rodata.__libc_fini_array.cst8
+                0x00000001f01e97f0       0x10 my_libc.o
+ .rodata.__libc_init_array.cst8
+                0x00000001f01e9800       0x20 my_libc.o
+ .rodata.g_flow_core_offsets
+                0x00000001f01e9820       0x30 sc7.o
+ .rodata.save_se_and_power_down_cpu.str1.8
+                0x00000001f01e9850        0x8 sc7.o
+ .rodata.bootconfig_modulus.2842
+                0x00000001f01e9858      0x100 bootconfig.o
+ .rodata.titlekek_sources
+                0x00000001f01e9958       0x20 titlekey.o
+ .rodata        0x00000001f01e9978       0x90 smc_api.o
+ .rodata.g_smc_tables
+                0x00000001f01e9a08       0x30 smc_api.o
+ .rodata.types.2637
+                0x00000001f01e9a38       0x10 fuse.o
+ .rodata.warmboot_main.str1.8
+                0x00000001f01e9a48        0x8 warmboot_main.o
+                                          0x6 (size before relaxing)
+ .rodata.offsets.1978
+                0x00000001f01e9a50       0x28 uart.o
+ .rodata.mkey_vectors
+                0x00000001f01e9a78       0x80 masterkey.o
+ .rodata.mkey_vectors_dev
+                0x00000001f01e9af8       0x80 masterkey.o
+ .rodata.g_flow_core_offsets
+                0x00000001f01e9b78       0x30 bootup.o
+ .rodata        0x00000001f01e9ba8       0xb0 smc_user.o
+ .rodata.CSWTCH.3
+                0x00000001f01e9c58        0xc smc_user.o
+ *fill*         0x00000001f01e9c64        0x4 
+ .rodata.g_rsausecase_to_cryptousecase
+                0x00000001f01e9c68        0x5 smc_user.o
+ *fill*         0x00000001f01e9c6d        0x3 
+ .rodata.context_save_known_pattern.3160
+                0x00000001f01e9c70       0x10 se.o
+ .rodata.g_clk_reg_offsets
+                0x00000001f01e9c80       0x1c car.o
+ *fill*         0x00000001f01e9c9c        0x4 
+ .rodata.g_rst_reg_offsets
+                0x00000001f01e9ca0       0x1c car.o
+ *fill*         0x00000001f01e9cbc        0x4 
+ .rodata.g_flow_core_offsets
+                0x00000001f01e9cc0       0x30 cpu_context.o
+ .rodata.status_masks.2218
+                0x00000001f01e9cf0       0x10 cpu_context.o
+ .rodata.toggle_vals.2219
+                0x00000001f01e9d00       0x10 cpu_context.o
+ .rodata.CSWTCH.6
+                0x00000001f01e9d10       0x30 i2c.o
+ .rodata.codes.2756
+                0x00000001f01e9d40       0x40 utils.o
+                0x00000001f01e9d80                . = ALIGN (0x8)
+
+.got            0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                __got_start__ = ABSOLUTE (.)
+ *(.got)
+ *(.igot)
+
+.got.plt        0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x00000001f01e9d80        0x0 coldboot_init.o
+                0x00000001f01e9d80                __got_end__ = ABSOLUTE (.)
+
+.preinit_array  0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                . = ALIGN (0x8)
+                0x00000001f01e9d80                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000001f01e9d80                PROVIDE (__preinit_array_end = .)
+                0x00000001f01e9d80                . = ALIGN (0x8)
+
+.init_array     0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x00000001f01e9d80                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                . = ALIGN (0x8)
+                0x00000001f01e9d80                PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+                0x00000001f01e9d80                PROVIDE (__fini_array_end = .)
+                0x00000001f01e9d80                . = ALIGN (0x8)
+
+.ctors          0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                . = ALIGN (0x8)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x00000001f01e9d80                . = ALIGN (0x8)
+
+.dtors          0x00000001f01e9d80        0x0 load address 0x000000004002c0c0
+                0x00000001f01e9d80                . = ALIGN (0x8)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00000001f01e9d80                . = ALIGN (0x8)
+
+.data           0x00000001f01e9d80      0x220 load address 0x000000004002c0c0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.g_tkey_master_key_rev
+                0x00000001f01e9d80        0x4 titlekey.o
+ *fill*         0x00000001f01e9d84        0x4 
+ .data.g_smc_ams_table
+                0x00000001f01e9d88       0x20 smc_api.o
+ .data.g_smc_priv_table
+                0x00000001f01e9da8       0x90 smc_api.o
+ .data.g_smc_user_table
+                0x00000001f01e9e38      0x130 smc_api.o
+ .data.g_random_cache_high
+                0x00000001f01e9f68        0x4 randomcache.o
+ *fill*         0x00000001f01e9f6c        0x4 
+ .data.g_saved_carveouts
+                0x00000001f01e9f70       0x20 mc.o
+ .data.g_exosphere_cfg
+                0x00000001f01e9f90       0x10 exocfg.o
+                0x00000001f01e9fa0                . = ALIGN (0x8)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.dynamic
+ *(.dynamic)
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.rela.dyn       0x00000001f01e9fa0        0x0 load address 0x000000004002c2e0
+ *(.rela.*)
+ .rela.iplt     0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.text.coldboot_init
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.rodata.__libc_fini_array.cst8
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.rodata.__libc_init_array.cst8
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.text.coldboot_main
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.cold_crt0.text.start
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+ .rela.cold_crt0.data.g_coldboot_crt0_relocation_list
+                0x00000001f01e9fa0        0x0 coldboot_init.o
+                0x00000001f01ead48                __main_end__ = ABSOLUTE (.)
+
+.bss            0x00000001f01e9fa0      0xda8 load address 0x000000004002c2e0
+                0x00000001f01e9fa0                . = ALIGN (0x8)
+                0x00000001f01e9fa0                __main_bss_start__ = ABSOLUTE (.)
+                0x000000004002c2e0                __loaded_end_lma__ = LOADADDR (.bss)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.g_boot_reason
+                0x00000001f01e9fa0       0x18 bootconfig.o
+ .bss.g_package2_hash_for_recovery
+                0x00000001f01e9fb8       0x20 bootconfig.o
+ .bss.g_ams_iram_page_mapped
+                0x00000001f01e9fd8        0x1 smc_ams.o
+ *fill*         0x00000001f01e9fd9        0x7 
+ .bss.g_ams_userpage_mapped
+                0x00000001f01e9fe0        0x1 smc_ams.o
+ *fill*         0x00000001f01e9fe1        0x7 
+ .bss.g_tkey_expected_label_hash
+                0x00000001f01e9fe8       0x20 titlekey.o
+ .bss.g_tkey_type
+                0x00000001f01ea008        0x4 titlekey.o
+ *fill*         0x00000001f01ea00c        0x4 
+ .bss.g_configured_carveouts
+                0x00000001f01ea010        0x2 smc_api.o
+ *fill*         0x00000001f01ea012        0x6 
+ .bss.g_is_priv_smc_in_progress
+                0x00000001f01ea018        0x1 smc_api.o
+ *fill*         0x00000001f01ea019        0x7 
+ .bss.g_is_user_smc_in_progress
+                0x00000001f01ea020        0x1 smc_api.o
+ *fill*         0x00000001f01ea021        0x7 
+ .bss.g_smc_callback
+                0x00000001f01ea028        0x8 smc_api.o
+                0x00000001f01ea028                g_smc_callback
+ .bss.g_smc_callback_key
+                0x00000001f01ea030        0x8 smc_api.o
+                0x00000001f01ea030                g_smc_callback_key
+ .bss.g_battery_profile
+                0x00000001f01ea038        0x1 configitem.o
+ .bss.g_debugmode_override_priv
+                0x00000001f01ea039        0x1 configitem.o
+ .bss.g_debugmode_override_user
+                0x00000001f01ea03a        0x1 configitem.o
+ *fill*         0x00000001f01ea03b        0x5 
+ .bss.g_actmon_callback
+                0x00000001f01ea040        0x8 actmon.o
+ .bss.g_has_checked_for_rcm_bug_patch
+                0x00000001f01ea048        0x1 fuse.o
+ .bss.g_has_rcm_bug_patch
+                0x00000001f01ea049        0x1 fuse.o
+ *fill*         0x00000001f01ea04a        0x6 
+ .bss.g_random_cache
+                0x00000001f01ea050      0x400 randomcache.o
+ .bss.g_random_cache_low
+                0x00000001f01ea450        0x4 randomcache.o
+ *fill*         0x00000001f01ea454        0x4 
+ .bss.g_registered_interrupts
+                0x00000001f01ea458       0x40 interrupt.o
+ .bss.g_determined_mkey_revision
+                0x00000001f01ea498        0x1 masterkey.o
+ *fill*         0x00000001f01ea499        0x3 
+ .bss.g_mkey_revision
+                0x00000001f01ea49c        0x4 masterkey.o
+ .bss.g_old_devicekeys
+                0x00000001f01ea4a0       0x40 masterkey.o
+ .bss.g_old_masterkeys
+                0x00000001f01ea4e0       0x80 masterkey.o
+ .bss.g_has_booted_up
+                0x00000001f01ea560        0x1 bootup.o
+ .bss.g_crypt_aes_done
+                0x00000001f01ea561        0x1 smc_user.o
+ .bss.g_exp_mod_done
+                0x00000001f01ea562        0x1 smc_user.o
+ *fill*         0x00000001f01ea563        0x5 
+ .bss.g_imported_exponents
+                0x00000001f01ea568      0x400 smc_user.o
+ .bss.g_se_callback
+                0x00000001f01ea968        0x8 se.o
+ .bss.g_se_exp_sizes
+                0x00000001f01ea970        0x8 se.o
+ .bss.g_se_generated_vector
+                0x00000001f01ea978        0x1 se.o
+ *fill*         0x00000001f01ea979        0x7 
+ .bss.g_se_modulus_sizes
+                0x00000001f01ea980        0x8 se.o
+ .bss.g_se_stored_test_vector
+                0x00000001f01ea988       0x10 se.o
+ .bss.g_user_page_user_address
+                0x00000001f01ea998        0x8 userpage.o
+ .bss.g_cpu_contexts
+                0x00000001f01ea9a0      0x3a0 cpu_context.o
+ .bss.g_has_loaded_config
+                0x00000001f01ead40        0x1 exocfg.o
+ *(COMMON)
+                0x00000001f01ead48                . = ALIGN (0x8)
+ *fill*         0x00000001f01ead41        0x7 
+                0x00000001f01ead48                __main_end__ = ABSOLUTE (.)
+                0x00000001f01ead48                __end__ = ABSOLUTE (.)
+                0x00000001f01eb000                . = ALIGN (0x1000)
+                0x00000001f01eb000                __argdata__ = ABSOLUTE (.)
+
+/DISCARD/
+ *(.group .comment .note)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x18d0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x50 coldboot_init.o
+ .debug_aranges
+                0x0000000000000050       0x80 package2.o
+ .debug_aranges
+                0x00000000000000d0       0xa0 warmboot_init.o
+ .debug_aranges
+                0x0000000000000170       0x90 sealedkeys.o
+ .debug_aranges
+                0x0000000000000200      0x100 my_libc.o
+ .debug_aranges
+                0x0000000000000300       0x30 coldboot_main.o
+ .debug_aranges
+                0x0000000000000330       0x40 sc7.o
+ .debug_aranges
+                0x0000000000000370      0x130 bootconfig.o
+ .debug_aranges
+                0x00000000000004a0       0x50 smc_ams.o
+ .debug_aranges
+                0x00000000000004f0       0x80 titlekey.o
+ .debug_aranges
+                0x0000000000000570      0x310 smc_api.o
+ .debug_aranges
+                0x0000000000000880       0xa0 configitem.o
+ .debug_aranges
+                0x0000000000000920       0x50 actmon.o
+ .debug_aranges
+                0x0000000000000970      0x170 fuse.o
+ .debug_aranges
+                0x0000000000000ae0       0x60 randomcache.o
+ .debug_aranges
+                0x0000000000000b40       0xd0 interrupt.o
+ .debug_aranges
+                0x0000000000000c10       0x40 warmboot_main.o
+ .debug_aranges
+                0x0000000000000c50       0x70 uart.o
+ .debug_aranges
+                0x0000000000000cc0       0x80 masterkey.o
+ .debug_aranges
+                0x0000000000000d40       0x60 mc.o
+ .debug_aranges
+                0x0000000000000da0       0x90 bootup.o
+ .debug_aranges
+                0x0000000000000e30      0x180 smc_user.o
+ .debug_aranges
+                0x0000000000000fb0      0x340 se.o
+ .debug_aranges
+                0x00000000000012f0       0x50 userpage.o
+ .debug_aranges
+                0x0000000000001340       0x90 car.o
+ .debug_aranges
+                0x00000000000013d0       0x40 timers.o
+ .debug_aranges
+                0x0000000000001410       0xf0 cpu_context.o
+ .debug_aranges
+                0x0000000000001500       0x60 gcm.o
+ .debug_aranges
+                0x0000000000001560       0x70 exocfg.o
+ .debug_aranges
+                0x00000000000015d0       0xd0 i2c.o
+ .debug_aranges
+                0x00000000000016a0       0x70 utils.o
+ .debug_aranges
+                0x0000000000001710       0x30 exceptions.o
+ .debug_aranges
+                0x0000000000001740      0x100 arm.o
+ .debug_aranges
+                0x0000000000001840       0x90 start.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x2237a
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x2267 coldboot_init.o
+ .debug_info    0x0000000000002267     0x3022 package2.o
+ .debug_info    0x0000000000005289      0x782 warmboot_init.o
+ .debug_info    0x0000000000005a0b      0xef8 sealedkeys.o
+ .debug_info    0x0000000000006903     0x11d9 my_libc.o
+ .debug_info    0x0000000000007adc      0xc9a coldboot_main.o
+ .debug_info    0x0000000000008776     0x1781 sc7.o
+ .debug_info    0x0000000000009ef7     0x1051 bootconfig.o
+ .debug_info    0x000000000000af48     0x1177 smc_ams.o
+ .debug_info    0x000000000000c0bf     0x10ee titlekey.o
+ .debug_info    0x000000000000d1ad     0x1f5c smc_api.o
+ .debug_info    0x000000000000f109      0x8aa configitem.o
+ .debug_info    0x000000000000f9b3      0x124 actmon.o
+ .debug_info    0x000000000000fad7     0x1b9e fuse.o
+ .debug_info    0x0000000000011675      0xc31 randomcache.o
+ .debug_info    0x00000000000122a6      0x470 interrupt.o
+ .debug_info    0x0000000000012716      0x547 warmboot_main.o
+ .debug_info    0x0000000000012c5d      0x681 uart.o
+ .debug_info    0x00000000000132de      0xdd2 masterkey.o
+ .debug_info    0x00000000000140b0      0x647 mc.o
+ .debug_info    0x00000000000146f7      0xf8c bootup.o
+ .debug_info    0x0000000000015683     0x2bba smc_user.o
+ .debug_info    0x000000000001823d     0x44f0 se.o
+ .debug_info    0x000000000001c72d      0xdd7 userpage.o
+ .debug_info    0x000000000001d504      0x46a car.o
+ .debug_info    0x000000000001d96e      0x1e5 timers.o
+ .debug_info    0x000000000001db53      0xe4f cpu_context.o
+ .debug_info    0x000000000001e9a2     0x1660 gcm.o
+ .debug_info    0x0000000000020002      0x202 exocfg.o
+ .debug_info    0x0000000000020204     0x15ac i2c.o
+ .debug_info    0x00000000000217b0      0xb58 utils.o
+ .debug_info    0x0000000000022308       0x2e exceptions.o
+ .debug_info    0x0000000000022336       0x22 arm.o
+ .debug_info    0x0000000000022358       0x22 start.o
+
+.debug_abbrev   0x0000000000000000     0x5da5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x400 coldboot_init.o
+ .debug_abbrev  0x0000000000000400      0x5c3 package2.o
+ .debug_abbrev  0x00000000000009c3      0x28a warmboot_init.o
+ .debug_abbrev  0x0000000000000c4d      0x2ba sealedkeys.o
+ .debug_abbrev  0x0000000000000f07      0x2f7 my_libc.o
+ .debug_abbrev  0x00000000000011fe      0x2fe coldboot_main.o
+ .debug_abbrev  0x00000000000014fc      0x432 sc7.o
+ .debug_abbrev  0x000000000000192e      0x372 bootconfig.o
+ .debug_abbrev  0x0000000000001ca0      0x3c4 smc_ams.o
+ .debug_abbrev  0x0000000000002064      0x335 titlekey.o
+ .debug_abbrev  0x0000000000002399      0x4ef smc_api.o
+ .debug_abbrev  0x0000000000002888      0x25f configitem.o
+ .debug_abbrev  0x0000000000002ae7       0xbf actmon.o
+ .debug_abbrev  0x0000000000002ba6      0x422 fuse.o
+ .debug_abbrev  0x0000000000002fc8      0x28d randomcache.o
+ .debug_abbrev  0x0000000000003255      0x1b6 interrupt.o
+ .debug_abbrev  0x000000000000340b      0x197 warmboot_main.o
+ .debug_abbrev  0x00000000000035a2      0x1f3 uart.o
+ .debug_abbrev  0x0000000000003795      0x2b1 masterkey.o
+ .debug_abbrev  0x0000000000003a46      0x1fd mc.o
+ .debug_abbrev  0x0000000000003c43      0x36c bootup.o
+ .debug_abbrev  0x0000000000003faf      0x44b smc_user.o
+ .debug_abbrev  0x00000000000043fa      0x5ee se.o
+ .debug_abbrev  0x00000000000049e8      0x2e3 userpage.o
+ .debug_abbrev  0x0000000000004ccb      0x193 car.o
+ .debug_abbrev  0x0000000000004e5e      0x139 timers.o
+ .debug_abbrev  0x0000000000004f97      0x324 cpu_context.o
+ .debug_abbrev  0x00000000000052bb      0x3a2 gcm.o
+ .debug_abbrev  0x000000000000565d       0xc1 exocfg.o
+ .debug_abbrev  0x000000000000571e      0x3ca i2c.o
+ .debug_abbrev  0x0000000000005ae8      0x285 utils.o
+ .debug_abbrev  0x0000000000005d6d       0x14 exceptions.o
+ .debug_abbrev  0x0000000000005d81       0x12 arm.o
+ .debug_abbrev  0x0000000000005d93       0x12 start.o
+
+.debug_line     0x0000000000000000     0xdd1a
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x8ed coldboot_init.o
+ .debug_line    0x00000000000008ed      0xa66 package2.o
+ .debug_line    0x0000000000001353      0x470 warmboot_init.o
+ .debug_line    0x00000000000017c3      0x361 sealedkeys.o
+ .debug_line    0x0000000000001b24      0xa90 my_libc.o
+ .debug_line    0x00000000000025b4      0x220 coldboot_main.o
+ .debug_line    0x00000000000027d4      0x973 sc7.o
+ .debug_line    0x0000000000003147      0x5a8 bootconfig.o
+ .debug_line    0x00000000000036ef      0x4aa smc_ams.o
+ .debug_line    0x0000000000003b99      0x428 titlekey.o
+ .debug_line    0x0000000000003fc1      0xf51 smc_api.o
+ .debug_line    0x0000000000004f12      0x7c1 configitem.o
+ .debug_line    0x00000000000056d3      0x16c actmon.o
+ .debug_line    0x000000000000583f      0xae5 fuse.o
+ .debug_line    0x0000000000006324      0x2c9 randomcache.o
+ .debug_line    0x00000000000065ed      0x514 interrupt.o
+ .debug_line    0x0000000000006b01      0x266 warmboot_main.o
+ .debug_line    0x0000000000006d67      0x3e4 uart.o
+ .debug_line    0x000000000000714b      0x377 masterkey.o
+ .debug_line    0x00000000000074c2      0x588 mc.o
+ .debug_line    0x0000000000007a4a      0xf1a bootup.o
+ .debug_line    0x0000000000008964     0x107e smc_user.o
+ .debug_line    0x00000000000099e2     0x1ec6 se.o
+ .debug_line    0x000000000000b8a8      0x3d0 userpage.o
+ .debug_line    0x000000000000bc78      0x2db car.o
+ .debug_line    0x000000000000bf53      0x1e5 timers.o
+ .debug_line    0x000000000000c138      0x770 cpu_context.o
+ .debug_line    0x000000000000c8a8      0x692 gcm.o
+ .debug_line    0x000000000000cf3a      0x193 exocfg.o
+ .debug_line    0x000000000000d0cd      0x61d i2c.o
+ .debug_line    0x000000000000d6ea      0x246 utils.o
+ .debug_line    0x000000000000d930       0xe4 exceptions.o
+ .debug_line    0x000000000000da14      0x1d2 arm.o
+ .debug_line    0x000000000000dbe6      0x134 start.o
+
+.debug_frame    0x0000000000000000     0x31f8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x70 coldboot_init.o
+ .debug_frame   0x0000000000000070      0x170 package2.o
+ .debug_frame   0x00000000000001e0       0xe8 warmboot_init.o
+ .debug_frame   0x00000000000002c8      0x140 sealedkeys.o
+ .debug_frame   0x0000000000000408      0x188 my_libc.o
+ .debug_frame   0x0000000000000590       0x30 coldboot_main.o
+ .debug_frame   0x00000000000005c0       0x70 sc7.o
+ .debug_frame   0x0000000000000630      0x200 bootconfig.o
+ .debug_frame   0x0000000000000830       0xa0 smc_ams.o
+ .debug_frame   0x00000000000008d0      0x138 titlekey.o
+ .debug_frame   0x0000000000000a08      0x6b8 smc_api.o
+ .debug_frame   0x00000000000010c0      0x138 configitem.o
+ .debug_frame   0x00000000000011f8       0x70 actmon.o
+ .debug_frame   0x0000000000001268      0x2c0 fuse.o
+ .debug_frame   0x0000000000001528       0xd8 randomcache.o
+ .debug_frame   0x0000000000001600      0x138 interrupt.o
+ .debug_frame   0x0000000000001738       0x48 warmboot_main.o
+ .debug_frame   0x0000000000001780       0x98 uart.o
+ .debug_frame   0x0000000000001818      0x120 masterkey.o
+ .debug_frame   0x0000000000001938       0xc0 mc.o
+ .debug_frame   0x00000000000019f8      0x130 bootup.o
+ .debug_frame   0x0000000000001b28      0x548 smc_user.o
+ .debug_frame   0x0000000000002070      0x7c0 se.o
+ .debug_frame   0x0000000000002830       0xa8 userpage.o
+ .debug_frame   0x00000000000028d8       0xd8 car.o
+ .debug_frame   0x00000000000029b0       0x40 timers.o
+ .debug_frame   0x00000000000029f0      0x1b8 cpu_context.o
+ .debug_frame   0x0000000000002ba8      0x160 gcm.o
+ .debug_frame   0x0000000000002d08       0xb0 exocfg.o
+ .debug_frame   0x0000000000002db8      0x210 i2c.o
+ .debug_frame   0x0000000000002fc8       0xa0 utils.o
+ .debug_frame   0x0000000000003068      0x190 exceptions.o
+
+.debug_str      0x0000000000000000     0x6032
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x9d2 coldboot_init.o
+                                        0xaf7 (size before relaxing)
+ .debug_str     0x00000000000009d2      0xe15 package2.o
+                                       0x15e6 (size before relaxing)
+ .debug_str     0x00000000000017e7      0x139 warmboot_init.o
+                                        0x454 (size before relaxing)
+ .debug_str     0x0000000000001920       0xb3 sealedkeys.o
+                                        0x738 (size before relaxing)
+ .debug_str     0x00000000000019d3      0x14e my_libc.o
+                                        0x747 (size before relaxing)
+ .debug_str     0x0000000000001b21       0xbe coldboot_main.o
+                                        0x74d (size before relaxing)
+ .debug_str     0x0000000000001bdf      0x4f8 sc7.o
+                                        0xc8a (size before relaxing)
+ .debug_str     0x00000000000020d7      0x1de bootconfig.o
+                                        0xac5 (size before relaxing)
+ .debug_str     0x00000000000022b5      0x29d smc_ams.o
+                                        0x923 (size before relaxing)
+ .debug_str     0x0000000000002552      0x1af titlekey.o
+                                        0x8cd (size before relaxing)
+ .debug_str     0x0000000000002701      0x8e4 smc_api.o
+                                        0xda8 (size before relaxing)
+ .debug_str     0x0000000000002fe5      0x19f configitem.o
+                                        0x7fb (size before relaxing)
+ .debug_str     0x0000000000003184       0x77 actmon.o
+                                        0x20a (size before relaxing)
+ .debug_str     0x00000000000031fb      0x84f fuse.o
+                                        0xfb0 (size before relaxing)
+ .debug_str     0x0000000000003a4a       0x8e randomcache.o
+                                        0x6f9 (size before relaxing)
+ .debug_str     0x0000000000003ad8      0x156 interrupt.o
+                                        0x370 (size before relaxing)
+ .debug_str     0x0000000000003c2e      0x16e warmboot_main.o
+                                        0x5cb (size before relaxing)
+ .debug_str     0x0000000000003d9c      0x3f7 uart.o
+                                        0x6c3 (size before relaxing)
+ .debug_str     0x0000000000004193       0xe2 masterkey.o
+                                        0x75b (size before relaxing)
+ .debug_str     0x0000000000004275      0x5b4 mc.o
+                                        0x7ef (size before relaxing)
+ .debug_str     0x0000000000004829      0x482 bootup.o
+                                        0xafc (size before relaxing)
+ .debug_str     0x0000000000004cab      0x527 smc_user.o
+                                        0xe38 (size before relaxing)
+ .debug_str     0x00000000000051d2      0x406 se.o
+                                       0x112b (size before relaxing)
+ .debug_str     0x00000000000055d8       0x8d userpage.o
+                                        0x7b6 (size before relaxing)
+ .debug_str     0x0000000000005665       0xa6 car.o
+                                        0x2ca (size before relaxing)
+ .debug_str     0x000000000000570b       0x6a timers.o
+                                        0x25c (size before relaxing)
+ .debug_str     0x0000000000005775      0x2a5 cpu_context.o
+                                        0x760 (size before relaxing)
+ .debug_str     0x0000000000005a1a       0xf0 gcm.o
+                                        0x873 (size before relaxing)
+ .debug_str     0x0000000000005b0a       0x46 exocfg.o
+                                        0x2ac (size before relaxing)
+ .debug_str     0x0000000000005b50      0x428 i2c.o
+                                        0xb04 (size before relaxing)
+ .debug_str     0x0000000000005f78       0x48 utils.o
+                                        0x6a6 (size before relaxing)
+ .debug_str     0x0000000000005fc0       0x32 exceptions.o
+                                         0x4d (size before relaxing)
+ .debug_str     0x0000000000005ff2       0x1f arm.o
+                                         0x46 (size before relaxing)
+ .debug_str     0x0000000000006011       0x21 start.o
+                                         0x48 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1890e
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x1f2a coldboot_init.o
+ .debug_loc     0x0000000000001f2a     0x11bf package2.o
+ .debug_loc     0x00000000000030e9      0x49d warmboot_init.o
+ .debug_loc     0x0000000000003586      0xa21 sealedkeys.o
+ .debug_loc     0x0000000000003fa7     0x2724 my_libc.o
+ .debug_loc     0x00000000000066cb      0x221 coldboot_main.o
+ .debug_loc     0x00000000000068ec      0x471 sc7.o
+ .debug_loc     0x0000000000006d5d      0x1d7 bootconfig.o
+ .debug_loc     0x0000000000006f34      0x799 smc_ams.o
+ .debug_loc     0x00000000000076cd      0xe99 titlekey.o
+ .debug_loc     0x0000000000008566     0x1d8d smc_api.o
+ .debug_loc     0x000000000000a2f3      0xdff configitem.o
+ .debug_loc     0x000000000000b0f2      0xb18 fuse.o
+ .debug_loc     0x000000000000bc0a      0x1fe randomcache.o
+ .debug_loc     0x000000000000be08      0x4c2 interrupt.o
+ .debug_loc     0x000000000000c2ca       0x25 warmboot_main.o
+ .debug_loc     0x000000000000c2ef      0x4b1 uart.o
+ .debug_loc     0x000000000000c7a0      0x3eb masterkey.o
+ .debug_loc     0x000000000000cb8b      0x30a mc.o
+ .debug_loc     0x000000000000ce95      0x6ab bootup.o
+ .debug_loc     0x000000000000d540     0x1aa2 smc_user.o
+ .debug_loc     0x000000000000efe2     0x5ebe se.o
+ .debug_loc     0x0000000000014ea0      0x5e2 userpage.o
+ .debug_loc     0x0000000000015482      0x3b4 car.o
+ .debug_loc     0x0000000000015836       0xad timers.o
+ .debug_loc     0x00000000000158e3      0x88a cpu_context.o
+ .debug_loc     0x000000000001616d     0x177d gcm.o
+ .debug_loc     0x00000000000178ea       0x25 exocfg.o
+ .debug_loc     0x000000000001790f      0xf0b i2c.o
+ .debug_loc     0x000000000001881a       0xf4 utils.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+LOAD sc7fw.bin.o
+LOAD lp0fw.bin.o
+LOAD rebootstub.bin.o
+LOAD warmboot_init.o
+LOAD sealedkeys.o
+LOAD my_libc.o
+LOAD coldboot_main.o
+LOAD sc7.o
+LOAD bootconfig.o
+LOAD smc_ams.o
+LOAD titlekey.o
+LOAD smc_api.o
+LOAD configitem.o
+LOAD actmon.o
+LOAD fuse.o
+LOAD randomcache.o
+LOAD interrupt.o
+LOAD warmboot_main.o
+LOAD uart.o
+LOAD masterkey.o
+LOAD mc.o
+LOAD bootup.o
+LOAD smc_user.o
+LOAD se.o
+LOAD coldboot_init.o
+LOAD userpage.o
+LOAD car.o
+LOAD timers.o
+LOAD cpu_context.o
+LOAD gcm.o
+LOAD exocfg.o
+LOAD i2c.o
+LOAD package2.o
+LOAD utils.o
+LOAD exceptions.o
+LOAD arm.o
+LOAD start.o
+OUTPUT(/developer/exosphere/exosphere.elf elf64-littleaarch64)
+
+.debug_ranges   0x0000000000000000     0x5820
+ .debug_ranges  0x0000000000000000      0xb60 coldboot_init.o
+ .debug_ranges  0x0000000000000b60      0x630 package2.o
+ .debug_ranges  0x0000000000001190       0xc0 warmboot_init.o
+ .debug_ranges  0x0000000000001250      0x100 sealedkeys.o
+ .debug_ranges  0x0000000000001350       0xf0 my_libc.o
+ .debug_ranges  0x0000000000001440       0xc0 coldboot_main.o
+ .debug_ranges  0x0000000000001500      0x750 sc7.o
+ .debug_ranges  0x0000000000001c50      0x1d0 bootconfig.o
+ .debug_ranges  0x0000000000001e20      0x2c0 smc_ams.o
+ .debug_ranges  0x00000000000020e0      0x180 titlekey.o
+ .debug_ranges  0x0000000000002260      0x6e0 smc_api.o
+ .debug_ranges  0x0000000000002940       0xf0 configitem.o
+ .debug_ranges  0x0000000000002a30       0x40 actmon.o
+ .debug_ranges  0x0000000000002a70      0x690 fuse.o
+ .debug_ranges  0x0000000000003100       0x50 randomcache.o
+ .debug_ranges  0x0000000000003150      0x2f0 interrupt.o
+ .debug_ranges  0x0000000000003440       0x60 warmboot_main.o
+ .debug_ranges  0x00000000000034a0      0x150 uart.o
+ .debug_ranges  0x00000000000035f0       0xe0 masterkey.o
+ .debug_ranges  0x00000000000036d0       0xe0 mc.o
+ .debug_ranges  0x00000000000037b0      0x260 bootup.o
+ .debug_ranges  0x0000000000003a10      0x3d0 smc_user.o
+ .debug_ranges  0x0000000000003de0      0xbf0 se.o
+ .debug_ranges  0x00000000000049d0      0x1e0 userpage.o
+ .debug_ranges  0x0000000000004bb0      0x240 car.o
+ .debug_ranges  0x0000000000004df0       0x60 timers.o
+ .debug_ranges  0x0000000000004e50      0x2d0 cpu_context.o
+ .debug_ranges  0x0000000000005120      0x260 gcm.o
+ .debug_ranges  0x0000000000005380       0x60 exocfg.o
+ .debug_ranges  0x00000000000053e0      0x250 i2c.o
+ .debug_ranges  0x0000000000005630       0x60 utils.o
+ .debug_ranges  0x0000000000005690      0x100 arm.o
+ .debug_ranges  0x0000000000005790       0x90 start.o
